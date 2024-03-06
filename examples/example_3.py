@@ -7,7 +7,6 @@ header = {
 }
 proxy_url = "http://localhost:11235/proxy/groq/v1/chat/completions"
 
-
 request = {
     "messages": [
         {
