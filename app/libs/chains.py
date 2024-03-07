@@ -7,6 +7,7 @@ from fastapi import Request
 from fastapi.responses import JSONResponse
 from app.providers import BaseProvider
 from app.prompts import SYSTEM_MESSAGE, SUFFIX, get_func_result_guide
+from app.providers import GroqProvider
 import importlib
 
 
@@ -161,7 +162,6 @@ class ToolExtractionHandler(Handler):
                         })
 
                 if not unresolved_tol_calls:
-                    # Add resolved messages to context.messages and go to then next handler
                     context.messages.extend(resolved_responses)
                     return await super().handle(context)
                     
