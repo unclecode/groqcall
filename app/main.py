@@ -10,15 +10,31 @@ import logging
 
 app = FastAPI()
 
-logging.basicConfig(level=logging.INFO, filename="app.log", filemode="a", format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger("uvicorn")
+# Create a logger for your application
+logger = logging.getLogger("app")
+logger.setLevel(logging.DEBUG)
+
+# Create a file handler and set the logging level
+file_handler = logging.FileHandler(".logs/access.log")
+file_handler.setLevel(logging.DEBUG)
+
+# Create a formatter and add it to the file handler
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+file_handler.setFormatter(formatter)
+
+# Add the file handler to the logger
+logger.addHandler(file_handler)
 
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
-    logger.info(f"Incoming request: {request.method} {request.url}")
-    response = await call_next(request)
-    logger.info(f"Response status code: {response.status_code}")
-    return response
+    if "/proxy" in request.url.path:
+        client_ip = request.client.host
+        logger.info(f"Incoming request from {client_ip}: {request.method} {request.url}")
+        response = await call_next(request)
+        # logger.info(f"Response status code: {response.status_code}")
+        return response
+    else:
+        return await call_next(request)
 
 # class RequestLoggingMiddleware(BaseHTTPMiddleware):
 #     async def dispatch(self, request: Request, call_next):
