@@ -6,8 +6,19 @@ from app.routes import proxy
 import os
 from dotenv import load_dotenv
 load_dotenv()
+import logging
 
 app = FastAPI()
+
+logging.basicConfig(level=logging.INFO, filename="app.log", filemode="a", format="%(asctime)s - %(levelname)s - %(message)s")
+logger = logging.getLogger("uvicorn")
+
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    logger.info(f"Incoming request: {request.method} {request.url}")
+    response = await call_next(request)
+    logger.info(f"Response status code: {response.status_code}")
+    return response
 
 # class RequestLoggingMiddleware(BaseHTTPMiddleware):
 #     async def dispatch(self, request: Request, call_next):
