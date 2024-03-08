@@ -5,8 +5,8 @@ header = {
     "Authorization": f"Bearer {api_key}",
     "Content-Type": "application/json"
 }
-proxy_url = "http://localhost:11235/proxy/groq/v1/chat/completions"
-
+# proxy_url = "http://localhost:11235/proxy/groq/v1/chat/completions"
+proxy_url = "https://funckycall.ai/proxy/groq/v1/chat/completions"
 
 def duckduckgo_search(query, max_results=None):
     """
