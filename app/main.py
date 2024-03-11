@@ -5,7 +5,8 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
-from app.routes import proxy, examples
+from app.routes import proxy
+from app.routes.examples import examples
 from utils import create_logger
 import os
 from dotenv import load_dotenv
