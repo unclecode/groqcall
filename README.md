@@ -6,9 +6,9 @@
 FunckyCall is a proxy server provides function call for Groq's lightning-fast Language Processing Unit (LPU) and other AI providers. Additionally, the upcoming FuncyHub will offer a wide range of built-in functions, hosted on the cloud, making it easier to create AI assistants without the need to maintain function schemas in the codebase or or execute them through multiple calls.
 
 ## Motivation 🚀
-Grok is a startup that designs highly specialized processor chips aimed specifically at running inference on large language models. They've introduced what they call the Language Processing Unit (LPU), and the speed is astounding—capable of producing 500 to 800 tokens per second or more. I've become a big fan of Grok and their community;
+Groq is a startup that designs highly specialized processor chips aimed specifically at running inference on large language models. They've introduced what they call the Language Processing Unit (LPU), and the speed is astounding—capable of producing 500 to 800 tokens per second or more. I've become a big fan of Groq and their community;
 
-I admire what they're doing. It feels like after discovering electricity, the next challenge is moving it around quickly and efficiently. Grok is doing just that for Artificial Intelligence, making it easily accessible everywhere. They've opened up their API to the cloud, but as of now, they lack a function call capability.
+I admire what they're doing. It feels like after discovering electricity, the next challenge is moving it around quickly and efficiently. Groq is doing just that for Artificial Intelligence, making it easily accessible everywhere. They've opened up their API to the cloud, but as of now, they lack a function call capability.
 
 Unable to wait for this feature, I built a proxy that enables function calls using the OpenAI interface, allowing it to be called from any library. This engineering workaround has proven to be immensely useful in my company for various projects. Here's the link to the GitHub repository where you can explore and play around with it. I've included some examples in this collaboration for you to check out.
 
