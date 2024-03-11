@@ -1,7 +1,7 @@
 # FunckyCall.ai
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q3is7qynCsx4s7FBznCfTMnokbKWIv1F?usp=sharing)
 
 FunckyCall is a proxy server provides function call for Groq's lightning-fast Language Processing Unit (LPU) and other AI providers. Additionally, the upcoming FuncyHub will offer a wide range of built-in functions, hosted on the cloud, making it easier to create AI assistants without the need to maintain function schemas in the codebase or or execute them through multiple calls.
-
 
 ## Motivation 🚀
 Grok is a startup that designs highly specialized processor chips aimed specifically at running inference on large language models. They've introduced what they call the Language Processing Unit (LPU), and the speed is astounding—capable of producing 500 to 800 tokens per second or more. I've become a big fan of Grok and their community;
