@@ -5,6 +5,7 @@ from app.libs.chains import (
     ProviderSelectionHandler,
     ToolExtractionHandler,
     ToolResponseHandler,
+    DefaultCompletionHandler,
     FallbackHandler,
 )
 from typing import Optional
@@ -46,12 +47,13 @@ async def post_chat_completions(
         provider_selection_handler = ProviderSelectionHandler()
         tool_extraction_handler = ToolExtractionHandler()
         tool_response_handler = ToolResponseHandler()
+        default_completion_handler = DefaultCompletionHandler()
         fallback_handler = FallbackHandler()
 
         # Set up the chain of responsibility
         provider_selection_handler.set_next(tool_extraction_handler).set_next(
             tool_response_handler
-        ).set_next(fallback_handler)
+        ).set_next(default_completion_handler).set_next(fallback_handler)
 
         # Execute the chain with the initial context
         response = await provider_selection_handler.handle(context)
