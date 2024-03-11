@@ -13,8 +13,8 @@ Unable to wait for this feature, I built a proxy that enables function calls usi
 
 
 
-## Colab Structure
-This Colab is organized into three main sections, each showcasing different aspects of FunckyCall.ai:
+## README Structure
+This README is organized into three main sections, each showcasing different aspects of FunckyCall.ai:
 
 - **Sending POST Requests**: Here, I explore the functionality of sending direct POST requests to LLMs using FunckyCall.ai. This section highlights the flexibility and control offered by the library when interacting with LLMs.
 - **FunckyHub**: The third section introduces the concept of FunckyHub, a usefull feature that simplifies the process of executing functions. With FunckyHub, there is no need to send the function JSON schema explicitly, as the functions are already hosted on the proxy server. This approach streamlines the workflow, allowing developers to obtain results with a single call without having to handle function call is production server.
@@ -229,7 +229,7 @@ FindData is a favorite of mine for creating AI assistants, thanks to its beautif
 
 
 ```python
-from google.colab import userdata
+from google.README import userdata
 from phi.llm.openai.like import OpenAILike
 from phi.assistant import Assistant
 from phi.tools.duckduckgo import DuckDuckGo
