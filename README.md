@@ -8,10 +8,12 @@ FunckyCall is a proxy server provides function call for Groq's lightning-fast La
 ## Motivation 🚀
 Groq is a startup that designs highly specialized processor chips aimed specifically at running inference on large language models. They've introduced what they call the Language Processing Unit (LPU), and the speed is astounding—capable of producing 500 to 800 tokens per second or more. I've become a big fan of Groq and their community;
 
+
 I admire what they're doing. It feels like after discovering electricity, the next challenge is moving it around quickly and efficiently. Groq is doing just that for Artificial Intelligence, making it easily accessible everywhere. They've opened up their API to the cloud, but as of now, they lack a function call capability.
 
 Unable to wait for this feature, I built a proxy that enables function calls using the OpenAI interface, allowing it to be called from any library. This engineering workaround has proven to be immensely useful in my company for various projects. Here's the link to the GitHub repository where you can explore and play around with it. I've included some examples in this collaboration for you to check out.
 
+<img width="150" src = "https://res.cloudinary.com/kidocode/image/upload/v1710148127/GroqChip-1-Die_lgi95d.jpg"/>
 
 <img title="Powered by Groq" alt="Powered by Groq" width = "150" src="https://res.cloudinary.com/kidocode/image/upload/v1710142103/Stack_PBG_White_n6qdbj.svg">
 
