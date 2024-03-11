@@ -1,5 +1,7 @@
 # FunckyCall.ai
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q3is7qynCsx4s7FBznCfTMnokbKWIv1F?usp=sharing)
+[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/unclecode/funckycall)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 FunckyCall is a proxy server provides function call for Groq's lightning-fast Language Processing Unit (LPU) and other AI providers. Additionally, the upcoming FuncyHub will offer a wide range of built-in functions, hosted on the cloud, making it easier to create AI assistants without the need to maintain function schemas in the codebase or or execute them through multiple calls.
 
@@ -279,7 +281,7 @@ assistant.print_response("Whats happening in France? Summarize top stories with 
 ```
 
 ## Contributions Welcome! 🙌
-I am excited to extend and grow this repository by adding more built-in functions and integrating additional services. If you are interested in contributing to this project and being a part of its development, I would love to collaborate with you!
+I am excited to extend and grow this repository by adding more built-in functions and integrating additional services. If you are interested in contributing to this project and being a part of its development, I would love to collaborate with you! I plan to create a discord channel for this project, where we can discuss ideas, share knowledge, and work together to enhance the repository.
 
 Here's how you can get involved:
 
