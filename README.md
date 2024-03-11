@@ -249,3 +249,22 @@ assistant.print_response("Whats happening in France? Summarize top stories with 
 
 
 ```
+
+## Contributions Welcome! 🙌
+I am excited to extend and grow this repository by adding more built-in functions and integrating additional services. If you are interested in contributing to this project and being a part of its development, I would love to collaborate with you!
+
+Here's how you can get involved:
+
+1. Fork the repository and create your own branch.
+2. Implement new functions, integrate additional services, or make improvements to the existing codebase.
+3. Test your changes to ensure they work as expected.
+4. Submit a pull request describing the changes you have made and why they are valuable.
+
+If you have any ideas, suggestions, or would like to discuss potential contributions, feel free to reach out to me. You can contact me through the following channels:
+
+- Twitter: @unclecode
+- Email: unclecode@kidocode.com
+
+I'm open to collaboration and excited to see how we can work together to enhance this project and provide value to the community. Let's connect and explore how we can help each other!
+
+Together, let's make this repository even more awesome! 🚀
