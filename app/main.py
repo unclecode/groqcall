@@ -1,4 +1,7 @@
 from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
@@ -36,20 +39,21 @@ async def log_requests(request: Request, call_next):
     else:
         return await call_next(request)
 
-# class RequestLoggingMiddleware(BaseHTTPMiddleware):
-#     async def dispatch(self, request: Request, call_next):
-#         print(f"Incoming request: {request.method} {request.url}")
-#         print(f"Request headers: {request.headers}")
-#         print(f"Request body: {await request.body()}")
-#         response = await call_next(request)
-#         return response
-
-# app.add_middleware(RequestLoggingMiddleware)
 
 app.include_router(proxy.router, prefix="/proxy")
 
+
+app.mount("/static", StaticFiles(directory="frontend/assets"), name="static")
+
+templates = Jinja2Templates(directory="frontend/pages")
+
+@app.get("/", response_class=HTMLResponse)
+async def read_item(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request})
+
+
 # Add endpoint to downl;oad files in the ../examples folder
-@app.get("/examples/{file_path}")
+@app.get("/example/{file_path}")
 async def read_examples(file_path: str):
     # get parent directory
     parent = os.path.dirname(os.path.dirname(__file__))
@@ -59,13 +63,13 @@ async def read_examples(file_path: str):
     else:
         return {"error": "File not found."}
 
-@app.get("/")
+@app.get("/examples")
 async def read_root():
     return {"message": "Hello World", "examples": [
-        "/examples/example_1.py",
-        "/examples/example_2.py",
-        "/examples/example_3.py",
-        "/examples/example_4.py",
+        "/example/example_1.py",
+        "/example/example_2.py",
+        "/example/example_3.py",
+        "/example/example_4.py",
     ]}
 
 if __name__ == "__main__":
