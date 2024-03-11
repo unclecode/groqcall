@@ -1,9 +1,12 @@
 # FunckyCall.ai
+
+FunckyCall is a proxy server provides function call for Groq's lightning-fast Language Processing Unit (LPU) and other AI providers. Additionally, the upcoming FuncyHub will offer a wide range of built-in functions, hosted on the cloud, making it easier to create AI assistants without the need to maintain function schemas in the codebase or or execute them through multiple calls.
+
+
+## Motivation 🚀
 Grok is a startup that designs highly specialized processor chips aimed specifically at running inference on large language models. They've introduced what they call the Language Processing Unit (LPU), and the speed is astounding—capable of producing 500 to 800 tokens per second or more. I've become a big fan of Grok and their community;
 
-
 I admire what they're doing. It feels like after discovering electricity, the next challenge is moving it around quickly and efficiently. Grok is doing just that for Artificial Intelligence, making it easily accessible everywhere. They've opened up their API to the cloud, but as of now, they lack a function call capability.
-
 
 Unable to wait for this feature, I built a proxy that enables function calls using the OpenAI interface, allowing it to be called from any library. This engineering workaround has proven to be immensely useful in my company for various projects. Here's the link to the GitHub repository where you can explore and play around with it. I've included some examples in this collaboration for you to check out.
 
@@ -12,8 +15,33 @@ Unable to wait for this feature, I built a proxy that enables function calls usi
 
 
 
+## Running the Proxy Locally 🖥️
+To run this proxy locally on your own machine, follow these steps:
 
-## README Structure
+1. Clone the GitHub repository:
+```git clone https://github.com/your-username/your-repository.git```
+
+2. Navigate to the project directory:
+```cd your-repository```
+
+3. Install the required libraries:
+```pip install -r requirements.txt```
+
+4. Set your Groq API token key as an environment variable:
+```export GROQ_API_KEY=your-api-key```
+
+5. Run the FastAPI server:
+```uvicorn main:app --reload```
+
+
+## Using the Pre-built Server 🌐
+For your convenience, I have already set up a server that you can use temporarily. This allows you to quickly start using the proxy without having to run it locally.
+
+To use the pre-built server, simply make requests to the following base URL:
+```https://funckycall.ai/proxy/groq/v1```
+
+
+## Exploring FunckyCall.ai 🚀
 This README is organized into three main sections, each showcasing different aspects of FunckyCall.ai:
 
 - **Sending POST Requests**: Here, I explore the functionality of sending direct POST requests to LLMs using FunckyCall.ai. This section highlights the flexibility and control offered by the library when interacting with LLMs.
@@ -28,7 +56,7 @@ This README is organized into three main sections, each showcasing different asp
 !pip install duckduckgo-search > /dev/null
 ```
 
-## Sending POST request, with full functions implementation
+## Sending POST request, with full functions implementation 
 
 
 ```python
