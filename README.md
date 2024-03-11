@@ -262,7 +262,7 @@ Here's how you can get involved:
 
 If you have any ideas, suggestions, or would like to discuss potential contributions, feel free to reach out to me. You can contact me through the following channels:
 
-- Twitter: @unclecode
+- Twitter (X): @unclecode
 - Email: unclecode@kidocode.com
 
 I'm open to collaboration and excited to see how we can work together to enhance this project and provide value to the community. Let's connect and explore how we can help each other!
