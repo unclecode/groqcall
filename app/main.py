@@ -3,11 +3,11 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from starlette.requests import Request
-from app.routes import proxy
-from app.routes import examples
+from routes import proxy
+from routes import examples
 
 
-from app.utils import create_logger
+from utils import create_logger
 import os
 from dotenv import load_dotenv
 load_dotenv()
