@@ -1,7 +1,7 @@
 # FunckyCall.ai
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q3is7qynCsx4s7FBznCfTMnokbKWIv1F?usp=sharing)
 [![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/unclecode/funckycall)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 FunckyCall is a proxy server provides function call for Groq's lightning-fast Language Processing Unit (LPU) and other AI providers. Additionally, the upcoming FuncyHub will offer a wide range of built-in functions, hosted on the cloud, making it easier to create AI assistants without the need to maintain function schemas in the codebase or or execute them through multiple calls.
 
