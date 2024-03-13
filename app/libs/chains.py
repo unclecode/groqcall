@@ -5,9 +5,9 @@ import json
 import uuid
 from fastapi import Request
 from fastapi.responses import JSONResponse
-from app.providers import BaseProvider
-from app.prompts import SYSTEM_MESSAGE, SUFFIX, get_func_result_guide
-from app.providers import GroqProvider
+from providers import BaseProvider
+from prompts import SYSTEM_MESSAGE, SUFFIX, get_func_result_guide
+from providers import GroqProvider
 import importlib
 
 
