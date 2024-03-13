@@ -23,10 +23,10 @@ Unable to wait for this feature, I built a proxy that enables function calls usi
 To run this proxy locally on your own machine, follow these steps:
 
 1. Clone the GitHub repository:
-```git clone https://github.com/your-username/your-repository.git```
+```git clone https://github.com/unclecode/funckycall.git```
 
 2. Navigate to the project directory:
-```cd your-repository```
+```cd funckycall```
 
 3. Install the required libraries:
 ```pip install -r requirements.txt```
