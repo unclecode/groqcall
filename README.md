@@ -38,7 +38,7 @@ To run this proxy locally on your own machine, follow these steps:
 ```mkdir .logs```
 
 6. Run the FastAPI server:
-```uvicorn main:app --reload```
+```uvicorn --app-dir app/ main:app --reload```
 
 
 ## Using the Pre-built Server 🌐
