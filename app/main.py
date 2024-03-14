@@ -12,7 +12,7 @@ load_dotenv()
 
 app = FastAPI()
 
-logger = create_logger(".logs/access.log")
+logger = create_logger("app", ".logs/access.log")
 app.mount("/static", StaticFiles(directory="frontend/assets"), name="static")
 templates = Jinja2Templates(directory="frontend/pages")
 

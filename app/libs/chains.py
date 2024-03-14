@@ -6,10 +6,12 @@ import uuid
 from fastapi import Request
 from fastapi.responses import JSONResponse
 from providers import BaseProvider
-from prompts import SYSTEM_MESSAGE, SUFFIX, get_func_result_guide
+from prompts import SYSTEM_MESSAGE, SUFFIX, CLEAN_UP_MESSAGE, get_func_result_guide
 from providers import GroqProvider
 import importlib
+from utils import get_tool_call_response, create_logger
 
+missed_tool_logger = create_logger("chain.missed_tools", ".logs/empty_tool_tool_response.log")
 
 class Context:
     def __init__(self, request: Request, provider: str, body: Dict[str, Any]):
@@ -145,7 +147,9 @@ class ToolExtractionHandler(Handler):
 
             if not tool_calls:
                 context.response = {"tool_calls": []}
-                return JSONResponse(content=context.response, status_code=500)
+                tool_response = get_tool_call_response(completion, [], [])
+                missed_tool_logger.debug(f"Last message content: {context.last_message['content']}")
+                return JSONResponse(content=tool_response, status_code=200)
 
 
             unresolved_tol_calls = [t for t in tool_calls if t["function"]["name"] not in context.builtin_tool_names]
@@ -166,31 +170,7 @@ class ToolExtractionHandler(Handler):
                     return await super().handle(context)
                     
 
-            tool_response = {
-                "id": "chatcmpl-" + completion.id,
-                "object": "chat.completion",
-                "created": completion.created,
-                "model": completion.model,
-                "choices": [
-                    {
-                        "index": 0,
-                        "message": {
-                            "role": "assistant",
-                            "content": None,
-                            "tool_calls": unresolved_tol_calls,
-                        },
-                        "logprobs": None,
-                        "finish_reason": "tool_calls",
-                    }
-                ],
-                "resolved": resolved_responses,
-                "usage": {
-                    "prompt_tokens": completion.usage.prompt_tokens,
-                    "completion_tokens": completion.usage.completion_tokens,
-                    "total_tokens": completion.usage.total_tokens,
-                },
-                "system_fingerprint": completion.system_fingerprint,
-            }
+            tool_response = get_tool_call_response(completion, unresolved_tol_calls, resolved_responses)
 
             context.response = tool_response
             return JSONResponse(content=context.response, status_code=200)
@@ -198,56 +178,60 @@ class ToolExtractionHandler(Handler):
         return await super().handle(context)
 
     async def process_tool_calls(self, context, new_messages):
-        tries = 5
-        tool_calls = []
-        while tries > 0:
-            try:
-                # Assuming the context has an instantiated client according to the selected provider
-                completion = context.client.route(
-                    model=context.client.parser_model,
-                    messages=new_messages,
-                    temperature=0,
-                    max_tokens=1024,
-                    top_p=1,
-                    stream=False,
-                )
-
-                response = completion.choices[0].message.content
-                if "```json" in response:
-                    response = response.split("```json")[1].split("```")[0]
-                
-                try:
-                    tool_response = json.loads(response)
-                except json.JSONDecodeError as e:
-                    new_messages.append(
-                        {
-                            "role": "user",
-                            "content": f"Error: {e}.\n\nAttempt to clean up the conversation and retry.",
-                        }
-                    )
-                    tries -= 1
-                    continue
-
-                for func in tool_response.get("tool_calls", []):
-                    tool_calls.append(
-                        {
-                            "id": f"call_{func['name']}_{str(uuid.uuid4())}",
-                            "type": "function",
-                            "function": {
-                                "name": func["name"],
-                                "arguments": json.dumps(func["arguments"]),
-                            },
-                        }
-                    )
-
-                break
-            except Exception as e:
-                raise e
-
-        if tries == 0:
+        try:
+            tries = 5
             tool_calls = []
+            while tries > 0:
+                try:
+                    # Assuming the context has an instantiated client according to the selected provider
+                    completion = context.client.route(
+                        model=context.client.parser_model,
+                        messages=new_messages,
+                        temperature=0,
+                        max_tokens=1024,
+                        top_p=1,
+                        stream=False,
+                    )
 
-        return completion, tool_calls
+                    response = completion.choices[0].message.content
+                    if "```json" in response:
+                        response = response.split("```json")[1].split("```")[0]
+                    
+                    try:
+                        tool_response = json.loads(response)
+                    except json.JSONDecodeError as e:
+                        new_messages.append(
+                            {
+                                "role": "user",
+                                "content": f"Error: {e}.\n\n{CLEAN_UP_MESSAGE}",
+                            }
+                        )
+                        tries -= 1
+                        continue
+
+                    for func in tool_response.get("tool_calls", []):
+                        tool_calls.append(
+                            {
+                                "id": f"call_{func['name']}_{str(uuid.uuid4())}",
+                                "type": "function",
+                                "function": {
+                                    "name": func["name"],
+                                    "arguments": json.dumps(func["arguments"]),
+                                },
+                            }
+                        )
+
+                    break
+                except Exception as e:
+                    raise e
+
+            if tries == 0:
+                tool_calls = []
+
+            return completion, tool_calls
+        except Exception as e:
+            print(f"Error processing the tool calls: {e}")
+            raise e
 
 
 class ToolResponseHandler(Handler):
