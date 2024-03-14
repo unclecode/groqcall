@@ -28,16 +28,13 @@ To run this proxy locally on your own machine, follow these steps:
 2. Navigate to the project directory:
 ```cd funckycall```
 
-3. Install the required libraries:
+3. Create a virtual environment:
+```python -m venv venv```
+
+4. Install the required libraries:
 ```pip install -r requirements.txt```
 
-4. Set your Groq API token key as an environment variable:
-```export GROQ_API_KEY=your-api-key```
-
-5. Create uvicorn logs folder:
-```mkdir .logs```
-
-6. Run the FastAPI server:
+5. Run the FastAPI server:
 ```uvicorn --app-dir app/ main:app --reload```
 
 
