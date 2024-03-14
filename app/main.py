@@ -5,8 +5,6 @@ from fastapi.staticfiles import StaticFiles
 from starlette.requests import Request
 from routes import proxy
 from routes import examples
-
-
 from utils import create_logger
 import os
 from dotenv import load_dotenv

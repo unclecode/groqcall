@@ -288,7 +288,7 @@ class DefaultCompletionHandler(Handler):
     async def handle(self, context: Context):
         if context.is_normal_chat:
             # Assuming context.client is set and has a method for creating chat completions
-            completion = await context.client.chat.completions.create(
+            completion = context.client.route(
                 messages=context.messages,
                 **context.client.clean_params(context.params),
             )

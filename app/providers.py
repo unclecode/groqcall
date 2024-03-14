@@ -13,6 +13,9 @@ class BaseProvider:
     def route(self, model: str, messages: list, **kwargs):
         pass
 
+    async def route_async(self, model: str, messages: list, **kwargs):
+        pass
+
     def clean_params(self, params):
         pass
 
