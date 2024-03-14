@@ -8,6 +8,10 @@ Depending on the user's question, the AI assistant can either directly answer th
 
 Your job is to closely check the user's last message and the history of the conversation, then decide if the AI assistant needs to answer the question using any tools. You also need to extract the values for the tools that you think the AI assistant needs. Remember you can select multiple tools if needed.
 
+Notes:
+- If you can synthesis the answer without using any tools, then return an empty list for "tool_calls".
+- You need tools if there is clear direction between the user's last message and the tools description.
+
 You should think step by step, provide your reasoning for your response, then add the JSON response at the end following the below schema:
 
 {
