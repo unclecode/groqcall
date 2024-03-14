@@ -102,23 +102,23 @@
                     <li>Clone the GitHub repository:</li>
                     <pre
                         class="bg-gray-800 rounded p-4 mb-4"
-                    ><code class = "language-bash">git clone https://github.com/your-username/your-repository.git</code></pre>
+                    ><code class = "language-bash">git clone https://github.com/unclecode/funckycall.git</code></pre>
                     <li>Navigate to the project directory:</li>
                     <pre
                         class="bg-gray-800 rounded p-4 mb-4"
-                    ><code class = "language-bash">cd your-repository</code></pre>
+                    ><code class = "language-bash">cd funckycall</code></pre>
+                    <li>SCreate a virtual environment:</li>
+                    <pre
+                        class="bg-gray-800 rounded p-4 mb-4"
+                    ><code class = "language-bash">python -m venv venv</code></pre>
                     <li>Install the required libraries:</li>
                     <pre
                         class="bg-gray-800 rounded p-4 mb-4"
                     ><code class = "language-bash">pip install -r requirements.txt</code></pre>
-                    <li>Set your Groq API token key as an environment variable:</li>
-                    <pre
-                        class="bg-gray-800 rounded p-4 mb-4"
-                    ><code class = "language-bash">export GROQ_API_KEY=your-api-key</code></pre>
                     <li>Run the FastAPI server:</li>
                     <pre
                         class="bg-gray-800 rounded p-4"
-                    ><code class = "language-bash">uvicorn main:app --reload</code></pre>
+                    ><code class = "language-bash">uvicorn --app-dir app/ main:app --reload</code></pre>
                 </ol>
                 <h2 class="text-3xl font-bold mb-4">Using the Pre-built Server 🌐</h2>
                 <p class="text-lg mb-8">
