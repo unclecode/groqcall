@@ -6,7 +6,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>FunckyCall</title>
+        <title>GroqCall</title>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
         <link
             rel="stylesheet"
@@ -35,7 +35,7 @@
         <main>
             <div class="container mx-auto px-20 py-8">
                 <div class="bg-gray-900 text-white px-10 py-12 rounded-lg shadow-lg">
-                    <h1 class="text-4xl font-bold mb-6">FunckyCall.ai</h1>
+                    <h1 class="text-4xl font-bold mb-6">GroqCall.ai</h1>
                     <p class="mb-6">
                         <a
                             href="https://colab.research.google.com/drive/1q3is7qynCsx4s7FBznCfTMnokbKWIv1F?usp=sharing"
@@ -47,7 +47,7 @@
                                 class="h-6"
                             />
                         </a>
-                        <a href="https://github.com/unclecode/funckycall" class="inline-block mr-4">
+                        <a href="https://github.com/unclecode/groqcall" class="inline-block mr-4">
                             <img src="https://img.shields.io/badge/version-0.0.1-blue.svg" alt="Version" class="h-6" />
                         </a>
                         <a href="https://opensource.org/licenses/MIT" class="inline-block">
@@ -59,7 +59,7 @@
                         </a>
                     </p>
                     <p class="text-lg mb-8">
-                        FunckyCall is a proxy server that provides function calls for Groq's lightning-fast Language
+                        GroqCall is a proxy server that provides function calls for Groq's lightning-fast Language
                         Processing Unit (LPU) and other AI providers. Additionally, the upcoming FuncyHub will offer a
                         wide range of built-in functions, hosted on the cloud, making it easier to create AI assistants
                         without the need to maintain function schemas in the codebase or execute them through multiple
@@ -68,10 +68,10 @@
                     <p class="text-lg mb-8">
                         Check github repo for more info:
                         <a
-                            href="https://github.com/unclecode/funckycall
+                            href="https://github.com/unclecode/groqcall
                         "
                             class="text-blue-500 underline"
-                            >https://github.com/unclecode/funckycall</a
+                            >https://github.com/unclecode/groqcall</a
                         >
                     </p>
                     <h2 class="text-3xl font-bold mb-4">Motivation 🚀</h2>
@@ -111,11 +111,11 @@
                         <li>Clone the GitHub repository:</li>
                         <pre
                             class="bg-gray-800 rounded p-4 mb-4"
-                        ><code class = "language-bash">git clone https://github.com/unclecode/funckycall.git</code></pre>
+                        ><code class = "language-bash">git clone https://github.com/unclecode/groqcall.git</code></pre>
                         <li>Navigate to the project directory:</li>
                         <pre
                             class="bg-gray-800 rounded p-4 mb-4"
-                        ><code class = "language-bash">cd funckycall</code></pre>
+                        ><code class = "language-bash">cd groqcall</code></pre>
                         <li>SCreate a virtual environment:</li>
                         <pre
                             class="bg-gray-800 rounded p-4 mb-4"
@@ -136,19 +136,19 @@
                     </p>
                     <p class="text-lg mb-8">
                         To use the pre-built server, simply make requests to the following base URL:
-                        <code class="bg-gray-800 rounded px-2 py-1">https://funckycall.ai/proxy/groq/v1</code>
+                        <code class="bg-gray-800 rounded px-2 py-1">https://groqcall.ai/proxy/groq/v1</code>
                     </p>
 
-                    <h2 class="text-3xl font-bold mb-4">Exploring FunckyCall.ai 🚀</h2>
+                    <h2 class="text-3xl font-bold mb-4">Exploring GroqCall.ai 🚀</h2>
                     <p class="text-lg mb-8">
                         This README is organized into three main sections, each showcasing different aspects of
-                        FunckyCall.ai:
+                        GroqCall.ai:
                     </p>
                     <ul class="list-disc list-inside mb-8">
                         <!-- set line height to 1.5 -->
                         <li class="mb-4 leading-7">
                             <strong>Sending POST Requests</strong>: Here, I explore the functionality of sending direct
-                            POST requests to LLMs using FunckyCall.ai. This section highlights the flexibility and
+                            POST requests to LLMs using GroqCall.ai. This section highlights the flexibility and
                             control offered by the library when interacting with LLMs.
                         </li>
                         <li class="mb-4 leading-7">
@@ -159,8 +159,8 @@
                             with a single call without having to handle function calls in a production server.
                         </li>
                         <li class="mb-4 leading-7">
-                            <strong>Using FunckyCall with PhiData</strong>: In this section, I demonstrate how
-                            FunckyCall.ai can be seamlessly integrated with other libraries such as my favorite one, the
+                            <strong>Using GroqCall with PhiData</strong>: In this section, I demonstrate how
+                            GroqCall.ai can be seamlessly integrated with other libraries such as my favorite one, the
                             PhiData library, leveraging its built-in tools to connect to LLMs and perform external tool
                             requests.
                         </li>
@@ -188,7 +188,7 @@
         &quot;Authorization&quot;: f&quot;Bearer {api_key}&quot;,
         &quot;Content-Type&quot;: &quot;application/json&quot;
     }
-    proxy_url = &quot;https://funckycall.ai/proxy/groq/v1/chat/completions&quot;
+    proxy_url = &quot;https://groqcall.ai/proxy/groq/v1/chat/completions&quot;
     
     
     def duckduckgo_search(query, max_results=None):
@@ -335,7 +335,7 @@
         &quot;Content-Type&quot;: &quot;application/json&quot;
     }
     
-    proxy_url = &quot;https://funckycall.ai/proxy/groq/v1/chat/completions&quot;
+    proxy_url = &quot;https://groqcall.ai/proxy/groq/v1/chat/completions&quot;
     
     
     request = {
@@ -406,7 +406,7 @@
     my_groq = OpenAILike(
             model=&quot;mixtral-8x7b-32768&quot;,
             api_key=userdata.get(&quot;GROQ_API_KEY&quot;),
-            base_url=&quot;https://funckycall.ai/proxy/groq/v1&quot;
+            base_url=&quot;https://groqcall.ai/proxy/groq/v1&quot;
         )
     assistant = Assistant(
         llm=my_groq,

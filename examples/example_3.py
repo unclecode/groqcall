@@ -6,7 +6,7 @@ header = {
     "Content-Type": "application/json"
 }
 
-proxy_url = "https://funckycall.ai/proxy/groq/v1/chat/completions"
+proxy_url = "https://groqcall.ai/proxy/groq/v1/chat/completions"
 
 
 request = {

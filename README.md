@@ -1,9 +1,9 @@
-# FunckyCall.ai
+# GroqCall.ai (I changed the name from GroqCall to GroqCall)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q3is7qynCsx4s7FBznCfTMnokbKWIv1F?usp=sharing)
-[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/unclecode/funckycall)
+[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/unclecode/groqcall)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-FunckyCall is a proxy server provides function call for Groq's lightning-fast Language Processing Unit (LPU) and other AI providers. Additionally, the upcoming FuncyHub will offer a wide range of built-in functions, hosted on the cloud, making it easier to create AI assistants without the need to maintain function schemas in the codebase or or execute them through multiple calls.
+GroqCall is a proxy server provides function call for Groq's lightning-fast Language Processing Unit (LPU) and other AI providers. Additionally, the upcoming FuncyHub will offer a wide range of built-in functions, hosted on the cloud, making it easier to create AI assistants without the need to maintain function schemas in the codebase or or execute them through multiple calls.
 
 ## Motivation 🚀
 Groq is a startup that designs highly specialized processor chips aimed specifically at running inference on large language models. They've introduced what they call the Language Processing Unit (LPU), and the speed is astounding—capable of producing 500 to 800 tokens per second or more. I've become a big fan of Groq and their community;
@@ -23,10 +23,10 @@ Unable to wait for this feature, I built a proxy that enables function calls usi
 To run this proxy locally on your own machine, follow these steps:
 
 1. Clone the GitHub repository:
-```git clone https://github.com/unclecode/funckycall.git```
+```git clone https://github.com/unclecode/groqcall.git```
 
 2. Navigate to the project directory:
-```cd funckycall```
+```cd groqcall```
 
 3. Create a virtual environment:
 ```python -m venv venv```
@@ -42,15 +42,15 @@ To run this proxy locally on your own machine, follow these steps:
 For your convenience, I have already set up a server that you can use temporarily. This allows you to quickly start using the proxy without having to run it locally.
 
 To use the pre-built server, simply make requests to the following base URL:
-```https://funckycall.ai/proxy/groq/v1```
+```https://groqcall.ai/proxy/groq/v1```
 
 
-## Exploring FunckyCall.ai 🚀
-This README is organized into three main sections, each showcasing different aspects of FunckyCall.ai:
+## Exploring GroqCall.ai 🚀
+This README is organized into three main sections, each showcasing different aspects of GroqCall.ai:
 
-- **Sending POST Requests**: Here, I explore the functionality of sending direct POST requests to LLMs using FunckyCall.ai. This section highlights the flexibility and control offered by the library when interacting with LLMs.
-- **FunckyHub**: The second section introduces the concept of FunckyHub, a useful feature that simplifies the process of executing functions. With FunckyHub, there is no need to send the function JSON schema explicitly, as the functions are already hosted on the proxy server. This approach streamlines the workflow, allowing developers to obtain results with a single call without having to handle function call is production server.
-- **Using FunckyCall with PhiData**: In this section, I demonstrate how FunckyCall.ai can be seamlessly integrated with other libraries such as my favorite one, the PhiData library, leveraging its built-in tools to connect to LLMs and perform external tool requests.
+- **Sending POST Requests**: Here, I explore the functionality of sending direct POST requests to LLMs using GroqCall.ai. This section highlights the flexibility and control offered by the library when interacting with LLMs.
+- **FuncHub**: The second section introduces the concept of FuncHub, a useful feature that simplifies the process of executing functions. With FuncHub, there is no need to send the function JSON schema explicitly, as the functions are already hosted on the proxy server. This approach streamlines the workflow, allowing developers to obtain results with a single call without having to handle function call is production server.
+- **Using GroqCall with PhiData**: In this section, I demonstrate how GroqCall.ai can be seamlessly integrated with other libraries such as my favorite one, the PhiData library, leveraging its built-in tools to connect to LLMs and perform external tool requests.
 
 
 ```python
@@ -74,7 +74,7 @@ header = {
     "Authorization": f"Bearer {api_key}",
     "Content-Type": "application/json"
 }
-proxy_url = "https://funckycall.ai/proxy/groq/v1/chat/completions"
+proxy_url = "https://groqcall.ai/proxy/groq/v1/chat/completions"
 
 
 def duckduckgo_search(query, max_results=None):
@@ -210,7 +210,7 @@ header = {
     "Content-Type": "application/json"
 }
 
-proxy_url = "https://funckycall.ai/proxy/groq/v1/chat/completions"
+proxy_url = "https://groqcall.ai/proxy/groq/v1/chat/completions"
 
 
 request = {
@@ -271,7 +271,7 @@ import os, json
 my_groq = OpenAILike(
         model="mixtral-8x7b-32768",
         api_key=userdata.get("GROQ_API_KEY"),
-        base_url="https://funckycall.ai/proxy/groq/v1"
+        base_url="https://groqcall.ai/proxy/groq/v1"
     )
 assistant = Assistant(
     llm=my_groq,
