@@ -1,4 +1,4 @@
-# GroqCall.ai (I changed the name from GroqCall to GroqCall)
+# GroqCall.ai (I changed the name from FunckyCall to GroqCall)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q3is7qynCsx4s7FBznCfTMnokbKWIv1F?usp=sharing)
 [![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/unclecode/groqcall)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
