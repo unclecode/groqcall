@@ -31,8 +31,13 @@ app.include_router(proxy.router, prefix="/proxy")
 app.include_router(examples.router, prefix="/examples")
 
 @app.get("/", response_class=HTMLResponse)
-async def read_item(request: Request):
+async def index(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
+
+# Add an get endpoint simple return the evrsion of the app
+@app.get("/version")
+async def version():
+    return {"version": "0.0.1"}
 
 if __name__ == "__main__":
     import uvicorn
