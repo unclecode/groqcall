@@ -20,7 +20,7 @@ assistant.print_response("Whats happening in France? Summarize top stories with 
 my_groq = OpenAILike(
         model="mixtral-8x7b-32768",
         api_key=os.environ["GROQ_API_KEY"],
-        base_url="https://funckycall.ai/proxy/groq/v1"
+        base_url="https://groqcall.ai/proxy/groq/v1"
     )
 assistant = Assistant(
     llm=my_groq,

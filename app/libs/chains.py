@@ -21,6 +21,9 @@ class Context:
         self.response = None
         # extract all keys from body except messages and tools and set in params
         self.params = {k: v for k, v in body.items() if k not in ["messages", "tools"]}
+        # self.no_tool_behaviour = self.params.get("no_tool_behaviour", "return")
+        self.no_tool_behaviour = self.params.get("no_tool_behaviour", "forward")
+        self.params.pop("no_tool_behaviour", None)
 
         # Todo: For now, no stream, sorry ;)
         self.params["stream"] = False
@@ -44,6 +47,8 @@ class Context:
                 if schema_dict:
                     bt["function"] = schema_dict 
                     bt['run'] = func_class.run
+                    bt['extra'] = self.params.get("extra", {})
+                    self.params.pop("extra", None)
 
         
 
@@ -146,10 +151,14 @@ class ToolExtractionHandler(Handler):
             )
 
             if not tool_calls:
-                context.response = {"tool_calls": []}
-                tool_response = get_tool_call_response(completion, [], [])
-                missed_tool_logger.debug(f"Last message content: {context.last_message['content']}")
-                return JSONResponse(content=tool_response, status_code=200)
+                if context.no_tool_behaviour == "forward":
+                    context.tools = None
+                    return await super().handle(context)
+                else:
+                    context.response = {"tool_calls": []}
+                    tool_response = get_tool_call_response(completion, [], [])
+                    missed_tool_logger.debug(f"Last message content: {context.last_message['content']}")
+                    return JSONResponse(content=tool_response, status_code=200)
 
 
             unresolved_tol_calls = [t for t in tool_calls if t["function"]["name"] not in context.builtin_tool_names]
@@ -157,7 +166,7 @@ class ToolExtractionHandler(Handler):
             for tool in tool_calls:
                 for bt in context.builtin_tools:
                     if tool["function"]["name"] == bt["function"]["name"]:
-                        res =bt['run'](**json.loads(tool["function"]["arguments"]))
+                        res =bt['run']({**json.loads(tool["function"]["arguments"]), **bt['extra']})
                         resolved_responses.append({
                             "name": tool["function"]["name"],
                             "role": "tool",
