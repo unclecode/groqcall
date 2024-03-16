@@ -208,7 +208,10 @@ class ToolExtractionHandler(Handler):
                     
                     try:
                         tool_response = json.loads(response)
+                        if isinstance(tool_response, list):
+                            tool_response = {"tool_calls": tool_response}
                     except json.JSONDecodeError as e:
+                        print(f"Error parsing the tool response: {e}, tries left: {tries}");
                         new_messages.append(
                             {
                                 "role": "user",
