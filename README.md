@@ -37,6 +37,23 @@ To run this proxy locally on your own machine, follow these steps:
 5. Run the FastAPI server:
 ```uvicorn --app-dir app/ main:app --reload```
 
+## Docker Compose 🐳
+You can also run the proxy with the provided docker-compose.yml
+
+1. Clone the GitHub repository:
+```git clone https://github.com/unclecode/funckycall.git```
+
+2. Navigate to the project directory:
+```cd funckycall```
+
+3. Create a new .env file:
+```cp example.env .env```
+
+4. Update the new `.env` to use your Groq API token:
+```export GROQ_API_KEY=your-api-key```
+
+5. Run docker compose :
+```docker compose up```
 
 ## Using the Pre-built Server 🌐
 For your convenience, I have already set up a server that you can use temporarily. This allows you to quickly start using the proxy without having to run it locally.
