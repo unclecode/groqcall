@@ -18,7 +18,8 @@ assistant.print_response("Whats happening in France? Summarize top stories with 
 
 
 my_groq = OpenAILike(
-        model="mixtral-8x7b-32768",
+        # model="mixtral-8x7b-32768",
+        model="gemma-7b-it",
         api_key=os.environ["GROQ_API_KEY"],
         base_url="https://groqcall.ai/proxy/groq/v1"
     )
