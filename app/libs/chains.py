@@ -166,7 +166,7 @@ class ToolExtractionHandler(Handler):
             for tool in tool_calls:
                 for bt in context.builtin_tools:
                     if tool["function"]["name"] == bt["function"]["name"]:
-                        res =bt['run']({**json.loads(tool["function"]["arguments"]), **bt['extra']})
+                        res =bt['run'](**{**json.loads(tool["function"]["arguments"]), **bt['extra']} )
                         resolved_responses.append({
                             "name": tool["function"]["name"],
                             "role": "tool",
