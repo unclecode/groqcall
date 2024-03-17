@@ -3,10 +3,11 @@ from typing import Any, Dict
 from importlib import import_module
 import json
 import uuid
+import traceback
 from fastapi import Request
 from fastapi.responses import JSONResponse
 from providers import BaseProvider
-from prompts import SYSTEM_MESSAGE, SUFFIX, CLEAN_UP_MESSAGE, get_func_result_guide
+from prompts import SYSTEM_MESSAGE, ENFORCED_SYSTAME_MESSAE, SUFFIX, FORCE_CALL_SUFFIX, CLEAN_UP_MESSAGE, get_func_result_guide, get_forced_tool_suffix
 from providers import GroqProvider
 import importlib
 from utils import get_tool_call_response, create_logger
@@ -19,8 +20,10 @@ class Context:
         self.provider = provider
         self.body = body
         self.response = None
+
         # extract all keys from body except messages and tools and set in params
         self.params = {k: v for k, v in body.items() if k not in ["messages", "tools"]}
+
         # self.no_tool_behaviour = self.params.get("no_tool_behaviour", "return")
         self.no_tool_behaviour = self.params.get("no_tool_behaviour", "forward")
         self.params.pop("no_tool_behaviour", None)
@@ -50,8 +53,6 @@ class Context:
                     bt['extra'] = self.params.get("extra", {})
                     self.params.pop("extra", None)
 
-        
-
         self.client : BaseProvider = None
 
     @property
@@ -60,7 +61,7 @@ class Context:
 
     @property
     def is_tool_call(self):
-        return bool(self.last_message["role"] == "user" and self.tools)
+        return bool(self.last_message["role"] == "user" and self.tools and self.params.get("tool_choice", "none") != "none")
 
     @property
     def is_tool_response(self):
@@ -88,6 +89,7 @@ class Handler(ABC):
                 return await self._next_handler.handle(context)
             except Exception as e:
                 _exception_handler: "Handler" = ExceptionHandler()
+                # Extract the stack trace and log the exception                
                 return await _exception_handler.handle(context, e)
                 
 
@@ -130,19 +132,35 @@ class ToolExtractionHandler(Handler):
     async def handle(self, context: Context):
         body = context.body
         if context.is_tool_call:
+
+            # Prepare the messages and tools for the tool extraction
             messages = [
                 f"{m['role'].title()}: {m['content']}"
                 for m in context.messages
                 if m["role"] != "system"
             ]
-
             tools_json = json.dumps([t["function"] for t in context.tools], indent=4)
 
+            # Process the tool_choice
+            tool_choice = context.params.get("tool_choice", "auto")
+            forced_mode = False
+            if type(tool_choice) == dict and tool_choice.get("type", None) == "function":
+                tool_choice = tool_choice["function"].get("name", None)
+                if not tool_choice:
+                    raise ValueError("Invalid tool choice. 'tool_choice' is set to a dictionary with 'type' as 'function', but 'function' does not have a 'name' key.")
+                forced_mode = True
+                
+                # Regenerate the string tool_json and keep only the forced tool
+                tools_json = json.dumps([t["function"] for t in context.tools if t["function"]["name"] == tool_choice], indent=4)
+
+            system_message = SYSTEM_MESSAGE if not forced_mode else ENFORCED_SYSTAME_MESSAE
+            suffix = SUFFIX if not forced_mode else get_forced_tool_suffix(tool_choice)
+
             new_messages = [
-                {"role": "system", "content": SYSTEM_MESSAGE},
+                {"role": "system", "content": system_message},
                 {
                     "role": "system",
-                    "content": f"Conversation History:\n{''.join(messages)}\n\nTools: \n{tools_json}\n\n{SUFFIX}",
+                    "content": f"Conversation History:\n{''.join(messages)}\n\nTools: \n{tools_json}\n\n{suffix}",
                 },
             ]
 
@@ -309,4 +327,5 @@ class FallbackHandler(Handler):
 class ExceptionHandler(Handler):
     async def handle(self, context: Context, exception: Exception):
         print(f"Error processing the request: {exception}")
-        return JSONResponse(content={"error": "An unexpected error occurred. " + str(exception)}, status_code=500)
+        print(traceback.format_exc())
+        return JSONResponse(content={"error": "An unexpected error occurred. " + str(exception)}, status_code=500) 

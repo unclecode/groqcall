@@ -1,6 +1,8 @@
 import requests
+import json
+import os
 
-api_key = "YOUR_GROQ_API_KEY"
+api_key=os.environ["GROQ_API_KEY"],
 header = {
     "Authorization": f"Bearer {api_key}",
     "Content-Type": "application/json"
