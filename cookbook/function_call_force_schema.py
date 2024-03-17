@@ -8,7 +8,10 @@ header = {
     "Authorization": f"Bearer {api_key}",
     "Content-Type": "application/json"
 }
-proxy_url = "https://groqcall.ai/proxy/groq/v1/chat/completions" # or "http://localhost:8000/proxy/groq/v1/chat/completions" if running locally
+proxy_url = "https://groqcall.ai/proxy/groq/v1/chat/completions" 
+
+# or "http://localhost:8000/proxy/groq/v1/chat/completions" if running locally
+# proxy_url = "http://localhost:8000/proxy/groq/v1/chat/completions"
 
 
 def duckduckgo_search(query, max_results=None):
@@ -42,7 +45,9 @@ request = {
         }
     ],
     "model": "mixtral-8x7b-32768",
-    "tool_choice": "auto",
+    # "tool_choice": "auto",
+    # "tool_choice": "none",
+    "tool_choice": {"type": "function", "function": {"name": "duckduckgo_search"}},
     "tools": [
         {
             "type": "function",
