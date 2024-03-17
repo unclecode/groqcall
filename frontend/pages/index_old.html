@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GroqCall</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-tomorrow.min.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-bash.min.js"></script>
+        <style>
+            html,
+            body {
+                font-family: "Inter", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-variation-settings: "slnt" 0;
+            }
+            pre {
+                overflow: auto;
+                background-color: #1f2937;
+                font-family: monospace;
+                font-size: 0.8rem;
+                padding: 1rem;
+                border-radius: 10px;
+                margin: 1rem 0;
+                color: #d1d5db;
+                
+            }
+            h2 {
+                margin: 2rem 0 !important;
+                font-size: 2rem;
+            }
+            h3 {
+                margin: 1rem 0 !important;
+                font-size: 1.5rem;
+            }
+        </style>
+    </head>
+    <body class="bg-black text-gray-200">
+        <main>
+            <div class="container mx-auto px-20 py-8">
+                <div class="bg-gray-900 text-white px-10 py-12 rounded-lg shadow-lg">
+                    <h1 class="text-4xl font-bold mb-6">GroqCall.ai</h1>
+                    <p class="mb-6">
+                        <a
+                            href="https://colab.research.google.com/drive/1q3is7qynCsx4s7FBznCfTMnokbKWIv1F?usp=sharing"
+                            class="inline-block mr-4"
+                        >
+                            <img
+                                src="https://colab.research.google.com/assets/colab-badge.svg"
+                                alt="Open In Colab"
+                                class="h-6"
+                            />
+                        </a>
+                        <a href="https://github.com/unclecode/groqcall" class="inline-block mr-4">
+                            <img src="https://img.shields.io/badge/version-0.0.1-blue.svg" alt="Version" class="h-6" />
+                        </a>
+                        <a href="https://opensource.org/licenses/MIT" class="inline-block">
+                            <img
+                                src="https://img.shields.io/badge/License-MIT-yellow.svg"
+                                alt="License: MIT"
+                                class="h-6"
+                            />
+                        </a>
+                    </p>
+                    <p class="text-lg mb-8">
+                        GroqCall is a proxy server that provides function calls for Groq's lightning-fast Language
+                        Processing Unit (LPU) and other AI providers. Additionally, the upcoming FuncyHub will offer a
+                        wide range of built-in functions, hosted on the cloud, making it easier to create AI assistants
+                        without the need to maintain function schemas in the codebase or execute them through multiple
+                        calls.
+                    </p>
+                    <p class="text-lg mb-8">
+                        Check github repo for more info:
+                        <a
+                            href="https://github.com/unclecode/groqcall
+                        "
+                            class="text-blue-500 underline"
+                            >https://github.com/unclecode/groqcall</a
+                        >
+                    </p>
+                    <h2 class="text-3xl font-bold mb-4">Motivation 🚀</h2>
+                    <p class="text-lg mb-8">
+                        Groq is a startup that designs highly specialized processor chips aimed specifically at running
+                        inference on large language models. They've introduced what they call the Language Processing
+                        Unit (LPU), and the speed is astounding—capable of producing 500 to 800 tokens per second or
+                        more. I've become a big fan of Groq and their community;
+                    </p>
+                    <p class="text-lg mb-8">
+                        I admire what they're doing. It feels like after discovering electricity, the next challenge is
+                        moving it around quickly and efficiently. Groq is doing just that for Artificial Intelligence,
+                        making it easily accessible everywhere. They've opened up their API to the cloud, but as of now,
+                        they lack a function call capability.
+                    </p>
+                    <p class="text-lg mb-8">
+                        Unable to wait for this feature, I built a proxy that enables function calls using the OpenAI
+                        interface, allowing it to be called from any library. This engineering workaround has proven to
+                        be immensely useful in my company for various projects. Here's the link to the GitHub repository
+                        where you can explore and play around with it. I've included some examples in this collaboration
+                        for you to check out.
+                    </p>
+                    <img
+                        src="https://res.cloudinary.com/kidocode/image/upload/v1710148127/GroqChip-1-Die_lgi95d.jpg"
+                        alt="Groq Chip"
+                        class="w-48 mb-8"
+                    />
+                    <img
+                        src="https://res.cloudinary.com/kidocode/image/upload/v1710142103/Stack_PBG_White_n6qdbj.svg"
+                        alt="Powered by Groq"
+                        class="w-48 mb-8"
+                    />
+
+                    <h2 class="text-3xl font-bold mb-4">Running the Proxy Locally 🖥️</h2>
+                    <p class="text-lg mb-4">To run this proxy locally on your own machine, follow these steps:</p>
+                    <ol class="list-decimal list-inside mb-8">
+                        <li>Clone the GitHub repository:</li>
+                        <pre
+                            class="bg-gray-800 rounded p-4 mb-4"
+                        ><code class = "language-bash">git clone https://github.com/unclecode/groqcall.git</code></pre>
+                        <li>Navigate to the project directory:</li>
+                        <pre
+                            class="bg-gray-800 rounded p-4 mb-4"
+                        ><code class = "language-bash">cd groqcall</code></pre>
+                        <li>Create a virtual environment:</li>
+                        <pre
+                            class="bg-gray-800 rounded p-4 mb-4"
+                        ><code class = "language-bash">python -m venv venv</code></pre>
+                        <li>Activate the virtual environment:</li>
+                        <pre
+                            class="bg-gray-800 rounded p-4 mb-4"
+                        ><code class = "language-bash">source venv/bin/activate</code></pre>
+                        <li>Install the required libraries:</li>
+                        <pre
+                            class="bg-gray-800 rounded p-4 mb-4"
+                        ><code class = "language-bash">pip install -r requirements.txt</code></pre>
+                        <li>Run the FastAPI server:</li>
+                        <pre
+                            class="bg-gray-800 rounded p-4"
+                        ><code class = "language-bash">.venv/bin/uvicorn --app-dir app/ main:app --reload</code></pre>
+                    </ol>
+                    <h2 class="text-3xl font-bold mb-4">Using the Pre-built Server 🌐</h2>
+                    <p class="text-lg mb-8">
+                        For your convenience, I have already set up a server that you can use temporarily. This allows
+                        you to quickly start using the proxy without having to run it locally.
+                    </p>
+                    <p class="text-lg mb-8">
+                        To use the pre-built server, simply make requests to the following base URL:
+                        <code class="bg-gray-800 rounded px-2 py-1">https://groqcall.ai/proxy/groq/v1</code>
+                    </p>
+
+                    <h2 class="text-3xl font-bold mb-4">Exploring GroqCall.ai 🚀</h2>
+                    <p class="text-lg mb-8">
+                        This README is organized into three main sections, each showcasing different aspects of
+                        GroqCall.ai:
+                    </p>
+                    <ul class="list-disc list-inside mb-8">
+                        <!-- set line height to 1.5 -->
+                        <li class="mb-4 leading-7">
+                            <strong>Sending POST Requests</strong>: Here, I explore the functionality of sending direct
+                            POST requests to LLMs using GroqCall.ai. This section highlights the flexibility and
+                            control offered by the library when interacting with LLMs.
+                        </li>
+                        <li class="mb-4 leading-7">
+                            <strong>FunckyHub</strong>: The third section introduces the concept of FunckyHub, a useful
+                            feature that simplifies the process of executing functions. With FunckyHub, there is no need
+                            to send the function JSON schema explicitly, as the functions are already hosted on the
+                            proxy server. This approach streamlines the workflow, allowing developers to obtain results
+                            with a single call without having to handle function calls in a production server.
+                        </li>
+                        <li class="mb-4 leading-7">
+                            <strong>Using GroqCall with PhiData</strong>: In this section, I demonstrate how
+                            GroqCall.ai can be seamlessly integrated with other libraries such as my favorite one, the
+                            PhiData library, leveraging its built-in tools to connect to LLMs and perform external tool
+                            requests.
+                        </li>
+                    </ul>
+                    <pre
+                        class="rounded p-4 mb-4"
+                    ><code class="language-bash"># The following libraries are optional if you&#39;re interested in using PhiData or managing your tools on the client side.
+    !pip install phidata &gt; /dev/null
+    !pip install openai &gt; /dev/null
+    !pip install duckduckgo-search &gt; /dev/null
+    </code></pre>
+                    <h2 class="text-3xl font-bold mb-4">Sending POST request, with full functions implementation</h2>
+                    <p class="text-lg mb-8">
+                        Check out the example file
+                        <a href="examples/example_2.py" class="text-blue-500 underline">example_2.py</a>
+                        for a full implementation of the following code.
+                    </p>
+                    <pre class="rounded p-4 mb-4"><code class="language-python">from duckduckgo_search import DDGS
+    import requests, os
+    import json
+    
+    # Here you pass your own GROQ API key
+    api_key=userdata.get(&quot;GROQ_API_KEY&quot;)
+    header = {
+        &quot;Authorization&quot;: f&quot;Bearer {api_key}&quot;,
+        &quot;Content-Type&quot;: &quot;application/json&quot;
+    }
+    proxy_url = &quot;https://groqcall.ai/proxy/groq/v1/chat/completions&quot;
+    
+    
+    def duckduckgo_search(query, max_results=None):
+        &quot;&quot;&quot;
+        Use this function to search DuckDuckGo for a query.
+        &quot;&quot;&quot;
+        with DDGS() as ddgs:
+            return [r for r in ddgs.text(query, safesearch=&#39;off&#39;, max_results=max_results)]
+    
+    def duckduckgo_news(query, max_results=None):
+        &quot;&quot;&quot;
+        Use this function to get the latest news from DuckDuckGo.
+        &quot;&quot;&quot;
+        with DDGS() as ddgs:
+            return [r for r in ddgs.news(query, safesearch=&#39;off&#39;, max_results=max_results)]
+    
+    function_map = {
+        &quot;duckduckgo_search&quot;: duckduckgo_search,
+        &quot;duckduckgo_news&quot;: duckduckgo_news,
+    }
+    
+    request = {
+        &quot;messages&quot;: [
+            {
+                &quot;role&quot;: &quot;system&quot;,
+                &quot;content&quot;: &quot;YOU MUST FOLLOW THESE INSTRUCTIONS CAREFULLY.\n&lt;instructions&gt;\n1. Use markdown to format your answers.\n&lt;/instructions&gt;&quot;
+            },
+            {
+                &quot;role&quot;: &quot;user&quot;,
+                &quot;content&quot;: &quot;Whats happening in France? Summarize top stories with sources, very short and concise.&quot;
+            }
+        ],
+        &quot;model&quot;: &quot;mixtral-8x7b-32768&quot;,
+        &quot;tool_choice&quot;: &quot;auto&quot;,
+        &quot;tools&quot;: [
+            {
+                &quot;type&quot;: &quot;function&quot;,
+                &quot;function&quot;: {
+                    &quot;name&quot;: &quot;duckduckgo_search&quot;,
+                    &quot;description&quot;: &quot;Use this function to search DuckDuckGo for a query.\n\nArgs:\n    query(str): The query to search for.\n    max_results (optional, default=5): The maximum number of results to return.\n\nReturns:\n    The result from DuckDuckGo.&quot;,
+                    &quot;parameters&quot;: {
+                        &quot;type&quot;: &quot;object&quot;,
+                        &quot;properties&quot;: {
+                            &quot;query&quot;: {
+                                &quot;type&quot;: &quot;string&quot;
+                            },
+                            &quot;max_results&quot;: {
+                                &quot;type&quot;: [
+                                    &quot;number&quot;,
+                                    &quot;null&quot;
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                &quot;type&quot;: &quot;function&quot;,
+                &quot;function&quot;: {
+                    &quot;name&quot;: &quot;duckduckgo_news&quot;,
+                    &quot;description&quot;: &quot;Use this function to get the latest news from DuckDuckGo.\n\nArgs:\n    query(str): The query to search for.\n    max_results (optional, default=5): The maximum number of results to return.\n\nReturns:\n    The latest news from DuckDuckGo.&quot;,
+                    &quot;parameters&quot;: {
+                        &quot;type&quot;: &quot;object&quot;,
+                        &quot;properties&quot;: {
+                            &quot;query&quot;: {
+                                &quot;type&quot;: &quot;string&quot;
+                            },
+                            &quot;max_results&quot;: {
+                                &quot;type&quot;: [
+                                    &quot;number&quot;,
+                                    &quot;null&quot;
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+    
+    response = requests.post(
+        proxy_url,
+        headers=header,
+        json=request
+    )
+    if response.status_code == 200:
+        res = response.json()
+        message = res[&#39;choices&#39;][0][&#39;message&#39;]
+        tools_response_messages = []
+        if not message[&#39;content&#39;] and &#39;tool_calls&#39; in message:
+            for tool_call in message[&#39;tool_calls&#39;]:
+                tool_name = tool_call[&#39;function&#39;][&#39;name&#39;]
+                tool_args = tool_call[&#39;function&#39;][&#39;arguments&#39;]
+                tool_args = json.loads(tool_args)
+                if tool_name not in function_map:
+                    print(f&quot;Error: {tool_name} is not a valid function name.&quot;)
+                    continue
+                tool_func = function_map[tool_name]
+                tool_response = tool_func(**tool_args)
+                tools_response_messages.append({
+                    &quot;role&quot;: &quot;tool&quot;, &quot;content&quot;: json.dumps(tool_response)
+                })
+    
+            if tools_response_messages:
+                request[&#39;messages&#39;] += tools_response_messages
+                response = requests.post(
+                    proxy_url,
+                    headers=header,
+                    json=request
+                )
+                if response.status_code == 200:
+                    res = response.json()
+                    print(res[&#39;choices&#39;][0][&#39;message&#39;][&#39;content&#39;])
+                else:
+                    print(&quot;Error:&quot;, response.status_code, response.text)
+        else:
+            print(message[&#39;content&#39;])
+    else:
+        print(&quot;Error:&quot;, response.status_code, response.text)
+    </code></pre>
+                    <h2 class="text-3xl font-bold mb-4">Schema-less Function Call 🤩</h2>
+                    <p class="text-lg mb-8">
+                        Check out the example file
+                        <a href="examples/example_3.py" class="text-blue-500 underline">example_3.py</a>
+                        for a full implementation of the following code.
+                    </p>
+                    <p class="text-lg mb-8">
+                        In this method, we only need to provide the function's name, which consists of two parts, acting
+                        as a sort of namespace. The first part identifies the library or toolkit containing the
+                        functions, and the second part specifies the function's name, assuming it's already available on
+                        the proxy server. I aim to collaborate with the community to incorporate all typical functions,
+                        eliminating the need for passing a schema. Without having to handle function calls ourselves, a
+                        single request to the proxy enables it to identify and execute the functions, retrieve responses
+                        from large language models, and return the results to us. Thanks to Groq, all of this occurs in
+                        just seconds.
+                    </p>
+                    <pre
+                        class="bg-gray-800 rounded p-4 mb-4"
+                    ><code class="language-python">from duckduckgo_search import DDGS
+    import requests, os
+    api_key = userdata.get(&quot;GROQ_API_KEY&quot;)
+    header = {
+        &quot;Authorization&quot;: f&quot;Bearer {api_key}&quot;,
+        &quot;Content-Type&quot;: &quot;application/json&quot;
+    }
+    
+    proxy_url = &quot;https://groqcall.ai/proxy/groq/v1/chat/completions&quot;
+    
+    
+    request = {
+        &quot;messages&quot;: [
+            {
+                &quot;role&quot;: &quot;system&quot;,
+                &quot;content&quot;: &quot;YOU MUST FOLLOW THESE INSTRUCTIONS CAREFULLY.\n&lt;instructions&gt;\n1. Use markdown to format your answers.\n&lt;/instructions&gt;&quot;,
+            },
+            {
+                &quot;role&quot;: &quot;user&quot;,
+                &quot;content&quot;: &quot;Whats happening in France? Summarize top stories with sources, very short and concise. Also please search about the histoy of france as well.&quot;,
+            },
+        ],
+        &quot;model&quot;: &quot;mixtral-8x7b-32768&quot;,
+        &quot;tool_choice&quot;: &quot;auto&quot;,
+        &quot;tools&quot;: [
+            {
+                &quot;type&quot;: &quot;function&quot;,
+                &quot;function&quot;: {
+                    &quot;name&quot;: &quot;duckduck.search&quot;,
+                },
+            },
+            {
+                &quot;type&quot;: &quot;function&quot;,
+                &quot;function&quot;: {
+                    &quot;name&quot;: &quot;duckduck.news&quot;,
+                },
+            },
+        ],
+    }
+    
+    response = requests.post(
+        proxy_url,
+        headers=header,
+        json=request,
+    )
+    
+    if response.status_code == 200:
+        res = response.json()
+        print(res[&quot;choices&quot;][0][&quot;message&quot;][&quot;content&quot;])
+    else:
+        print(&quot;Error:&quot;, response.status_code, response.text)
+    </code></pre>
+                    <h2 class="text-3xl font-bold mb-4">Using with PhiData</h2>
+                    <p class="text-lg mb-8">
+                        Check out the example file
+                        <a href="examples/example_1.py" class="text-blue-500 underline">example_1.py</a>
+                        for a full implementation of the following code.
+                    </p>
+                    <p class="text-lg mb-8">
+                        PhiData is a favorite of mine for creating AI assistants, thanks to its beautifully simplified
+                        interface, unlike the complexity seen in the LangChain library and LlamaIndex. I use it for many
+                        projects and want to give kudos to their team. It's open source, and I recommend everyone check
+                        it out. You can explore more from this link:
+                        <a href="https://github.com/phidatahq/phidata" class="text-blue-500 underline"
+                            >https://github.com/phidatahq/phidata</a
+                        >.
+                    </p>
+                    <pre
+                        class="bg-gray-800 rounded p-4 mb-4"
+                    ><code class="language-python">from google.README import userdata
+    from phi.llm.openai.like import OpenAILike
+    from phi.assistant import Assistant
+    from phi.tools.duckduckgo import DuckDuckGo
+    import os, json
+    
+    
+    my_groq = OpenAILike(
+            model=&quot;mixtral-8x7b-32768&quot;,
+            api_key=userdata.get(&quot;GROQ_API_KEY&quot;),
+            base_url=&quot;https://groqcall.ai/proxy/groq/v1&quot;
+        )
+    assistant = Assistant(
+        llm=my_groq,
+        tools=[DuckDuckGo()], show_tool_calls=True, markdown=True
+    )
+    assistant.print_response(&quot;Whats happening in France? Summarize top stories with sources, very short and concise.&quot;, stream=False)
+    
+    </code></pre>
+                    <h2 class="text-3xl font-bold mb-4">Contributions Welcome! 🙌</h2>
+                    <p class="text-lg mb-8">
+                        I am excited to extend and grow this repository by adding more built-in functions and
+                        integrating additional services. If you are interested in contributing to this project and being
+                        a part of its development, I would love to collaborate with you! I plan to create a discord
+                        channel for this project, where we can discuss ideas, share knowledge, and work together to
+                        enhance the repository.
+                    </p>
+                    <p class="text-lg mb-4">Here's how you can get involved:</p>
+                    <ol class="list-decimal list-inside mb-8">
+                        <li>Fork the repository and create your own branch.</li>
+                        <li>
+                            Implement new functions, integrate additional services, or make improvements to the existing
+                            codebase.
+                        </li>
+                        <li>Test your changes to ensure they work as expected.</li>
+                        <li>Submit a pull request describing the changes you have made and why they are valuable.</li>
+                    </ol>
+                    <p class="text-lg mb-8">
+                        If you have any ideas, suggestions, or would like to discuss potential contributions, feel free
+                        to reach out to me. You can contact me through the following channels:
+                    </p>
+                    <ul class="list-disc list-inside mb-8">
+                        <li>Twitter (X): @unclecode</li>
+                        <li>
+                            Email:
+                            <a href="mailto:unclecode@kidocode.com" class="text-blue-500 underline"
+                                >unclecode@kidocode.com</a
+                            >
+                        </li>
+                    </ul>
+                    <p class="text-lg mb-8">
+                        I'm open to collaboration and excited to see how we can work together to enhance this project
+                        and provide value to the community. Let's connect and explore how we can help each other!
+                    </p>
+                    <p class="text-lg mb-8">Together, let's make this repository even more awesome! 🚀</p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
