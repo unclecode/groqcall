@@ -1,13 +1,26 @@
 from fastapi import APIRouter, Response, Request, Path, Query
 from fastapi.responses import JSONResponse
-from libs.chains import (
+# from libs.chains import (
+#     Context,
+#     ProviderSelectionHandler,
+#     ImageMessageHandler,
+#     ToolExtractionHandler,
+#     ToolResponseHandler,
+#     DefaultCompletionHandler,
+#     FallbackHandler,
+# )
+
+from libs import (
     Context,
     ProviderSelectionHandler,
+    ImageMessageHandler,
     ToolExtractionHandler,
     ToolResponseHandler,
     DefaultCompletionHandler,
     FallbackHandler,
 )
+
+
 from typing import Optional
 
 router = APIRouter()
@@ -45,15 +58,27 @@ async def post_chat_completions(
 
         # Initialize and link the handlers
         provider_selection_handler = ProviderSelectionHandler()
+        image_message_handler = ImageMessageHandler()
         tool_extraction_handler = ToolExtractionHandler()
         tool_response_handler = ToolResponseHandler()
         default_completion_handler = DefaultCompletionHandler()
         fallback_handler = FallbackHandler()
 
         # Set up the chain of responsibility
-        provider_selection_handler.set_next(tool_extraction_handler).set_next(
-            tool_response_handler
-        ).set_next(default_completion_handler).set_next(fallback_handler)
+        chains = [
+            provider_selection_handler,
+            image_message_handler,
+            tool_extraction_handler,
+            tool_response_handler,
+            default_completion_handler,
+            fallback_handler,
+        ]
+        for i in range(len(chains) - 1):
+            chains[i].set_next(chains[i + 1])
+
+        # provider_selection_handler.set_next(tool_extraction_handler).set_next(
+        #     tool_response_handler
+        # ).set_next(default_completion_handler).set_next(fallback_handler)
 
         # Execute the chain with the initial context
         response = await provider_selection_handler.handle(context)
