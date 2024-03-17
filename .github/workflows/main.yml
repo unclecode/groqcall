@@ -1,0 +1,62 @@
+name: Auto PR and Merge on Push by Specific User
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  auto-pr-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check User
+        id: check_user
+        run: |
+          echo "user_matched=${{ github.actor == 'unclecode' }}"
+          echo "user_matched=${{ github.actor == 'unclecode' }}" >> $GITHUB_ENV
+
+      - name: Create Pull Request
+        if: env.user_matched == 'true'
+        id: create_pull_request
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const payload = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: 'main',
+              base: 'live',
+              title: 'Auto PR from main to live',
+              body: 'Automatically generated PR to keep live branch up-to-date',
+              draft: false,
+            };
+            
+            // Create the pull request
+            await github.rest.pulls.create(payload).then(pr => {
+              core.setOutput('pr_number', pr.data.number);
+            }).catch(err => core.setFailed(`Failed to create PR: ${err.message}`));
+
+      - name: Merge Pull Request
+        if: env.user_matched == 'true'
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const pr_number = ${{ steps.create_pull_request.outputs.pr_number }};
+            if (!pr_number) {
+              core.setFailed('PR number is undefined, skipping merge.');
+              return;
+            }
+
+            const payload = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: parseInt(pr_number, 10),
+              merge_method: 'merge', // Options: 'merge', 'squash', or 'rebase'
+            };
+            
+            // Attempt to merge the pull request
+            await github.rest.pulls.merge(payload).then(response => {
+              if (response.status !== 200) {
+                core.setFailed('Failed to merge the pull request');
+              }
+            }).catch(err => core.setFailed(`Failed to merge PR: ${err.message}`));
