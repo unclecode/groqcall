@@ -309,4 +309,4 @@ class FallbackHandler(Handler):
 class ExceptionHandler(Handler):
     async def handle(self, context: Context, exception: Exception):
         print(f"Error processing the request: {exception}")
-        return JSONResponse(content={"error": "An unexpected error occurred"}, status_code=500)
+        return JSONResponse(content={"error": "An unexpected error occurred. " + str(exception)}, status_code=500)
