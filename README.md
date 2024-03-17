@@ -31,11 +31,14 @@ To run this proxy locally on your own machine, follow these steps:
 3. Create a virtual environment:
 ```python -m venv venv```
 
-4. Install the required libraries:
+4. Activate virtual environment:
+```source venv/bin/activate```
+
+5. Install the required libraries:
 ```pip install -r requirements.txt```
 
-5. Run the FastAPI server:
-```uvicorn --app-dir app/ main:app --reload```
+6. Run the FastAPI server:
+```./venv/bin/uvicorn --app-dir app/ main:app --reload```
 
 
 ## Using the Pre-built Server 🌐
