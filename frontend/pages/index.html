@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>GroqCall</title>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-        <link href="/static/markdown.css" rel="stylesheet" />s
+        <link href="/static/markdown.css" rel="stylesheet" />
         <style>
             html,
             body {
@@ -42,9 +42,6 @@
         </main>
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script>
-            // script.js
-
-            // GitHub repository URL
             const repoUrl = "https://api.github.com/repos/unclecode/groqcall/contents/README.md";
             //const repoUrl = "http://0.0.0.0:8000/static/README.md";
 
@@ -76,9 +73,9 @@
                 const readmeContainer = document.getElementById("readme-container");
 
                 // Check if README content is already cached
-                const cachedReadmeContent = null; //localStorage.getItem("readmeContent");
+                const cachedReadmeContent = localStorage.getItem("readmeContent");
 
-                if (cachedReadmeContent) {
+                if (false && cachedReadmeContent) {
                     // Use cached content
                     readmeContainer.innerHTML = markdownToHtml(cachedReadmeContent);
                 } else {
