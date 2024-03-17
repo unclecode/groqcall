@@ -116,10 +116,14 @@
                         <pre
                             class="bg-gray-800 rounded p-4 mb-4"
                         ><code class = "language-bash">cd groqcall</code></pre>
-                        <li>SCreate a virtual environment:</li>
+                        <li>Create a virtual environment:</li>
                         <pre
                             class="bg-gray-800 rounded p-4 mb-4"
                         ><code class = "language-bash">python -m venv venv</code></pre>
+                        <li>Activate the virtual environment:</li>
+                        <pre
+                            class="bg-gray-800 rounded p-4 mb-4"
+                        ><code class = "language-bash">source venv/bin/activate</code></pre>
                         <li>Install the required libraries:</li>
                         <pre
                             class="bg-gray-800 rounded p-4 mb-4"
@@ -127,7 +131,7 @@
                         <li>Run the FastAPI server:</li>
                         <pre
                             class="bg-gray-800 rounded p-4"
-                        ><code class = "language-bash">uvicorn --app-dir app/ main:app --reload</code></pre>
+                        ><code class = "language-bash">.venv/bin/uvicorn --app-dir app/ main:app --reload</code></pre>
                     </ol>
                     <h2 class="text-3xl font-bold mb-4">Using the Pre-built Server 🌐</h2>
                     <p class="text-lg mb-8">
