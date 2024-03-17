@@ -58,9 +58,9 @@
             async function fetchReadmeContent() {
                 try {
                     const response = await fetch(repoUrl);
-                    <!-- const data = await response.text()
-                    const readmeContent = data
-                    return readmeContent; -->
+                    //const data = await response.text()
+                    //const readmeContent = data
+                    //return readmeContent; 
 
                     const data = await response.json();
                     const readmeContent = atob(data.content);
