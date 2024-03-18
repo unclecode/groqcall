@@ -42,10 +42,9 @@ class ToolExtractionHandler(Handler):
     async def handle(self, context: Context):
         body = context.body
         if context.is_tool_call:
-
             # Prepare the messages and tools for the tool extraction
             messages = [
-                f"{m['role'].title()}: {m['content']}"
+                f"<{m['role'].lower()}>\n{m['content']}\n</{m['role'].lower()}>"
                 for m in context.messages
                 if m["role"] != "system"
             ]
@@ -80,11 +79,13 @@ class ToolExtractionHandler(Handler):
             )
             suffix = SUFFIX if not forced_mode else get_forced_tool_suffix(tool_choice)
 
+            messages_flatten = '\n'.join(messages)
+
             new_messages = [
                 {"role": "system", "content": system_message},
                 {
                     "role": "system",
-                    "content": f"Conversation History:\n{''.join(messages)}\n\nTools: \n{tools_json}\n\n{suffix}",
+                    "content": f"# Conversation History:\n{messages_flatten}\n\n# Available Tools: \n{tools_json}\n\n{suffix}",
                 },
             ]
 
