@@ -41,7 +41,7 @@ Jinja2==3.1.3
 jmespath==1.0.1
 jupyter_client==8.6.0
 jupyter_core==5.7.1
-litellm==1.29.1
+litellm==1.31.8
 lxml==5.1.0
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
@@ -76,6 +76,7 @@ pytz==2024.1
 PyYAML==6.0.1
 pyzmq==25.1.2
 regex==2023.12.25
+replicate==0.24.0
 requests==2.31.0
 rich==13.7.1
 s3transfer==0.10.0
