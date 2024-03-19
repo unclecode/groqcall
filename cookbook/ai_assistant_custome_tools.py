@@ -28,15 +28,38 @@ class CinemaTools(Toolkit):
         self.email_tools = email_tools
         self.register(self.book_cinema_ticket)
 
-    def book_cinema_ticket(self, movie_name: str, date: str, time: str, user_email: Optional[str] = None) -> str:
-        """Books a cinema ticket for the given movie, date, and time, and sends an email to the user.
+    def book_cinema_ticket(self, movie_name: str, date: Optional[str] = None, time: Optional[str] = None, user_email: Optional[str] = None) -> str:
+        # """Books a cinema ticket for the given movie, date, and time, and sends an email to the user.
+        """Use this function ONLY for booking a ticket, when all info is available (movie name, date, time and suer email). Do NOT use this function when user asks for movie details and other things
 
-        :param movie_name: The name of the movie.
-        :param date: The date of the movie (e.g., "2023-06-15").
-        :param time: The time of the movie (e.g., "19:30").
-        :param user_email: The email address of the user.
-        :return: "success" if the ticket was booked and email sent successfully, "error: [error message]" otherwise.
+        Args:
+            movie_name (str): The name of the movie.
+            date (Optional[str], optional): The date of the movie.
+            time (Optional[str], optional): The time of the movie.
+            user_email (Optional[str], optional): The email of the user. Defaults to None.
+
+        Returns:
+            The result of the operation.
+
         """
+
+        anything_missed = any([not movie_name, not date, not time, not user_email])
+
+        missed_items = []
+
+        if anything_missed:
+            if not date:
+                missed_items.append( "error: No date provided, I need a date to book a ticket")
+            
+            if not time:
+                missed_items.append( "error: No time provided, I need a time to book a ticket")
+            
+            if not user_email:
+                missed_items.append( "error: No user email provided, I need an email to send the ticket")
+
+            missed_itemes = ", ".join(missed_items)
+            return f"There are some missing items: \n{missed_itemes}"
+
         # Simulate booking the ticket
         ticket_number = self._generate_ticket_number()
         logger.info(f"Booking ticket for {movie_name} on {date} at {time}")
@@ -115,7 +138,7 @@ def cinemax_assistant(new: bool = False, user: str = "user"):
         if message in ("exit", "bye"):
             break
         assistant.print_response(message, markdown=True, stream=False)
-        # assistant.run(message, markdown=True, stream=False)
+        # response = assistant.run(message, stream=False)
 
 if __name__ == "__main__":
     cinemax_assistant(user="Tom")
