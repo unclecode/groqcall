@@ -228,10 +228,10 @@ class ToolResponseHandler(Handler):
                 return JSONResponse(content=context.response, status_code=200)
             except Exception as e:
                 # Log the exception or handle it as needed
-                print(e)
-                context.response = {
-                    "error": "An error occurred processing the tool response"
-                }
-                return JSONResponse(content=context.response, status_code=500)
+                # context.response = {
+                #     "error": "An error occurred processing the tool response"
+                # }
+                # return JSONResponse(content=context.response, status_code=500)
+                raise e
 
         return await super().handle(context)
