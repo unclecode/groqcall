@@ -20,7 +20,7 @@ class Handler(ABC):
             except Exception as e:
                 _exception_handler: "Handler" = ExceptionHandler()
                 # Extract the stack trace and log the exception
-                return await _exception_handler.handle(context, e)
+                return await _exception_handler.handle(self._next_handler, context, e)
 
 
 class DefaultCompletionHandler(Handler):
@@ -51,11 +51,11 @@ class FallbackHandler(Handler):
 
 
 class ExceptionHandler(Handler):
-    async def handle(self, context: Context, exception: Exception):
-        print(f"Error processing the request: {exception}")
-        print(traceback.format_exc())
+    async def handle(self, handler: Handler, context: Context, exception: Exception):
+        print(f"Error processing the request: {str(handler.__class__) } - {exception}")
+        # print(traceback.format_exc())
         return JSONResponse(
-            content={"error": "An unexpected error occurred. " + str(exception)},
+            content={"error": "An unexpected error occurred, within handler " + str(handler.__class__) + " : " + str(exception)},
             status_code=500,
         )
 
