@@ -1,7 +1,7 @@
 # GroqCall.ai - Lightning-Fast LLM Function Calls
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q3is7qynCsx4s7FBznCfTMnokbKWIv1F?usp=sharing)
-[![Version](https://img.shields.io/badge/version-0.0.4-blue.svg)](https://github.com/unclecode/groqcall)
+[![Version](https://img.shields.io/badge/version-0.0.5-blue.svg)](https://github.com/unclecode/groqcall)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 GroqCall is a proxy server that enables lightning-fast function calls for Groq's Language Processing Unit (LPU) and other AI providers. It simplifies the creation of AI assistants by offering a wide range of built-in functions hosted on the cloud.
