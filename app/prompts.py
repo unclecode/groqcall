@@ -69,9 +69,7 @@ You should think step by step, provide your reasoning for your response, then ad
 
 CLEAN_UP_MESSAGE = "When I tried to extract the content between ```json and ``` and parse the content to valid JSON object, I faced with the abovr error. Remember, you are supposed to wrap the schema between ```json and ```, and do this only one time. First find out what went wrong, that I couldn't extract the JSON between ```json and ```, and also faced error when trying to parse it, then regenerate the your last message and fix the issue."
 
-SUFFIX = """
-
-# Example of your response:
+SUFFIX = """# Example of your response:
 <justification>
 Here you explain why you think a tool or multiple tools are needed and how you extracted the values for the parameters from the user's last message and the conversation history. Also, you may explain why there is no need for any tools.
 </justification>
@@ -103,17 +101,23 @@ Think step by step and justify your response in only two sentences.
 Remember: 
 - You may select multiple tools if needed.
 - **IF for some arguments there is no direct and clear value based ont he history of conversation and user last message then assign null to them. Therefore NEVER TRY TO GUESS THE VALUE.**
-- ONLY USE THE MENTIONED TOOLS ABOVE AND NOTHING OUT OF THAT.
+- **ONLY USE THE MENTIONED TOOLS ABOVE AND NOTHING OUT OF THAT. Do not suggest a function that is not in the list of tools.**
 - BE CONCISE AND TO THE POINT. DO NOT ADD ANY UNNECESSARY INFORMATION. MAKER YOUR JUSTIFICATION SHORT.
 - **Dont forget to refer to the histocry of conversation, when you are trying to figure out values of arguments for tool(s) you picked up.**
 - **Some time user may have to refer to the previous messages, to extract the proepr value fo ruser arguments, becuase user may refer to them in his/her last message.**
-- **Use the user;s last message to detect the tool(s) you need to call, and use the history of conversation to extract the values of arguments for the tool(s) you picked up.**
+- **Use the user's last message to detect the tool(s) you need to call, and use the history of conversation to extract the values of arguments for the tool(s) you picked up.**
+
+IMPORTANT: Not every situiation need a tools, so don't force it, if the question doesn't match with any of tools simply retirn an empty list for "tool_calls" and justify your response.
+
+
+# FEW SHOTS: Here we provide some example for you to learn how to generate your response.
+<few_shots>
+FEW_SHOTS
+</few_shots>
 
 Make decision based on on the last user message:"""
 
-ENFORCE_SUFFIX = """
-
-# Example of your response:
+ENFORCE_SUFFIX = """# Example of your response:
 <selected_tool_arguments_data> 
 {
     "tool_calls" : [{
@@ -128,12 +132,12 @@ ENFORCE_SUFFIX = """
 
 NOTE:
 - **IF for some arguments there is no direct and clear value based ont he history of conversation and user last message then assign null to them. Therefore NEVER TRY TO GUESS THE VALUE.**
-- ONLY USE THE MENTIONED TOOL ABOVE AND NOTHING OUT OF THAT.
+- **ONLY USE THE MENTIONED TOOLS ABOVE AND NOTHING OUT OF THAT. Do not suggest a function that is not in the list of tools.**
 - BE CONCISE AND TO THE POINT. DO NOT ADD ANY UNNECESSARY INFORMATION. MAKER YOUR JUSTIFICATION SHORT.
 - **Dont forget to refer to histocy of conversation, when you are trying to figure out values of arguments for the given tool (function).**
 - **Some time user may have to refer to the previous messages so you can find the argument value from there.**
 
-Make decision based on on the last user's message:"""
+Now extract required data for this tool argument, if any. Make your decision based on on the last user's message:"""
 
 
 TOOLS_OPEN_TOKEN = "<selected_tools>"
@@ -146,14 +150,313 @@ FORCE_CALL_SUFFIX = """For this task, you HAVE to choose the tool (function) {to
 IMAGE_DESCRIPTO_PROMPT = """The user has uploaded an image. List down in very detail what the image is about. List down all objetcs you see and their description. Your description should be enough for a blind person to be able to visualize the image and answe ny question about it."""
 
 
-
-
-
-def get_forced_tool_suffix(tool_name : str) -> str:
+def get_forced_tool_suffix(tool_name: str) -> str:
     return FORCE_CALL_SUFFIX.format(tool_name=tool_name)
 
-def get_func_result_guide(function_call_result : str) -> str:
+
+def get_func_result_guide(function_call_result: str) -> str:
     return f"SYSTEM MESSAGE: \n```json\n{function_call_result}\n```\n\nThe above is the result after functions are called. Use the result to answer the user's last question.\n\n"
 
-def get_image_desc_guide(ref_index: int, description : str) -> str:
+
+def get_image_desc_guide(ref_index: int, description: str) -> str:
     return f"IMAGE: [{ref_index}] : {description}.\n\n"
+
+
+FEW_SHOTS = [
+    {
+        "input": """# Conversation History:
+<user>
+I'm planning a birthday party for my friend. Can you suggest some good catering options?
+</user>
+
+# Available Tools:
+[
+    {
+        "name": "get_catering_options",
+        "description": "Use this function to retrieve a list of available catering options based on the type of event and dietary preferences.\n\n:param event_type: The type of event (e.g., birthday, wedding, corporate).\n:param dietary_preferences: Any specific dietary preferences or restrictions (e.g., vegetarian, gluten-free).\n:return: A string containing the list of catering options matching the provided criteria.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "event_type": {
+                    "type": "string"
+                },
+                "dietary_preferences": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    {
+        "name": "book_catering",
+        "description": "Use this function to book a catering service when all required information is available (selected catering option, event details, and payment information).\n\nArgs:\n    selected_option (str): The selected catering option.\n    event_details (dict): The details of the event (date, time, location, number of guests).\n    payment_info (dict): The payment information provided by the user.\n\nReturns:\n    The result of the booking operation.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "selected_option": {
+                    "type": "string"
+                },
+                "event_details": {
+                    "type": "object"
+                },
+                "payment_info": {
+                    "type": "object"
+                }
+            }
+        }
+    }
+]""",
+        "output": """<justification>
+The user is asking for suggestions on catering options for a birthday party. We can use the "get_catering_options" tool to retrieve a list of suitable options based on the event type (birthday) and any dietary preferences provided by the user.
+</justification>
+
+<selected_tools>
+{
+    "tool_calls": [
+        {
+            "name": "get_catering_options",
+            "arguments": {
+                "event_type": "birthday",
+                "dietary_preferences": ""
+            }
+        }
+    ]
+}
+</selected_tools>""",
+    },
+    {
+        "input": """# Conversation History:
+<user>
+I'm looking for a new laptop for work. Any recommendations?
+</user>
+<assistant>
+Sure, I can help you with that. To provide the best recommendations, could you please share some more information about your requirements? Here are a few questions to consider:
+
+1. What is your budget range?
+2. What size laptop do you prefer (e.g., 13-inch, 15-inch)?
+3. Do you have any specific performance requirements (e.g., processor, RAM, storage)?
+4. Are there any particular features you're looking for (e.g., long battery life, lightweight)?
+
+Once you provide these details, I can suggest some laptop models that would suit your needs.
+</assistant>
+<user>
+Thanks for the questions. My budget is around $1,500, and I prefer a 14-inch or 15-inch laptop. I need a powerful processor and at least 16GB of RAM for running multiple applications simultaneously. A long battery life would be a plus.
+</user>
+
+# Available Tools:
+[
+    {
+        "name": "get_laptop_recommendations",
+        "description": "Use this function to retrieve a list of laptop recommendations based on the provided criteria (budget, size, performance requirements, and features).\n\n:param criteria: A dictionary containing the user's laptop preferences.\n:return: A string containing the list of laptop recommendations matching the provided criteria.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "criteria": {
+                    "type": "object"
+                }
+            }
+        }
+    },
+    {
+        "name": "compare_laptops",
+        "description": "Use this function to compare the specifications and features of two or more laptop models.\n\n:param laptop_models: A list of laptop models to compare.\n:return: A string containing the comparison of the provided laptop models.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "laptop_models": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+]""",
+        "output": """<justification>
+The user has provided specific criteria for laptop recommendations, including budget, size, performance requirements, and desired features. We can use the "get_laptop_recommendations" tool to retrieve a list of laptops matching these criteria. Additionally, we can use the "compare_laptops" tool to provide a comparison of the recommended models to help the user make an informed decision.
+</justification>
+
+<selected_tools>
+{
+    "tool_calls": [
+        {
+            "name": "get_laptop_recommendations",
+            "arguments": {
+                "criteria": {
+                    "budget": 1500,
+                    "size": "14-inch or 15-inch",
+                    "performance": {
+                        "processor": "powerful",
+                        "RAM": "at least 16GB"
+                    },
+                    "features": {
+                        "battery_life": "long"
+                    }
+                }
+            }
+        },
+        {
+            "name": "compare_laptops",
+            "arguments": {
+                "laptop_models": []
+            }
+        }
+    ]
+}
+</selected_tools>""",
+    },
+    {
+        "input": """# Conversation History:
+<user>
+I'm planning a trip to Europe next month. Do you have any tips for packing light?
+</user>
+<assistant>
+Packing light is a great way to make your travel experience more enjoyable and hassle-free. Here are some tips to help you pack efficiently:
+
+1. Choose versatile clothing items that can be mixed and matched to create multiple outfits.
+2. Opt for lightweight, quick-drying fabrics that are easy to wash and don't take up much space.
+3. Limit your shoes to two or three comfortable pairs that can be worn with different outfits.
+4. Use packing cubes or compression bags to organize your belongings and save space in your luggage.
+5. Pack travel-sized toiletries and only bring the essentials.
+6. Wear your bulkiest items, like jackets or boots, on the plane to save space in your luggage.
+7. Consider doing laundry during your trip to reduce the amount of clothing you need to pack.
+
+Remember, the key is to be selective and only pack what you truly need. If you have any specific questions about packing for your European trip, feel free to ask!
+</assistant>
+<user>
+Thanks for the great advice! I'll definitely keep these tips in mind while packing. Do you have any recommendations for must-see attractions or hidden gems in Europe?
+</user>
+
+# Available Tools:
+[
+    {
+        "name": "get_packing_checklist",
+        "description": "Use this function to generate a personalized packing checklist based on the user's destination, trip duration, and travel preferences.\n\n:param destination: The user's travel destination.\n:param duration: The duration of the user's trip.\n:param preferences: Any specific travel preferences or requirements.\n:return: A string containing the personalized packing checklist.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "destination": {
+                    "type": "string"
+                },
+                "duration": {
+                    "type": "string"
+                },
+                "preferences": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+]""",
+        "output": """<justification>
+The user is asking for recommendations on must-see attractions and hidden gems in Europe, which is a broad and open-ended question. The available tool, "get_packing_checklist," is not relevant to answering this query. The best approach would be to provide a general response based on popular destinations and experiences, or ask the user for more specific information about their interests and the countries they plan to visit.
+</justification>
+
+<selected_tools>
+{
+    "tool_calls": []
+}
+</selected_tools>""",
+    },
+    {
+        "input": """# Conversation History:
+<user>
+Hi what are available comic movies on 23th March?
+</user>
+<assistant>
+Thank you for providing the information! I found two comic movies showing on March 23rd. Here are the details:
+
+1. "Never Say Never Again" - High octane thrillers, PG, 2 hrs 14 mins, 1983, HD.
+   Airing time: 2:25 PM EDT.
+
+2. "Scary Movie 3" - Slashers, PG-13, 1 hr 25 mins, 2003, HD.
+   Airing time: 11:23 PM EDT.
+
+Additionally, I noticed "The Strangers: Prey at Night" is also available on March 23rd if you're interested in a horror movie.
+- Horror, R, 1 hr 25 mins, 2018, HD.
+  Airing time: 12:03 PM EDT.
+
+Please let me know if you'd like to book any of these movies. I'm here to help!
+</assistant>
+<user>
+Interesting, tell me more about this movie "Never Say Never Again,", what is its plot?
+</user>
+
+# Available Tools: 
+[
+    {
+        "name": "get_available_slots",
+        "description": "Use this function to search the Cinemax database of available movies, show time, and date.\n\n:param query: The query to search the Cinemax database of available movies, show time, and date.\n:return: A string containing the response to the query.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "movie_slot_query": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    {
+        "name": "book_cinema_ticket",
+        "description": "Use this function ONLY for booking a ticket, when all info is available (movie name, date, time and suer email). Do NOT use this function when user asks for movie details and other things\n\nArgs:\n    movie_name (str): The name of the movie.\n    date (Optional[str], optional): The date of the movie.\n    time (Optional[str], optional): The time of the movie.\n    user_email (Optional[str], optional): The email of the user. Defaults to None.\n\nReturns:\n    The result of the operation.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "movie_name": {
+                    "type": "string"
+                },
+                "date": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "time": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "user_email": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "name": "get_chat_history",
+        "description": "Returns the chat history between the user and assistant.\n\n:param num_chats: The number of chats to return.\n    Each chat contains 2 messages. One from the user and one from the assistant.\n    Default: 3\n:return: A list of dictionaries representing the chat history.\n\nExample:\n    - To get the last chat, use num_chats=1.\n    - To get the last 5 chats, use num_chats=5.\n    - To get all chats, use num_chats=None.\n    - To get the first chat, use num_chats=None and pick the first message.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "num_chats": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                }
+            }
+        }
+    }
+]""",
+        "output": """<justification>
+The user is asking for more information that non of tools or chat history can provide. Therefore, I can't use any of the tools to answer the user's question. 
+</justification>
+
+<selected_tools>
+{
+    "tool_calls": []
+}   
+</selected_tools>""",
+    },
+]
+
+
+def get_suffix():
+    # Turn each element of FEW_SHOTS into a string like '-- EXAMPLE i ---\nINPUT:\n{input}\n\nOUTPUT:\n{output}\n\n', then join them by \n\n
+    few_shots = "\n\n".join([f'-- EXAMPLE {i} ---\nINPUT:\n{example["input"]}\n\nOUTPUT:\n{example["output"]}\n\n' for i, example in enumerate(FEW_SHOTS, 1)])
+    # Replace FEW_SHOTS with the actual examples
+    return SUFFIX.replace("FEW_SHOTS", few_shots)
