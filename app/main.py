@@ -58,7 +58,7 @@ async def index(request: Request):
 # Add an get endpoint simple return the evrsion of the app
 @app.get("/version")
 async def version():
-    return {"version": "0.0.4"}
+    return {"version": "0.0.5"}
 
 
 if __name__ == "__main__":
