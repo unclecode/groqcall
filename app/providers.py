@@ -20,7 +20,7 @@ class BaseProvider:
         pass
 
 
-class OpenAIProvider(BaseProvider):
+class OpenaiProvider(BaseProvider):
     def __init__(self, api_key: str, base_url = None):
         super().__init__(api_key)
         self._client = OpenAI(api_key=api_key)
