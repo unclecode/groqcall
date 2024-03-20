@@ -30,12 +30,13 @@ def create_logger(logger_name: str, log_path: str = ".logs/access.log", show_on_
     return logger
 
 
-def get_tool_call_response(completion, unresolved_tol_calls, resolved_responses):
+def get_tool_call_response(tool_calls_result, unresolved_tol_calls, resolved_responses):
+    last_completion = tool_calls_result["last_completion"]
     tool_response = {
-        "id": "chatcmpl-" + completion.id,
+        "id": "chatcmpl-" + last_completion.id if last_completion else None,
         "object": "chat.completion",
-        "created": completion.created,
-        "model": completion.model,
+        "created": last_completion.created if last_completion else None,
+        "model": last_completion.model if last_completion else None,
         "choices": [
             {
                 "index": 0,
@@ -49,14 +50,9 @@ def get_tool_call_response(completion, unresolved_tol_calls, resolved_responses)
             }
         ],
         "resolved": resolved_responses,
-        "usage": {
-            "prompt_tokens": completion.usage.prompt_tokens,
-            "completion_tokens": completion.usage.completion_tokens,
-            "total_tokens": completion.usage.total_tokens,
-        },
-        "system_fingerprint": completion.system_fingerprint,
+        "usage": tool_calls_result["usage"],
+        "system_fingerprint": last_completion.system_fingerprint if last_completion else None,
     }
-
     return tool_response
 
 def describe(prompt: str, image_url_or_base64 : str, **kwargs) -> str:

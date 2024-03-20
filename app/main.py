@@ -58,7 +58,7 @@ async def index(request: Request):
 # Add an get endpoint simple return the evrsion of the app
 @app.get("/version")
 async def version():
-    return {"version": "0.0.3"}
+    return {"version": "0.0.4"}
 
 
 if __name__ == "__main__":
@@ -66,5 +66,5 @@ if __name__ == "__main__":
 
     # uvicorn.run("main:app", host=os.getenv("HOST"), port=int(os.getenv('PORT')), workers=1, reload=True)
     uvicorn.run(
-        "main:app", host=os.getenv("HOST"), port=int(os.getenv("PORT")), workers=1
+        "main:app", host=os.getenv("HOST"), port=int(os.getenv("PORT")), workers=1, reload=False
     )

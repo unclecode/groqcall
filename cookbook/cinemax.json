@@ -1,0 +1,5288 @@
+[
+    {
+        "date": "March 17",
+        "name": "Barbershop 2: Back in Business",
+        "airing_time": "10:37 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 47 mins|', '2004|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Hustle & Flow",
+        "airing_time": "12:24 PM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 59 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Predators",
+        "airing_time": "2:21 PM EDT",
+        "details_spans": "['space & beyond|', 'R|', '1 hr 49 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Paranoia",
+        "airing_time": "4:08 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 48 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "XXX",
+        "airing_time": "5:55 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '2 hrs 6 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Black Mass",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['organized crime|', 'R|', '2 hrs 3 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Freedomland",
+        "airing_time": "10:03 PM EDT",
+        "details_spans": "['big screen crime|', 'R|', '1 hr 56 mins|', '2006|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Attack the Block",
+        "airing_time": "11:57 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 30 mins|', '2011|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Fifty Shades of Grey",
+        "airing_time": "1:26 AM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 6 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "A Prayer Before Dawn",
+        "airing_time": "3:32 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 58 mins|', '2018|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Pick-Up Artist",
+        "airing_time": "5:30 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 22 mins|', '1987|']"
+    },
+    {
+        "date": "March 17",
+        "name": "I Am Wrath",
+        "airing_time": "8:20 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 32 mins|', '2016|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Leatherheads",
+        "airing_time": "9:51 AM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Office Space",
+        "airing_time": "11:45 AM EDT",
+        "details_spans": "['cult classic|', 'R|', '1 hr 31 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Paycheck",
+        "airing_time": "1:15 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '2 hrs|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Sea of Trees",
+        "airing_time": "11:19 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 52 mins|', '2016|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Fx2: The Deadly Art of Illusion",
+        "airing_time": "1:11 PM EDT",
+        "details_spans": "['mystery & suspense|', 'PG-13|', '1 hr 50 mins|', '1991|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Scary Movie",
+        "airing_time": "3:00 PM EDT",
+        "details_spans": "['offbeat|', 'R|', '1 hr 30 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Scary Movie 2",
+        "airing_time": "4:29 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 23 mins|', '2001|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Scary Movie 3",
+        "airing_time": "5:52 PM EDT",
+        "details_spans": "['slashers|', 'PG-13|', '1 hr 26 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Jennifer's Body",
+        "airing_time": "7:17 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 44 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Friday the 13th",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 39 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Witch",
+        "airing_time": "10:38 PM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 34 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Dark Places",
+        "airing_time": "12:11 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 55 mins|', '2015|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Conviction",
+        "airing_time": "2:05 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 49 mins|', '2010|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Pride and Glory",
+        "airing_time": "3:53 AM EDT",
+        "details_spans": "['drama|', 'NR|', '2 hrs 11 mins|', '2008|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Master of the Shadowless Kick: Wong Kei-Ying",
+        "airing_time": "7:39 AM EDT",
+        "details_spans": "['action|', 'TV-14|', '1 hr 40 mins|', '2017|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The New World",
+        "airing_time": "9:18 AM EDT",
+        "details_spans": "['drama|', 'NR|', '2 hrs 17 mins|', '2005|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Body of Lies",
+        "airing_time": "11:34 AM EDT",
+        "details_spans": "['action|', 'NR|', '2 hrs 9 mins|', '2008|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Barbershop",
+        "airing_time": "11:00 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 44 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Beauty Shop",
+        "airing_time": "12:43 PM EDT",
+        "details_spans": "['family relationships|', 'PG-13|', '1 hr 47 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Taxi",
+        "airing_time": "2:29 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 38 mins|', '2004|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Talk Black",
+        "airing_time": "4:07 PM EDT",
+        "details_spans": "['comedy|', 'TV-14|', '15 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Company You Keep",
+        "airing_time": "4:21 PM EDT",
+        "details_spans": "['suspense|', 'NR|', '2 hrs 3 mins|', '2013|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Pure",
+        "airing_time": "6:23 PM EDT",
+        "details_spans": "['romantic dramas|', 'TV-14|', '14 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Extortion",
+        "airing_time": "6:36 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 50 mins|', '2017|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Hotel Artemis",
+        "airing_time": "8:26 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 34 mins|', '2018|']"
+    },
+    {
+        "date": "March 17",
+        "name": "House at the End of the Street",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['horror|', 'NR|', '1 hr 41 mins|', '2012|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Attack the Block",
+        "airing_time": "11:41 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 30 mins|', '2011|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Line of Duty",
+        "airing_time": "1:10 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 42 mins|', '2013|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Poltergeist II: The Other Side",
+        "airing_time": "2:51 AM EDT",
+        "details_spans": "['horror|', 'NR|', '1 hr 32 mins|', '1986|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Poltergeist III",
+        "airing_time": "4:22 AM EDT",
+        "details_spans": "['horror|', 'NR|', '1 hr 39 mins|', '1988|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Yes Man",
+        "airing_time": "7:31 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 45 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Missing in Action",
+        "airing_time": "9:15 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 43 mins|', '1984|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Braddock: Missing in Action III",
+        "airing_time": "10:57 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 45 mins|', '1988|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Unbreakable",
+        "airing_time": "12:41 PM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 48 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Frozen Ground",
+        "airing_time": "10:18 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 46 mins|', '2013|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Antitrust",
+        "airing_time": "12:04 PM EDT",
+        "details_spans": "['adventure|', 'PG-13|', '1 hr 50 mins|', '2001|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Charlie Wilson's War",
+        "airing_time": "1:53 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 43 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Skin Can Breathe",
+        "airing_time": "3:35 PM EDT",
+        "details_spans": "['drama|', 'TV-14|', '12 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Gemini",
+        "airing_time": "3:47 PM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 35 mins|', '2018|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Strangers: Prey at Night",
+        "airing_time": "5:21 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 26 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Mojave",
+        "airing_time": "6:47 PM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 36 mins|', '2016|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Fargo",
+        "airing_time": "8:21 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 40 mins|', '1996|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Victor Frankenstein",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['horror|', 'NR|', '1 hr 51 mins|', '2015|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Revenge of the Green Dragons",
+        "airing_time": "11:50 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 36 mins|', '2014|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Forbidden Kingdom",
+        "airing_time": "1:25 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 46 mins|', '2008|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Green Room",
+        "airing_time": "3:10 AM EDT",
+        "details_spans": "['horror|', 'NR|', '1 hr 36 mins|', '2016|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Into the Blue 2: The Reef",
+        "airing_time": "4:46 AM EDT",
+        "details_spans": "['suspense|', 'TV-MA|', '1 hr 33 mins|', '2009|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Altitude",
+        "airing_time": "8:10 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 29 mins|', '2017|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Friday the 13th",
+        "airing_time": "9:38 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 36 mins|', '1980|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Friday the 13th, Part II",
+        "airing_time": "11:14 AM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 27 mins|', '1981|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Friday the 13th Part III",
+        "airing_time": "12:41 PM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 38 mins|', '1982|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Woman Walks Ahead",
+        "airing_time": "10:45 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 44 mins|', '2018|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Winter's Tale",
+        "airing_time": "12:28 PM EDT",
+        "details_spans": "['fantasy-sci-fi|', 'NR|', '1 hr 59 mins|', '2014|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Dead Don't Die",
+        "airing_time": "2:26 PM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 46 mins|', '2019|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Paycheck",
+        "airing_time": "4:11 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '2 hrs 2 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Pick-Up Artist",
+        "airing_time": "6:11 PM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 23 mins|', '1987|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Buffy the Vampire Slayer",
+        "airing_time": "7:34 PM EDT",
+        "details_spans": "['teen comedy|', 'PG-13|', '1 hr 27 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Observe and Report",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 27 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Pens & Pencils",
+        "airing_time": "10:27 PM EDT",
+        "details_spans": "['mystery & suspense|', 'TV-14|', '17 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Vox Lux",
+        "airing_time": "10:43 PM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 55 mins|', '2018|']"
+    },
+    {
+        "date": "March 17",
+        "name": "A Glimpse Inside the Mind of Charles Swan III",
+        "airing_time": "12:38 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 26 mins|', '2013|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Missing in Action 2 - The Beginning",
+        "airing_time": "2:04 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 37 mins|', '1985|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Major League",
+        "airing_time": "3:40 AM EDT",
+        "details_spans": "['classic comedy|', 'R|', '1 hr 47 mins|', '1989|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Cyrus",
+        "airing_time": "7:38 AM EDT",
+        "details_spans": "['romance|', 'NR|', '1 hr 32 mins|', '2010|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Laggies",
+        "airing_time": "9:09 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 41 mins|', '2014|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Poltergeist (2015)",
+        "airing_time": "10:49 AM EDT",
+        "details_spans": "['fantasy-sci-fi|', 'NR|', '1 hr 35 mins|', '2015|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Room",
+        "airing_time": "12:23 PM EDT",
+        "details_spans": "['family relationships|', 'R|', '1 hr 59 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Never Say Never Again",
+        "airing_time": "10:07 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 16 mins|', '1983|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Mississippi Grind",
+        "airing_time": "12:22 PM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 50 mins|', '2015|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Dumb and Dumber To",
+        "airing_time": "2:12 PM EDT",
+        "details_spans": "['dark comedy|', 'PG-13|', '1 hr 51 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Appaloosa",
+        "airing_time": "4:02 PM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 57 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Live and Let Die",
+        "airing_time": "5:58 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 2 mins|', '1973|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Across the Universe",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['musicals|', 'PG-13|', '2 hrs 14 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Wonderland",
+        "airing_time": "10:14 PM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 45 mins|', '2003|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Last Movie Star",
+        "airing_time": "11:59 PM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 44 mins|', '2018|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Walk the Line",
+        "airing_time": "1:43 AM EDT",
+        "details_spans": "['romantic dramas|', 'PG-13|', '2 hrs 16 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Lean on Pete",
+        "airing_time": "3:58 AM EDT",
+        "details_spans": "['drama|', '12|', '2 hrs 4 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Curse of the Pink Panther",
+        "airing_time": "8:06 AM EDT",
+        "details_spans": "['offbeat|', 'PG|', '1 hr 52 mins|', '1983|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Ronin",
+        "airing_time": "9:57 AM EDT",
+        "details_spans": "['action|', 'NR|', '2 hrs 3 mins|', '1998|']"
+    },
+    {
+        "date": "March 17",
+        "name": "De-Lovely",
+        "airing_time": "11:58 AM EDT",
+        "details_spans": "['musicals|', 'PG-13|', '2 hrs 7 mins|', '2004|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "XXX: State of the Union",
+        "airing_time": "11:26 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 41 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Fifty Shades Darker",
+        "airing_time": "1:07 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 58 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Poltergeist (2015)",
+        "airing_time": "3:04 PM EDT",
+        "details_spans": "['fantasy-sci-fi|', 'NR|', '1 hr 34 mins|', '2015|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Yes Man",
+        "airing_time": "4:38 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 45 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "I Love You, Beth Cooper",
+        "airing_time": "6:23 PM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 42 mins|', '2009|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Vanishing of Sidney Hall",
+        "airing_time": "8:05 PM EDT",
+        "details_spans": "['drama|', 'NR|', '2 hrs|', '2018|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Laggies",
+        "airing_time": "10:05 PM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 40 mins|', '2014|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Cracked",
+        "airing_time": "11:45 PM EDT",
+        "details_spans": "['romantic dramas|', 'TV-MA|', '16 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Strange Days",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['fantasy & sci-fi|', 'R|', '2 hrs 26 mins|', '1995|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Kingsman: The Secret Service",
+        "airing_time": "2:26 AM EDT",
+        "details_spans": "['high octane thrillers|', 'R|', '2 hrs 9 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Johnny Dangerously",
+        "airing_time": "4:35 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 31 mins|', '1984|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Goods: Live Hard, Sell Hard",
+        "airing_time": "7:41 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 31 mins|', '2009|']"
+    },
+    {
+        "date": "March 17",
+        "name": "John Dies at the End",
+        "airing_time": "9:11 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 41 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Don't Let Go",
+        "airing_time": "10:51 AM EDT",
+        "details_spans": "['horror|', 'NR|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Unmothered",
+        "airing_time": "12:35 PM EDT",
+        "details_spans": "['dark comedy|', 'TV-PG|', '16 mins|', '2021|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Strange Days",
+        "airing_time": "12:50 PM EDT",
+        "details_spans": "['fantasy & sci-fi|', 'R|', '2 hrs 27 mins|', '1995|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Barbershop 2: Back in Business",
+        "airing_time": "10:37 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 47 mins|', '2004|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Hustle & Flow",
+        "airing_time": "12:24 PM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 59 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Predators",
+        "airing_time": "2:21 PM EDT",
+        "details_spans": "['space & beyond|', 'R|', '1 hr 49 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Paranoia",
+        "airing_time": "4:08 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 48 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "XXX",
+        "airing_time": "5:55 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '2 hrs 6 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Black Mass",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['organized crime|', 'R|', '2 hrs 3 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Freedomland",
+        "airing_time": "10:03 PM EDT",
+        "details_spans": "['big screen crime|', 'R|', '1 hr 56 mins|', '2006|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Attack the Block",
+        "airing_time": "11:57 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 30 mins|', '2011|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Fifty Shades of Grey",
+        "airing_time": "1:26 AM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 6 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "A Prayer Before Dawn",
+        "airing_time": "3:32 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 58 mins|', '2018|']"
+    },
+    {
+        "date": "March 17",
+        "name": "The Pick-Up Artist",
+        "airing_time": "5:30 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 22 mins|', '1987|']"
+    },
+    {
+        "date": "March 17",
+        "name": "I Am Wrath",
+        "airing_time": "8:20 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 32 mins|', '2016|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Leatherheads",
+        "airing_time": "9:51 AM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Office Space",
+        "airing_time": "11:45 AM EDT",
+        "details_spans": "['cult classic|', 'R|', '1 hr 31 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 17",
+        "name": "Paycheck",
+        "airing_time": "1:15 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '2 hrs|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Taxi",
+        "airing_time": "11:24 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 38 mins|', '2004|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Pieces of April",
+        "airing_time": "1:02 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 21 mins|', '2003|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Never Goin' Back",
+        "airing_time": "2:22 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 28 mins|', '2018|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Life After Beth",
+        "airing_time": "3:49 AM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 30 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Equals",
+        "airing_time": "5:18 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 43 mins|', '2016|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Fifty Shades Darker",
+        "airing_time": "7:00 AM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 59 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Rescue Dawn",
+        "airing_time": "8:58 AM EDT",
+        "details_spans": "['action|', 'NR|', '2 hrs 6 mins|', '2007|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Election",
+        "airing_time": "11:04 AM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 43 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "How to Talk to Girls at Parties",
+        "airing_time": "12:47 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 43 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Barbershop",
+        "airing_time": "2:30 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 43 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Yes Man",
+        "airing_time": "4:13 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 45 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Company You Keep",
+        "airing_time": "5:58 PM EDT",
+        "details_spans": "['suspense|', '2 hrs 2 mins|', '2013|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Unbreakable",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 47 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Kingsman: The Secret Service",
+        "airing_time": "9:47 PM EDT",
+        "details_spans": "['high octane thrillers|', 'R|', '2 hrs 9 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Blue Valentine",
+        "airing_time": "11:56 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 53 mins|', '2011|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "A Most Violent Year",
+        "airing_time": "11:07 PM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 6 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Little Woods",
+        "airing_time": "1:12 AM EDT",
+        "details_spans": "['suspense|', 'NR|', '1 hr 46 mins|', '2019|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Source Code",
+        "airing_time": "2:56 AM EDT",
+        "details_spans": "['suspense|', 'NR|', '1 hr 35 mins|', '2011|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Spaceballs",
+        "airing_time": "4:30 AM EDT",
+        "details_spans": "['fantasy & sci-fi|', 'PG|', '1 hr 37 mins|', '1987|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Fluffy Movie",
+        "airing_time": "6:07 AM EDT",
+        "details_spans": "['documentary|', 'NR|', '1 hr 44 mins|', '2014|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Leap of Faith",
+        "airing_time": "7:49 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 50 mins|', '1992|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Last Word",
+        "airing_time": "9:37 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 50 mins|', '2017|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Answer Man",
+        "airing_time": "11:25 AM EDT",
+        "details_spans": "['romantic comedy|', 'R|', '1 hr 38 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "My Boss\u2019s Daughter",
+        "airing_time": "1:03 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 27 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "A Night at the Roxbury",
+        "airing_time": "2:30 PM EDT",
+        "details_spans": "['offbeat|', 'PG-13|', '1 hr 22 mins|', '1998|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Trail of the Pink Panther",
+        "airing_time": "3:52 PM EDT",
+        "details_spans": "['big screen crime|', 'PG|', '1 hr 37 mins|', '1982|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Whiteout",
+        "airing_time": "5:29 PM EDT",
+        "details_spans": "['action|', '1 hr 41 mins|', '2009|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Victor Frankenstein",
+        "airing_time": "7:10 PM EDT",
+        "details_spans": "['horror|', '1 hr 50 mins|', '2015|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Evan Almighty",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['kids & family|', 'PG|', '1 hr 36 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Dumb and Dumber To",
+        "airing_time": "10:36 PM EDT",
+        "details_spans": "['dark comedy|', 'PG-13|', '1 hr 50 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Hot Summer Nights",
+        "airing_time": "12:26 AM EDT",
+        "details_spans": "['comedy|', '1 hr 49 mins|', '2018|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Missing in Action",
+        "airing_time": "11:45 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 43 mins|', '1984|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Teen Wolf",
+        "airing_time": "1:27 AM EDT",
+        "details_spans": "['comedy|', 'PG|', '1 hr 33 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Paparazzi",
+        "airing_time": "3:00 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 26 mins|', '2004|']"
+    },
+    {
+        "date": "March 18",
+        "name": "American Heist",
+        "airing_time": "4:25 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 37 mins|', '2015|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Missing in Action 2 - The Beginning",
+        "airing_time": "6:01 AM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 36 mins|', '1985|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Predators",
+        "airing_time": "7:37 AM EDT",
+        "details_spans": "['space & beyond|', 'R|', '1 hr 47 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Children of the Corn II: The Final Sacrifice",
+        "airing_time": "9:24 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 36 mins|', '1993|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Brokedown Palace",
+        "airing_time": "10:58 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 43 mins|', '1999|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Rage: Carrie 2",
+        "airing_time": "12:39 PM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 45 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Edge",
+        "airing_time": "2:24 PM EDT",
+        "details_spans": "['suspense|', '1 hr 58 mins|', '1997|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Major League",
+        "airing_time": "4:22 PM EDT",
+        "details_spans": "['classic comedy|', 'R|', '1 hr 47 mins|', '1989|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Pens & Pencils",
+        "airing_time": "6:09 PM EDT",
+        "details_spans": "['mystery & suspense|', 'TV-14|', '16 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "XXX: State of the Union",
+        "airing_time": "6:25 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 41 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Leatherheads",
+        "airing_time": "8:06 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Attack the Block",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['action|', '1 hr 29 mins|', '2011|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Don't Let Go",
+        "airing_time": "11:29 PM EDT",
+        "details_spans": "['horror|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Extortion",
+        "airing_time": "1:13 AM EDT",
+        "details_spans": "['action|', '1 hr 50 mins|', '2017|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Blown Away",
+        "airing_time": "11:38 PM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 2 mins|', '1994|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Fury",
+        "airing_time": "1:39 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 59 mins|', '1978|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Chain Reaction",
+        "airing_time": "3:38 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 47 mins|', '1996|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Internal Affairs",
+        "airing_time": "5:25 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 55 mins|', '1990|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Gift",
+        "airing_time": "7:20 AM EDT",
+        "details_spans": "['drama|', 'TV-14|', '16 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Charlie Wilson's War",
+        "airing_time": "7:35 AM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 43 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "F/x",
+        "airing_time": "9:17 AM EDT",
+        "details_spans": "['action|', 'R|', '1 hr 50 mins|', '1986|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Fx2: The Deadly Art of Illusion",
+        "airing_time": "11:06 AM EDT",
+        "details_spans": "['mystery & suspense|', 'PG-13|', '1 hr 49 mins|', '1991|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Bourne Ultimatum",
+        "airing_time": "12:55 PM EDT",
+        "details_spans": "['action|', 'PG-13|', '1 hr 56 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Frozen Ground",
+        "airing_time": "2:51 PM EDT",
+        "details_spans": "['drama|', '1 hr 46 mins|', '2013|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Captive",
+        "airing_time": "4:37 PM EDT",
+        "details_spans": "['drama|', '16+|', '1 hr 53 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Forbidden Kingdom",
+        "airing_time": "6:30 PM EDT",
+        "details_spans": "['action|', '1 hr 45 mins|', '2008|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Wonderland",
+        "airing_time": "8:15 PM EDT",
+        "details_spans": "['drama|', '1 hr 45 mins|', '2003|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Antitrust",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['adventure|', 'PG-13|', '1 hr 49 mins|', '2001|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Green Room",
+        "airing_time": "11:49 PM EDT",
+        "details_spans": "['horror|', '1 hr 36 mins|', '2016|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Climax",
+        "airing_time": "1:25 AM EDT",
+        "details_spans": "['horror|', '1 hr 37 mins|', '2019|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Posse: The Revenge of Jessie Lee",
+        "airing_time": "10:46 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 52 mins|', '1993|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Adderall Diaries",
+        "airing_time": "12:38 AM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 28 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Company You Keep",
+        "airing_time": "2:05 AM EDT",
+        "details_spans": "['suspense|', 'NR|', '2 hrs 3 mins|', '2013|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Leatherheads",
+        "airing_time": "4:07 AM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 55 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Hustle & Flow",
+        "airing_time": "6:01 AM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 59 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Poltergeist II: The Other Side",
+        "airing_time": "7:58 AM EDT",
+        "details_spans": "['horror|', 'NR|', '1 hr 33 mins|', '1986|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Paranoia",
+        "airing_time": "9:29 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 48 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Leatherheads",
+        "airing_time": "11:16 AM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Straight Outta Compton",
+        "airing_time": "1:10 PM EDT",
+        "details_spans": "['biographical dramas|', 'R|', '2 hrs 27 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Philomena",
+        "airing_time": "3:37 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 38 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Whip It",
+        "airing_time": "5:15 PM EDT",
+        "details_spans": "['comedy|', '1 hr 51 mins|', '2009|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Another Country",
+        "airing_time": "7:06 PM EDT",
+        "details_spans": "['family relationships|', 'TV-MA|', '12 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "I Love You, Beth Cooper",
+        "airing_time": "7:18 PM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2009|']"
+    },
+    {
+        "date": "March 18",
+        "name": "I Now Pronounce You Chuck & Larry",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 58 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Elizabethtown",
+        "airing_time": "10:58 PM EDT",
+        "details_spans": "['comedy|', '2 hrs 6 mins|', '2005|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Carrie",
+        "airing_time": "1:04 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Spy Who Loved Me",
+        "airing_time": "11:54 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 7 mins|', '1977|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Ex Machina",
+        "airing_time": "2:00 AM EDT",
+        "details_spans": "['artificial intelligence & robots|', 'R|', '1 hr 50 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Pride and Glory",
+        "airing_time": "3:49 AM EDT",
+        "details_spans": "['drama|', 'NR|', '2 hrs 11 mins|', '2008|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Bandits",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['crime|', 'NR|', '2 hrs 3 mins|', '2001|']"
+    },
+    {
+        "date": "March 18",
+        "name": "For Your Eyes Only",
+        "airing_time": "8:03 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 8 mins|', '1981|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Pink Panther",
+        "airing_time": "10:11 AM EDT",
+        "details_spans": "['offbeat|', 'TV-PG|', '1 hr 57 mins|', '1964|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Chain Reaction",
+        "airing_time": "12:07 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 47 mins|', '1996|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Internal Affairs",
+        "airing_time": "1:54 PM EDT",
+        "details_spans": "['drama|', '1 hr 55 mins|', '1990|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Across the Universe",
+        "airing_time": "3:49 PM EDT",
+        "details_spans": "['musicals|', 'PG-13|', '2 hrs 14 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Soloist",
+        "airing_time": "6:03 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 57 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Barely Lethal",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['action|', '1 hr 39 mins|', '2015|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Scary Movie 2",
+        "airing_time": "9:39 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 23 mins|', '2001|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Scary Movie 3",
+        "airing_time": "11:02 PM EDT",
+        "details_spans": "['slashers|', 'PG-13|', '1 hr 25 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Witch",
+        "airing_time": "12:27 AM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 32 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Amy",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['pop culture & celebrities|', 'R|', '2 hrs 9 mins|', '2015|', 'UHD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Black Mass",
+        "airing_time": "2:08 AM EDT",
+        "details_spans": "['organized crime|', 'R|', '2 hrs 4 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Mass Ave",
+        "airing_time": "4:11 AM EDT",
+        "details_spans": "['drama|', 'TV-14|', '22 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Cujo",
+        "airing_time": "4:32 AM EDT",
+        "details_spans": "['cult horror|', 'R|', '1 hr 34 mins|', '1983|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Carrie",
+        "airing_time": "6:05 AM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 39 mins|', '1976|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Pet Sematary",
+        "airing_time": "7:44 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 43 mins|', '1989|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Second Best Exotic Marigold Hotel",
+        "airing_time": "9:27 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '2 hrs 4 mins|', '2015|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Music Within",
+        "airing_time": "11:30 AM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2007|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Nothing Like the Holidays",
+        "airing_time": "1:04 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 39 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Equals",
+        "airing_time": "2:43 PM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2016|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Office Space",
+        "airing_time": "4:26 PM EDT",
+        "details_spans": "['cult classic|', 'R|', '1 hr 30 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "House at the End of the Street",
+        "airing_time": "5:56 PM EDT",
+        "details_spans": "['horror|', '1 hr 41 mins|', '2012|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Life After Beth",
+        "airing_time": "7:37 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 29 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Slice",
+        "airing_time": "9:06 PM EDT",
+        "details_spans": "['comedy|', '1 hr 23 mins|', '2018|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Cyrus",
+        "airing_time": "10:29 PM EDT",
+        "details_spans": "['romance|', '1 hr 31 mins|', '2010|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Fifty Shades of Grey",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 6 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Taxi",
+        "airing_time": "11:24 PM EDT",
+        "details_spans": "['action|', 'NR|', '1 hr 38 mins|', '2004|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Pieces of April",
+        "airing_time": "1:02 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 21 mins|', '2003|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Never Goin' Back",
+        "airing_time": "2:22 AM EDT",
+        "details_spans": "['comedy|', 'NR|', '1 hr 28 mins|', '2018|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Life After Beth",
+        "airing_time": "3:49 AM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 30 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Fast Color",
+        "airing_time": "5:18 AM EDT",
+        "details_spans": "['drama|', 'NR|', '1 hr 43 mins|', '2019|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Fifty Shades Darker",
+        "airing_time": "7:00 AM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 59 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Rescue Dawn",
+        "airing_time": "8:58 AM EDT",
+        "details_spans": "['action|', 'NR|', '2 hrs 6 mins|', '2007|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Election",
+        "airing_time": "11:04 AM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 43 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Don't Let Go",
+        "airing_time": "12:47 PM EDT",
+        "details_spans": "['horror|', '1 hr 43 mins|', '2019|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Barbershop",
+        "airing_time": "2:30 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 43 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Yes Man",
+        "airing_time": "4:13 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 45 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "The Company You Keep",
+        "airing_time": "5:58 PM EDT",
+        "details_spans": "['suspense|', '2 hrs 2 mins|', '2013|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Unbreakable",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 47 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Kingsman: The Secret Service",
+        "airing_time": "9:47 PM EDT",
+        "details_spans": "['high octane thrillers|', 'R|', '2 hrs 9 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 18",
+        "name": "Blue Valentine",
+        "airing_time": "11:56 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 53 mins|', '2011|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Blue Valentine",
+        "airing_time": "11:56 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 53 mins|', '2011|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "A Glimpse Inside the Mind of Charles Swan III",
+        "airing_time": "1:49 AM EDT",
+        "details_spans": "['comedy|', '1 hr 26 mins|', '2013|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Rover",
+        "airing_time": "3:15 AM EDT",
+        "details_spans": "['action|', 'R|', '1 hr 43 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Midnight Sun",
+        "airing_time": "4:58 AM EDT",
+        "details_spans": "['romantic dramas|', 'PG-13|', '1 hr 32 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Buffy the Vampire Slayer",
+        "airing_time": "6:30 AM EDT",
+        "details_spans": "['teen comedy|', 'PG-13|', '1 hr 26 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Paparazzi",
+        "airing_time": "7:56 AM EDT",
+        "details_spans": "['drama|', '1 hr 25 mins|', '2004|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Paranoia",
+        "airing_time": "9:21 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 47 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Let Me In",
+        "airing_time": "11:08 AM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 56 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Barbershop 2: Back in Business",
+        "airing_time": "1:04 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 47 mins|', '2004|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Welcome Home Roscoe Jenkins",
+        "airing_time": "2:51 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "House at the End of the Street",
+        "airing_time": "4:45 PM EDT",
+        "details_spans": "['horror|', '1 hr 41 mins|', '2012|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Poltergeist (2015)",
+        "airing_time": "6:26 PM EDT",
+        "details_spans": "['fantasy-sci-fi|', '1 hr 34 mins|', '2015|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Predators",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['space & beyond|', 'R|', '1 hr 47 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Attack the Block",
+        "airing_time": "9:47 PM EDT",
+        "details_spans": "['action|', '1 hr 29 mins|', '2011|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Black Mass",
+        "airing_time": "11:16 PM EDT",
+        "details_spans": "['organized crime|', 'R|', '2 hrs 3 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "American Heist",
+        "airing_time": "1:19 AM EDT",
+        "details_spans": "['action|', '1 hr 36 mins|', '2015|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Dumb and Dumber To",
+        "airing_time": "10:36 PM EDT",
+        "details_spans": "['dark comedy|', 'PG-13|', '1 hr 50 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Hot Summer Nights",
+        "airing_time": "12:26 AM EDT",
+        "details_spans": "['comedy|', '1 hr 49 mins|', '2018|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Kingpin",
+        "airing_time": "2:15 AM EDT",
+        "details_spans": "['comedy|', '1 hr 54 mins|', '1996|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Mermaids",
+        "airing_time": "4:09 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 51 mins|', '1990|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Last Movie Star",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['drama|', '1 hr 44 mins|', '2018|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Walk the Line",
+        "airing_time": "7:44 AM EDT",
+        "details_spans": "['romantic dramas|', 'PG-13|', '2 hrs 17 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Across the Universe",
+        "airing_time": "10:01 AM EDT",
+        "details_spans": "['musicals|', 'PG-13|', '2 hrs 14 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Ingrid Goes West",
+        "airing_time": "12:15 PM EDT",
+        "details_spans": "['comedy|', '1 hr 38 mins|', '2017|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Mojave",
+        "airing_time": "1:53 PM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2016|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Dark Places",
+        "airing_time": "3:27 PM EDT",
+        "details_spans": "['drama|', '1 hr 54 mins|', '2015|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Appaloosa",
+        "airing_time": "5:21 PM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 56 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Jennifer's Body",
+        "airing_time": "7:17 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 43 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Visit",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 34 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Gemini",
+        "airing_time": "10:34 PM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2018|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Ronin",
+        "airing_time": "12:08 AM EDT",
+        "details_spans": "['action|', '2 hrs 2 mins|', '1998|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Don't Let Go",
+        "airing_time": "11:29 PM EDT",
+        "details_spans": "['horror|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Extortion",
+        "airing_time": "1:13 AM EDT",
+        "details_spans": "['action|', '1 hr 50 mins|', '2017|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Buffy the Vampire Slayer",
+        "airing_time": "3:03 AM EDT",
+        "details_spans": "['teen comedy|', 'PG-13|', '1 hr 27 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Wes Craven Presents: They",
+        "airing_time": "4:30 AM EDT",
+        "details_spans": "['horror|', '1 hr 30 mins|', '2002|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Poltergeist II: The Other Side",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['horror|', '1 hr 31 mins|', '1986|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Poltergeist III",
+        "airing_time": "7:31 AM EDT",
+        "details_spans": "['horror|', '1 hr 38 mins|', '1988|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Another Country",
+        "airing_time": "9:09 AM EDT",
+        "details_spans": "['family relationships|', 'TV-MA|', '13 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Line of Duty",
+        "airing_time": "9:22 AM EDT",
+        "details_spans": "['action|', '1 hr 41 mins|', '2013|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Vacation",
+        "airing_time": "11:03 AM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 39 mins|', '2015|', 'UHD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Kingsman: The Secret Service",
+        "airing_time": "12:42 PM EDT",
+        "details_spans": "['high octane thrillers|', 'R|', '2 hrs 9 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Paycheck",
+        "airing_time": "2:51 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 59 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Taxi",
+        "airing_time": "4:50 PM EDT",
+        "details_spans": "['action|', '1 hr 38 mins|', '2004|']"
+    },
+    {
+        "date": "March 19",
+        "name": "XXX",
+        "airing_time": "6:28 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '2 hrs 5 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Observe and Report",
+        "airing_time": "8:33 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 27 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Posse: The Revenge of Jessie Lee",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['action|', '1 hr 52 mins|', '1993|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Robin Hood (1991)",
+        "airing_time": "11:52 PM EDT",
+        "details_spans": "['action|', 'TV-14|', '1 hr 45 mins|', '1991|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Green Room",
+        "airing_time": "11:49 PM EDT",
+        "details_spans": "['horror|', '1 hr 36 mins|', '2016|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Climax",
+        "airing_time": "1:25 AM EDT",
+        "details_spans": "['horror|', '1 hr 37 mins|', '2019|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Hotel Mumbai",
+        "airing_time": "3:02 AM EDT",
+        "details_spans": "['action|', '2 hrs 4 mins|', '2019|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Into the Blue",
+        "airing_time": "5:06 AM EDT",
+        "details_spans": "['action|', '1 hr 51 mins|', '2005|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Fury",
+        "airing_time": "6:57 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 59 mins|', '1978|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Taken 3",
+        "airing_time": "8:56 AM EDT",
+        "details_spans": "['crime|', 'PG-13|', '1 hr 49 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "A Most Violent Year",
+        "airing_time": "10:45 AM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 5 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Thomas Crown Affair",
+        "airing_time": "12:50 PM EDT",
+        "details_spans": "['romance|', '1 hr 54 mins|', '1999|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Blown Away",
+        "airing_time": "2:44 PM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 1 min|', '1994|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Friday the 13th",
+        "airing_time": "4:45 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 36 mins|', '1980|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Friday the 13th, Part II",
+        "airing_time": "6:21 PM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 27 mins|', '1981|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "A View to a Kill",
+        "airing_time": "7:48 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 12 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Witch",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 33 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Strangers: Prey at Night",
+        "airing_time": "11:33 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 26 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Angel of Mine",
+        "airing_time": "12:59 AM EDT",
+        "details_spans": "['drama|', '1 hr 39 mins|', '2019|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Elizabethtown",
+        "airing_time": "10:58 PM EDT",
+        "details_spans": "['comedy|', '2 hrs 6 mins|', '2005|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Carrie",
+        "airing_time": "1:04 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Winter's Tale",
+        "airing_time": "2:44 AM EDT",
+        "details_spans": "['fantasy-sci-fi|', '1 hr 58 mins|', '2014|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Teen Wolf",
+        "airing_time": "4:42 AM EDT",
+        "details_spans": "['comedy|', 'PG|', '1 hr 33 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Talk Black",
+        "airing_time": "6:15 AM EDT",
+        "details_spans": "['comedy|', 'TV-14|', '13 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Mud",
+        "airing_time": "6:28 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 11 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Missing in Action 2 - The Beginning",
+        "airing_time": "8:39 AM EDT",
+        "details_spans": "['action|', '1 hr 36 mins|', '1985|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Election",
+        "airing_time": "10:15 AM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 43 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Johnny Dangerously",
+        "airing_time": "11:58 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 31 mins|', '1984|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "John Dies at the End",
+        "airing_time": "1:29 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Baby Mama",
+        "airing_time": "3:09 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 39 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Killing Me Softly",
+        "airing_time": "4:48 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 40 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Mass Ave",
+        "airing_time": "6:28 PM EDT",
+        "details_spans": "['drama|', 'TV-14|', '21 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Pure",
+        "airing_time": "6:49 PM EDT",
+        "details_spans": "['romantic dramas|', 'TV-14|', '13 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Winter's Tale",
+        "airing_time": "7:02 PM EDT",
+        "details_spans": "['fantasy-sci-fi|', '1 hr 58 mins|', '2014|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Beauty Shop",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['family relationships|', 'PG-13|', '1 hr 46 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Second Best Exotic Marigold Hotel",
+        "airing_time": "10:46 PM EDT",
+        "details_spans": "['comedy|', '2 hrs 3 mins|', '2015|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Fifty Shades Darker",
+        "airing_time": "12:49 AM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 58 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Scary Movie 3",
+        "airing_time": "11:02 PM EDT",
+        "details_spans": "['slashers|', 'PG-13|', '1 hr 25 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Witch",
+        "airing_time": "12:27 AM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 32 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Shining Through",
+        "airing_time": "1:59 AM EDT",
+        "details_spans": "['romance|', '2 hrs 13 mins|', '1992|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Leap of Faith",
+        "airing_time": "4:12 AM EDT",
+        "details_spans": "['comedy|', '1 hr 48 mins|', '1992|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Return of the Pink Panther",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['big screen crime|', 'G|', '1 hr 53 mins|', '1975|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Never Say Never Again",
+        "airing_time": "7:53 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 15 mins|', '1983|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Pink Panther Strikes Again",
+        "airing_time": "10:08 AM EDT",
+        "details_spans": "['big screen crime|', 'PG|', '1 hr 44 mins|', '1976|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Spaceballs",
+        "airing_time": "11:52 AM EDT",
+        "details_spans": "['fantasy & sci-fi|', 'PG|', '1 hr 37 mins|', '1987|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Shiva Baby",
+        "airing_time": "1:29 PM EDT",
+        "details_spans": "['drama|', 'TV-MA|', '1 hr 18 mins|', '2021|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Wonderland",
+        "airing_time": "2:47 PM EDT",
+        "details_spans": "['drama|', '1 hr 44 mins|', '2003|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Locke",
+        "airing_time": "4:31 PM EDT",
+        "details_spans": "['drama|', '1 hr 25 mins|', '2014|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Youth",
+        "airing_time": "5:56 PM EDT",
+        "details_spans": "['drama|', '2 hrs 4 mins|', '2015|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Show",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['drama|', '1 hr 45 mins|', '2017|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Death Wish 3",
+        "airing_time": "9:45 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 31 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Revenge of the Green Dragons",
+        "airing_time": "11:16 PM EDT",
+        "details_spans": "['action|', '1 hr 35 mins|', '2014|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Little Woods",
+        "airing_time": "12:51 AM EDT",
+        "details_spans": "['suspense|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Fifty Shades of Grey",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 6 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Mud",
+        "airing_time": "2:06 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 11 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Neh",
+        "airing_time": "4:17 AM EDT",
+        "details_spans": "['romantic dramas|', 'TV-14|', '15 mins|', '2021|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Morris From America",
+        "airing_time": "4:32 AM EDT",
+        "details_spans": "['comedy|', '1 hr 31 mins|', '2016|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Pieces of April",
+        "airing_time": "6:03 AM EDT",
+        "details_spans": "['comedy|', '1 hr 20 mins|', '2003|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Pulling Strings",
+        "airing_time": "7:23 AM EDT",
+        "details_spans": "['romantic comedy|', 'PG|', '1 hr 52 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Obvious Child",
+        "airing_time": "9:15 AM EDT",
+        "details_spans": "['comedy|', '1 hr 25 mins|', '2014|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Laggies",
+        "airing_time": "10:40 AM EDT",
+        "details_spans": "['comedy|', '1 hr 40 mins|', '2014|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Sentinel",
+        "airing_time": "12:20 PM EDT",
+        "details_spans": "['action|', '1 hr 49 mins|', '2006|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Pet Sematary Two",
+        "airing_time": "2:09 PM EDT",
+        "details_spans": "['creatures|', 'R|', '1 hr 41 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Slums of Beverly Hills",
+        "airing_time": "3:50 PM EDT",
+        "details_spans": "['comedy|', '1 hr 32 mins|', '1998|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Wes Craven Presents: They",
+        "airing_time": "5:22 PM EDT",
+        "details_spans": "['horror|', '1 hr 30 mins|', '2002|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Rescue Dawn",
+        "airing_time": "6:52 PM EDT",
+        "details_spans": "['action|', '2 hrs 6 mins|', '2007|']"
+    },
+    {
+        "date": "March 19",
+        "name": "She's Out of My League",
+        "airing_time": "8:58 PM EDT",
+        "details_spans": "['offbeat|', 'R|', '1 hr 45 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The B-Side: Elsa Dorfman's Portrait Photography",
+        "airing_time": "10:43 PM EDT",
+        "details_spans": "['biographies|', 'R|', '1 hr 17 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "The Vanishing of Sidney Hall",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['drama|', '2 hrs 1 min|', '2018|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Blue Valentine",
+        "airing_time": "11:56 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 53 mins|', '2011|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "A Glimpse Inside the Mind of Charles Swan III",
+        "airing_time": "1:49 AM EDT",
+        "details_spans": "['comedy|', '1 hr 26 mins|', '2013|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Robin Hood (1991)",
+        "airing_time": "3:15 AM EDT",
+        "details_spans": "['action|', 'TV-14|', '1 hr 43 mins|', '1991|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Midnight Sun",
+        "airing_time": "4:58 AM EDT",
+        "details_spans": "['romantic dramas|', 'PG-13|', '1 hr 32 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Buffy the Vampire Slayer",
+        "airing_time": "6:30 AM EDT",
+        "details_spans": "['teen comedy|', 'PG-13|', '1 hr 26 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Paparazzi",
+        "airing_time": "7:56 AM EDT",
+        "details_spans": "['drama|', '1 hr 25 mins|', '2004|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Paranoia",
+        "airing_time": "9:21 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 47 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Let Me In",
+        "airing_time": "11:08 AM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 56 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Barbershop 2: Back in Business",
+        "airing_time": "1:04 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 47 mins|', '2004|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Welcome Home Roscoe Jenkins",
+        "airing_time": "2:51 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "House at the End of the Street",
+        "airing_time": "4:45 PM EDT",
+        "details_spans": "['horror|', '1 hr 41 mins|', '2012|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Poltergeist (2015)",
+        "airing_time": "6:26 PM EDT",
+        "details_spans": "['fantasy-sci-fi|', '1 hr 34 mins|', '2015|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Predators",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['space & beyond|', 'R|', '1 hr 47 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Attack the Block",
+        "airing_time": "9:47 PM EDT",
+        "details_spans": "['action|', '1 hr 29 mins|', '2011|']"
+    },
+    {
+        "date": "March 19",
+        "name": "Black Mass",
+        "airing_time": "11:16 PM EDT",
+        "details_spans": "['organized crime|', 'R|', '2 hrs 3 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 19",
+        "name": "American Heist",
+        "airing_time": "1:19 AM EDT",
+        "details_spans": "['action|', '1 hr 36 mins|', '2015|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Black Mass",
+        "airing_time": "11:16 PM EDT",
+        "details_spans": "['organized crime|', 'R|', '2 hrs 3 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "American Heist",
+        "airing_time": "1:19 AM EDT",
+        "details_spans": "['action|', '1 hr 36 mins|', '2015|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Richard III",
+        "airing_time": "2:55 AM EDT",
+        "details_spans": "['classics|', 'R|', '1 hr 45 mins|', '1995|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Pawn Sacrifice",
+        "airing_time": "4:40 AM EDT",
+        "details_spans": "['drama|', '1 hr 56 mins|', '2015|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Mud",
+        "airing_time": "6:36 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 11 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Luce",
+        "airing_time": "8:47 AM EDT",
+        "details_spans": "['drama|', '1 hr 50 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Elizabethtown",
+        "airing_time": "10:37 AM EDT",
+        "details_spans": "['comedy|', '2 hrs 4 mins|', '2005|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Hustle & Flow",
+        "airing_time": "12:41 PM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 57 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Promise",
+        "airing_time": "2:38 PM EDT",
+        "details_spans": "['action|', 'PG-13|', '2 hrs 13 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Office Space",
+        "airing_time": "4:51 PM EDT",
+        "details_spans": "['cult classic|', 'R|', '1 hr 30 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Baby Mama",
+        "airing_time": "6:21 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 39 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Life After Beth",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 29 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Dead Don't Die",
+        "airing_time": "9:29 PM EDT",
+        "details_spans": "['comedy|', '1 hr 45 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Carrie",
+        "airing_time": "11:14 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "I Love You, Beth Cooper",
+        "airing_time": "12:54 AM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2009|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Gemini",
+        "airing_time": "10:34 PM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2018|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Ronin",
+        "airing_time": "12:08 AM EDT",
+        "details_spans": "['action|', '2 hrs 2 mins|', '1998|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Altitude",
+        "airing_time": "2:10 AM EDT",
+        "details_spans": "['action|', '1 hr 28 mins|', '2017|']"
+    },
+    {
+        "date": "March 20",
+        "name": "On Her Majesty's Secret Service",
+        "airing_time": "3:38 AM EDT",
+        "details_spans": "['adventure|', 'PG|', '2 hrs 23 mins|', '1969|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Wild Rose",
+        "airing_time": "6:01 AM EDT",
+        "details_spans": "['drama|', '1 hr 41 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Temptation: Confessions of a Marriage Counselor",
+        "airing_time": "7:42 AM EDT",
+        "details_spans": "['drama|', '1 hr 52 mins|', '2013|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Genius",
+        "airing_time": "9:34 AM EDT",
+        "details_spans": "['drama|', '1 hr 45 mins|', '2016|']"
+    },
+    {
+        "date": "March 20",
+        "name": "A Serious Man",
+        "airing_time": "11:19 AM EDT",
+        "details_spans": "['comedy|', '1 hr 46 mins|', '2009|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Scary Movie",
+        "airing_time": "1:05 PM EDT",
+        "details_spans": "['offbeat|', 'R|', '1 hr 29 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Scary Movie 2",
+        "airing_time": "2:34 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 23 mins|', '2001|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Scary Movie 3",
+        "airing_time": "3:57 PM EDT",
+        "details_spans": "['slashers|', 'PG-13|', '1 hr 25 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Chain Reaction",
+        "airing_time": "5:22 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 47 mins|', '1996|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Into the Blue",
+        "airing_time": "7:09 PM EDT",
+        "details_spans": "['action|', '1 hr 51 mins|', '2005|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Into the Blue 2: The Reef",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['suspense|', 'TV-MA|', '1 hr 32 mins|', '2009|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The New World",
+        "airing_time": "10:32 PM EDT",
+        "details_spans": "['drama|', '2 hrs 16 mins|', '2005|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Bandits",
+        "airing_time": "12:48 AM EDT",
+        "details_spans": "['crime|', '2 hrs 3 mins|', '2001|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Robin Hood (1991)",
+        "airing_time": "11:52 PM EDT",
+        "details_spans": "['action|', 'TV-14|', '1 hr 45 mins|', '1991|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Hotel Artemis",
+        "airing_time": "1:37 AM EDT",
+        "details_spans": "['action|', '1 hr 34 mins|', '2018|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Children of the Corn: The Gathering",
+        "airing_time": "3:11 AM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 26 mins|', '1996|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Slice",
+        "airing_time": "4:37 AM EDT",
+        "details_spans": "['comedy|', '1 hr 23 mins|', '2018|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Missing in Action",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['action|', '1 hr 42 mins|', '1984|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Teen Wolf",
+        "airing_time": "7:42 AM EDT",
+        "details_spans": "['comedy|', 'PG|', '1 hr 33 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Yes Man",
+        "airing_time": "9:15 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 45 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Whip It",
+        "airing_time": "11:00 AM EDT",
+        "details_spans": "['comedy|', '1 hr 51 mins|', '2009|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Killing Me Softly",
+        "airing_time": "12:51 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 40 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Beauty Shop",
+        "airing_time": "2:31 PM EDT",
+        "details_spans": "['family relationships|', 'PG-13|', '1 hr 46 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Barbershop",
+        "airing_time": "4:17 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 43 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Poltergeist (2015)",
+        "airing_time": "6:00 PM EDT",
+        "details_spans": "['fantasy-sci-fi|', '1 hr 34 mins|', '2015|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Strange Days",
+        "airing_time": "7:34 PM EDT",
+        "details_spans": "['fantasy & sci-fi|', 'R|', '2 hrs 26 mins|', '1995|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Sentinel",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['action|', '1 hr 48 mins|', '2006|']"
+    },
+    {
+        "date": "March 20",
+        "name": "I Am Wrath",
+        "airing_time": "11:48 PM EDT",
+        "details_spans": "['action|', '1 hr 31 mins|', '2016|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Rescue Dawn",
+        "airing_time": "1:19 AM EDT",
+        "details_spans": "['action|', '2 hrs 6 mins|', '2007|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Strangers: Prey at Night",
+        "airing_time": "11:33 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 26 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Angel of Mine",
+        "airing_time": "12:59 AM EDT",
+        "details_spans": "['drama|', '1 hr 39 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Ghost",
+        "airing_time": "2:38 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 7 mins|', '1990|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Live and Let Die",
+        "airing_time": "4:45 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 2 mins|', '1973|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Skin Can Breathe",
+        "airing_time": "6:47 AM EDT",
+        "details_spans": "['drama|', 'TV-14|', '12 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Internal Affairs",
+        "airing_time": "6:59 AM EDT",
+        "details_spans": "['drama|', '1 hr 55 mins|', '1990|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Gift",
+        "airing_time": "8:54 AM EDT",
+        "details_spans": "['drama|', 'TV-14|', '15 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Victor Frankenstein",
+        "airing_time": "9:09 AM EDT",
+        "details_spans": "['horror|', '1 hr 50 mins|', '2015|']"
+    },
+    {
+        "date": "March 20",
+        "name": "For Your Eyes Only",
+        "airing_time": "10:59 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 9 mins|', '1981|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Body of Lies",
+        "airing_time": "1:08 PM EDT",
+        "details_spans": "['action|', '2 hrs 9 mins|', '2008|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Fargo",
+        "airing_time": "3:17 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 39 mins|', '1996|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Friday the 13th Part III",
+        "airing_time": "4:56 PM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 36 mins|', '1982|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Friday the 13th-The Final Chapter",
+        "airing_time": "6:32 PM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 32 mins|', '1984|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Pink Panther",
+        "airing_time": "8:04 PM EDT",
+        "details_spans": "['offbeat|', 'TV-PG|', '1 hr 56 mins|', '1964|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "A Shot in the Dark",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['big screen crime|', 'PG|', '1 hr 43 mins|', '1964|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Pink Panther Strikes Again",
+        "airing_time": "11:43 PM EDT",
+        "details_spans": "['big screen crime|', 'PG|', '1 hr 44 mins|', '1976|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Revenge of the Pink Panther",
+        "airing_time": "1:27 AM EDT",
+        "details_spans": "['comedy|', 'PG|', '1 hr 39 mins|', '1978|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Second Best Exotic Marigold Hotel",
+        "airing_time": "10:46 PM EDT",
+        "details_spans": "['comedy|', '2 hrs 3 mins|', '2015|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Fifty Shades Darker",
+        "airing_time": "12:49 AM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 58 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Fifty Shades Freed",
+        "airing_time": "2:47 AM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 46 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Dead Don't Die",
+        "airing_time": "4:33 AM EDT",
+        "details_spans": "['comedy|', '1 hr 45 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Carrie",
+        "airing_time": "6:18 AM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 39 mins|', '1976|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "How to Talk to Girls at Parties",
+        "airing_time": "7:57 AM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 43 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Major League",
+        "airing_time": "9:40 AM EDT",
+        "details_spans": "['classic comedy|', 'R|', '1 hr 47 mins|', '1989|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "XXX: State of the Union",
+        "airing_time": "11:27 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 41 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The War of the Roses",
+        "airing_time": "1:08 PM EDT",
+        "details_spans": "['comedy|', '1 hr 57 mins|', '1989|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Equals",
+        "airing_time": "3:05 PM EDT",
+        "details_spans": "['drama|', '1 hr 44 mins|', '2016|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Talk Black",
+        "airing_time": "4:49 PM EDT",
+        "details_spans": "['comedy|', 'TV-14|', '14 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Edge",
+        "airing_time": "5:03 PM EDT",
+        "details_spans": "['suspense|', '1 hr 58 mins|', '1997|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Paycheck",
+        "airing_time": "7:01 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 59 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Kingsman: The Secret Service",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['high octane thrillers|', 'R|', '2 hrs 9 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Blue Valentine",
+        "airing_time": "11:09 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 53 mins|', '2011|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Don't Let Go",
+        "airing_time": "1:02 AM EDT",
+        "details_spans": "['horror|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Revenge of the Green Dragons",
+        "airing_time": "11:16 PM EDT",
+        "details_spans": "['action|', '1 hr 35 mins|', '2014|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Little Woods",
+        "airing_time": "12:51 AM EDT",
+        "details_spans": "['suspense|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Hot Summer Nights",
+        "airing_time": "2:35 AM EDT",
+        "details_spans": "['comedy|', '1 hr 47 mins|', '2018|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Friday the 13th",
+        "airing_time": "4:22 AM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 38 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Friday the 13th",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 35 mins|', '1980|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Leap of Faith",
+        "airing_time": "7:35 AM EDT",
+        "details_spans": "['comedy|', '1 hr 48 mins|', '1992|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Mermaids",
+        "airing_time": "9:23 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 51 mins|', '1990|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Friday the 13th Part VIII: Jason Takes Manhattan",
+        "airing_time": "11:14 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 41 mins|', '1989|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Kingpin",
+        "airing_time": "12:55 PM EDT",
+        "details_spans": "['comedy|', '1 hr 54 mins|', '1996|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Appaloosa",
+        "airing_time": "2:49 PM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 56 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Whiteout",
+        "airing_time": "4:45 PM EDT",
+        "details_spans": "['action|', '1 hr 41 mins|', '2009|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Importance of Being Earnest",
+        "airing_time": "6:26 PM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2002|']"
+    },
+    {
+        "date": "March 20",
+        "name": "De-Lovely",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['musicals|', 'PG-13|', '2 hrs 6 mins|', '2004|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Captive",
+        "airing_time": "10:06 PM EDT",
+        "details_spans": "['drama|', '16+|', '1 hr 52 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Hotel Mumbai",
+        "airing_time": "11:58 PM EDT",
+        "details_spans": "['action|', '2 hrs 4 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Vanishing of Sidney Hall",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['drama|', '2 hrs 1 min|', '2018|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Come and Find Me",
+        "airing_time": "2:01 AM EDT",
+        "details_spans": "['drama|', '1 hr 53 mins|', '2016|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Fast Color",
+        "airing_time": "3:54 AM EDT",
+        "details_spans": "['drama|', '1 hr 42 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Cracked",
+        "airing_time": "5:36 AM EDT",
+        "details_spans": "['romantic dramas|', 'TV-MA|', '16 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Pens & Pencils",
+        "airing_time": "5:52 AM EDT",
+        "details_spans": "['mystery & suspense|', 'TV-14|', '16 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Teen Wolf Too",
+        "airing_time": "6:08 AM EDT",
+        "details_spans": "['cult classic|', 'PG|', '1 hr 35 mins|', '1987|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Unbreakable",
+        "airing_time": "7:43 AM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 48 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "A Night at the Roxbury",
+        "airing_time": "9:31 AM EDT",
+        "details_spans": "['offbeat|', 'PG-13|', '1 hr 23 mins|', '1998|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Backstabbing for Beginners",
+        "airing_time": "10:54 AM EDT",
+        "details_spans": "['suspense|', '1 hr 49 mins|', '2018|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Master of the Shadowless Kick: Wong Kei-Ying",
+        "airing_time": "12:43 PM EDT",
+        "details_spans": "['action|', 'TV-14|', '1 hr 39 mins|', '2017|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Master of the Drunken Fist: Beggar So",
+        "airing_time": "2:22 PM EDT",
+        "details_spans": "['action|', 'TV-14|', '1 hr 39 mins|', '2017|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Buffy the Vampire Slayer",
+        "airing_time": "4:01 PM EDT",
+        "details_spans": "['teen comedy|', 'PG-13|', '1 hr 26 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Fifty Shades Freed",
+        "airing_time": "5:27 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 46 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Goods: Live Hard, Sell Hard",
+        "airing_time": "7:13 PM EDT",
+        "details_spans": "['comedy|', '1 hr 30 mins|', '2009|']"
+    },
+    {
+        "date": "March 20",
+        "name": "John Dies at the End",
+        "airing_time": "8:43 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Climax",
+        "airing_time": "10:23 PM EDT",
+        "details_spans": "['horror|', '1 hr 37 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "A Prayer Before Dawn",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['action|', '1 hr 58 mins|', '2018|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Black Mass",
+        "airing_time": "11:16 PM EDT",
+        "details_spans": "['organized crime|', 'R|', '2 hrs 3 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "American Heist",
+        "airing_time": "1:19 AM EDT",
+        "details_spans": "['action|', '1 hr 36 mins|', '2015|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Richard III",
+        "airing_time": "2:55 AM EDT",
+        "details_spans": "['classics|', 'R|', '1 hr 45 mins|', '1995|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Pawn Sacrifice",
+        "airing_time": "4:40 AM EDT",
+        "details_spans": "['drama|', '1 hr 56 mins|', '2015|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Mud",
+        "airing_time": "6:36 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 11 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Luce",
+        "airing_time": "8:47 AM EDT",
+        "details_spans": "['drama|', '1 hr 50 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Elizabethtown",
+        "airing_time": "10:37 AM EDT",
+        "details_spans": "['comedy|', '2 hrs 4 mins|', '2005|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Hustle & Flow",
+        "airing_time": "12:41 PM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 57 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Promise",
+        "airing_time": "2:38 PM EDT",
+        "details_spans": "['action|', 'PG-13|', '2 hrs 13 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Office Space",
+        "airing_time": "4:51 PM EDT",
+        "details_spans": "['cult classic|', 'R|', '1 hr 30 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Baby Mama",
+        "airing_time": "6:21 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 39 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Life After Beth",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 29 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "The Dead Don't Die",
+        "airing_time": "9:29 PM EDT",
+        "details_spans": "['comedy|', '1 hr 45 mins|', '2019|']"
+    },
+    {
+        "date": "March 20",
+        "name": "Carrie",
+        "airing_time": "11:14 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 20",
+        "name": "I Love You, Beth Cooper",
+        "airing_time": "12:54 AM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2009|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Carrie",
+        "airing_time": "11:14 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "I Love You, Beth Cooper",
+        "airing_time": "12:54 AM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2009|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Amy",
+        "airing_time": "2:36 AM EDT",
+        "details_spans": "['pop culture & celebrities|', 'R|', '2 hrs 8 mins|', '2015|', 'UHD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Dim Sum Funeral",
+        "airing_time": "4:44 AM EDT",
+        "details_spans": "['drama|', '1 hr 37 mins|', '2009|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Pieces of April",
+        "airing_time": "6:21 AM EDT",
+        "details_spans": "['comedy|', '1 hr 21 mins|', '2003|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Paparazzi",
+        "airing_time": "7:42 AM EDT",
+        "details_spans": "['drama|', '1 hr 25 mins|', '2004|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Buffy the Vampire Slayer",
+        "airing_time": "9:07 AM EDT",
+        "details_spans": "['teen comedy|', 'PG-13|', '1 hr 26 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Barbershop",
+        "airing_time": "10:33 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 43 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "XXX: State of the Union",
+        "airing_time": "12:16 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 41 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Kingsman: The Secret Service",
+        "airing_time": "1:57 PM EDT",
+        "details_spans": "['high octane thrillers|', 'R|', '2 hrs 9 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Fifty Shades Darker",
+        "airing_time": "4:06 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 58 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "I Now Pronounce You Chuck & Larry",
+        "airing_time": "6:04 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 56 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Election",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 43 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Shiva Baby",
+        "airing_time": "9:43 PM EDT",
+        "details_spans": "['drama|', 'TV-MA|', '1 hr 18 mins|', '2021|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Unbreakable",
+        "airing_time": "11:01 PM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 47 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Fast Color",
+        "airing_time": "12:48 AM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2019|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The New World",
+        "airing_time": "10:32 PM EDT",
+        "details_spans": "['drama|', '2 hrs 16 mins|', '2005|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Bandits",
+        "airing_time": "12:48 AM EDT",
+        "details_spans": "['crime|', '2 hrs 3 mins|', '2001|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Charlie Wilson's War",
+        "airing_time": "2:51 AM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 42 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "McQueen",
+        "airing_time": "4:33 AM EDT",
+        "details_spans": "['documentary|', '1 hr 52 mins|', '2018|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Blown Away",
+        "airing_time": "6:25 AM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 1 min|', '1994|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Youth",
+        "airing_time": "8:26 AM EDT",
+        "details_spans": "['drama|', '2 hrs 4 mins|', '2015|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Paper Towns",
+        "airing_time": "10:30 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 50 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Thomas Crown Affair",
+        "airing_time": "12:20 PM EDT",
+        "details_spans": "['romance|', '1 hr 54 mins|', '1999|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Little Woods",
+        "airing_time": "2:14 PM EDT",
+        "details_spans": "['suspense|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Wonderland",
+        "airing_time": "3:58 PM EDT",
+        "details_spans": "['drama|', '1 hr 45 mins|', '2003|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Fargo",
+        "airing_time": "5:43 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 39 mins|', '1996|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Friday the 13th",
+        "airing_time": "7:22 PM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 38 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Strangers: Prey at Night",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 26 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Ghost",
+        "airing_time": "10:26 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 7 mins|', '1990|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Victor Frankenstein",
+        "airing_time": "12:33 AM EDT",
+        "details_spans": "['horror|', '1 hr 50 mins|', '2015|']"
+    },
+    {
+        "date": "March 21",
+        "name": "I Am Wrath",
+        "airing_time": "11:48 PM EDT",
+        "details_spans": "['action|', '1 hr 31 mins|', '2016|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Rescue Dawn",
+        "airing_time": "1:19 AM EDT",
+        "details_spans": "['action|', '2 hrs 6 mins|', '2007|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Mass Ave",
+        "airing_time": "3:25 AM EDT",
+        "details_spans": "['drama|', 'TV-14|', '21 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Company You Keep",
+        "airing_time": "3:46 AM EDT",
+        "details_spans": "['suspense|', '2 hrs 2 mins|', '2013|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Another Country",
+        "airing_time": "5:48 AM EDT",
+        "details_spans": "['family relationships|', 'TV-MA|', '12 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Children of the Corn II: The Final Sacrifice",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 34 mins|', '1993|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Predators",
+        "airing_time": "7:34 AM EDT",
+        "details_spans": "['space & beyond|', 'R|', '1 hr 47 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Wes Craven Presents: They",
+        "airing_time": "9:21 AM EDT",
+        "details_spans": "['horror|', '1 hr 30 mins|', '2002|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Poltergeist II: The Other Side",
+        "airing_time": "10:51 AM EDT",
+        "details_spans": "['horror|', '1 hr 31 mins|', '1986|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Don't Let Go",
+        "airing_time": "12:22 PM EDT",
+        "details_spans": "['horror|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Barbershop 2: Back in Business",
+        "airing_time": "2:06 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 46 mins|', '2004|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Line of Duty",
+        "airing_time": "3:52 PM EDT",
+        "details_spans": "['action|', '1 hr 41 mins|', '2013|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Children of the Corn II: The Final Sacrifice",
+        "airing_time": "5:33 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 34 mins|', '1993|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Office Space",
+        "airing_time": "7:07 PM EDT",
+        "details_spans": "['cult classic|', 'R|', '1 hr 30 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Children of the Corn 666: Isaac's Return",
+        "airing_time": "8:37 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 23 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "House at the End of the Street",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['horror|', '1 hr 41 mins|', '2012|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Let Me In",
+        "airing_time": "11:41 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 56 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Pink Panther Strikes Again",
+        "airing_time": "11:43 PM EDT",
+        "details_spans": "['big screen crime|', 'PG|', '1 hr 44 mins|', '1976|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Revenge of the Pink Panther",
+        "airing_time": "1:27 AM EDT",
+        "details_spans": "['comedy|', 'PG|', '1 hr 39 mins|', '1978|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Trail of the Pink Panther",
+        "airing_time": "3:06 AM EDT",
+        "details_spans": "['big screen crime|', 'PG|', '1 hr 37 mins|', '1982|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Curse of the Pink Panther",
+        "airing_time": "4:43 AM EDT",
+        "details_spans": "['offbeat|', 'PG|', '1 hr 51 mins|', '1983|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Rider",
+        "airing_time": "6:34 AM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2018|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Chain Reaction",
+        "airing_time": "8:17 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 47 mins|', '1996|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Conviction",
+        "airing_time": "10:04 AM EDT",
+        "details_spans": "['drama|', '1 hr 47 mins|', '2010|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Mojave",
+        "airing_time": "11:51 AM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2016|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Show",
+        "airing_time": "1:25 PM EDT",
+        "details_spans": "['drama|', '1 hr 45 mins|', '2017|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Bourne Ultimatum",
+        "airing_time": "3:10 PM EDT",
+        "details_spans": "['action|', 'PG-13|', '1 hr 56 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Friday the 13th Part V: A New Beginning",
+        "airing_time": "5:06 PM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 33 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Friday the 13th Part VI: Jason Lives",
+        "airing_time": "6:39 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 28 mins|', '1986|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Freedomland",
+        "airing_time": "8:07 PM EDT",
+        "details_spans": "['big screen crime|', 'R|', '1 hr 53 mins|', '2006|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Whiteout",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['action|', '1 hr 41 mins|', '2009|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Altitude",
+        "airing_time": "11:41 PM EDT",
+        "details_spans": "['action|', '1 hr 28 mins|', '2017|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Enemy",
+        "airing_time": "1:09 AM EDT",
+        "details_spans": "['drama|', '1 hr 31 mins|', '2014|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Blue Valentine",
+        "airing_time": "11:09 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 53 mins|', '2011|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Don't Let Go",
+        "airing_time": "1:02 AM EDT",
+        "details_spans": "['horror|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Posse: The Revenge of Jessie Lee",
+        "airing_time": "2:46 AM EDT",
+        "details_spans": "['action|', '1 hr 52 mins|', '1993|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Music Within",
+        "airing_time": "4:38 AM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2007|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Teen Wolf",
+        "airing_time": "6:12 AM EDT",
+        "details_spans": "['comedy|', 'PG|', '1 hr 33 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Paranoia",
+        "airing_time": "7:45 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 47 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Hotel Artemis",
+        "airing_time": "9:32 AM EDT",
+        "details_spans": "['action|', '1 hr 34 mins|', '2018|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Second Best Exotic Marigold Hotel",
+        "airing_time": "11:06 AM EDT",
+        "details_spans": "['comedy|', '2 hrs 3 mins|', '2015|']"
+    },
+    {
+        "date": "March 21",
+        "name": "I Love You, Beth Cooper",
+        "airing_time": "1:09 PM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2009|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Missing in Action",
+        "airing_time": "2:51 PM EDT",
+        "details_spans": "['action|', '1 hr 42 mins|', '1984|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Woman Walks Ahead",
+        "airing_time": "4:33 PM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2018|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Neh",
+        "airing_time": "6:16 PM EDT",
+        "details_spans": "['romantic dramas|', 'TV-14|', '16 mins|', '2021|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Unmothered",
+        "airing_time": "6:32 PM EDT",
+        "details_spans": "['dark comedy|', 'TV-PG|', '17 mins|', '2021|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Mud",
+        "airing_time": "6:49 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 11 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "XXX",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '2 hrs 5 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Taxi",
+        "airing_time": "11:05 PM EDT",
+        "details_spans": "['action|', '1 hr 38 mins|', '2004|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Pet Sematary Two",
+        "airing_time": "12:43 AM EDT",
+        "details_spans": "['creatures|', 'R|', '1 hr 41 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Hotel Mumbai",
+        "airing_time": "11:58 PM EDT",
+        "details_spans": "['action|', '2 hrs 4 mins|', '2019|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Trumbo",
+        "airing_time": "2:02 AM EDT",
+        "details_spans": "['biographical dramas|', 'R|', '2 hrs 5 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Dark Places",
+        "airing_time": "4:07 AM EDT",
+        "details_spans": "['drama|', '1 hr 53 mins|', '2015|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Amazing Grace",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['performances & concerts|', 'G|', '1 hr 29 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Taken 3",
+        "airing_time": "7:29 AM EDT",
+        "details_spans": "['crime|', 'PG-13|', '1 hr 49 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Charlie Wilson's War",
+        "airing_time": "9:18 AM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 42 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Across the Universe",
+        "airing_time": "11:00 AM EDT",
+        "details_spans": "['musicals|', 'PG-13|', '2 hrs 13 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Into the Forest",
+        "airing_time": "1:13 PM EDT",
+        "details_spans": "['drama|', '1 hr 42 mins|', '2016|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Jennifer's Body",
+        "airing_time": "2:55 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 43 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Last Movie Star",
+        "airing_time": "4:38 PM EDT",
+        "details_spans": "['drama|', '1 hr 44 mins|', '2018|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Answer Man",
+        "airing_time": "6:22 PM EDT",
+        "details_spans": "['romantic comedy|', 'R|', '1 hr 38 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Last Word",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['comedy|', '1 hr 48 mins|', '2017|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Into the Blue 2: The Reef",
+        "airing_time": "9:48 PM EDT",
+        "details_spans": "['suspense|', 'TV-MA|', '1 hr 31 mins|', '2009|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Tusk",
+        "airing_time": "11:19 PM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2014|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Last Movie Star",
+        "airing_time": "1:01 AM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2018|']"
+    },
+    {
+        "date": "March 21",
+        "name": "A Prayer Before Dawn",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['action|', '1 hr 58 mins|', '2018|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Winter's Tale",
+        "airing_time": "1:58 AM EDT",
+        "details_spans": "['fantasy-sci-fi|', '1 hr 57 mins|', '2014|']"
+    },
+    {
+        "date": "March 21",
+        "name": "When the Sun Sets",
+        "airing_time": "3:55 AM EDT",
+        "details_spans": "['family relationships|', 'TV-MA|', '15 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Extortion",
+        "airing_time": "4:10 AM EDT",
+        "details_spans": "['action|', '1 hr 50 mins|', '2017|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Nothing Like the Holidays",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 39 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Midnight Sun",
+        "airing_time": "7:39 AM EDT",
+        "details_spans": "['romantic dramas|', 'PG-13|', '1 hr 32 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Dead Don't Die",
+        "airing_time": "9:11 AM EDT",
+        "details_spans": "['comedy|', '1 hr 45 mins|', '2019|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Room",
+        "airing_time": "10:56 AM EDT",
+        "details_spans": "['family relationships|', 'R|', '1 hr 58 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Missing in Action 2 - The Beginning",
+        "airing_time": "12:54 PM EDT",
+        "details_spans": "['action|', '1 hr 36 mins|', '1985|']"
+    },
+    {
+        "date": "March 21",
+        "name": "I Am Wrath",
+        "airing_time": "2:30 PM EDT",
+        "details_spans": "['action|', '1 hr 31 mins|', '2016|']"
+    },
+    {
+        "date": "March 21",
+        "name": "The Rage: Carrie 2",
+        "airing_time": "4:01 PM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 46 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Baby Mama",
+        "airing_time": "5:47 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 40 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Straight Outta Compton",
+        "airing_time": "7:27 PM EDT",
+        "details_spans": "['biographical dramas|', 'R|', '2 hrs 27 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Fifty Shades of Grey",
+        "airing_time": "9:54 PM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 6 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Attack the Block",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['action|', '1 hr 29 mins|', '2011|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Cyrus",
+        "airing_time": "1:29 AM EDT",
+        "details_spans": "['romance|', '1 hr 31 mins|', '2010|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Carrie",
+        "airing_time": "11:14 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "I Love You, Beth Cooper",
+        "airing_time": "12:54 AM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2009|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Amy",
+        "airing_time": "2:36 AM EDT",
+        "details_spans": "['pop culture & celebrities|', 'R|', '2 hrs 8 mins|', '2015|', 'UHD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Dim Sum Funeral",
+        "airing_time": "4:44 AM EDT",
+        "details_spans": "['drama|', '1 hr 37 mins|', '2009|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Pieces of April",
+        "airing_time": "6:21 AM EDT",
+        "details_spans": "['comedy|', '1 hr 21 mins|', '2003|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Paparazzi",
+        "airing_time": "7:42 AM EDT",
+        "details_spans": "['drama|', '1 hr 25 mins|', '2004|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Buffy the Vampire Slayer",
+        "airing_time": "9:07 AM EDT",
+        "details_spans": "['teen comedy|', 'PG-13|', '1 hr 26 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Barbershop",
+        "airing_time": "10:33 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 43 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "XXX: State of the Union",
+        "airing_time": "12:16 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 41 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Kingsman: The Secret Service",
+        "airing_time": "1:57 PM EDT",
+        "details_spans": "['high octane thrillers|', 'R|', '2 hrs 9 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Fifty Shades Darker",
+        "airing_time": "4:06 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 58 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "I Now Pronounce You Chuck & Larry",
+        "airing_time": "6:04 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 56 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Election",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 43 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Shiva Baby",
+        "airing_time": "9:43 PM EDT",
+        "details_spans": "['drama|', 'TV-MA|', '1 hr 18 mins|', '2021|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Unbreakable",
+        "airing_time": "11:01 PM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 47 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 21",
+        "name": "Fast Color",
+        "airing_time": "12:48 AM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2019|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Unbreakable",
+        "airing_time": "11:01 PM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 47 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Fast Color",
+        "airing_time": "12:48 AM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2019|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Field Guide to Evil",
+        "airing_time": "2:31 AM EDT",
+        "details_spans": "['horror|', '1 hr 58 mins|', '2019|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Ginger & Rosa",
+        "airing_time": "4:29 AM EDT",
+        "details_spans": "['drama|', '1 hr 31 mins|', '2013|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Line of Duty",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['action|', '1 hr 41 mins|', '2013|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Philomena",
+        "airing_time": "7:41 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 38 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Teen Wolf",
+        "airing_time": "9:19 AM EDT",
+        "details_spans": "['comedy|', 'PG|', '1 hr 33 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Beauty Shop",
+        "airing_time": "10:52 AM EDT",
+        "details_spans": "['family relationships|', 'PG-13|', '1 hr 46 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Slums of Beverly Hills",
+        "airing_time": "12:38 PM EDT",
+        "details_spans": "['comedy|', '1 hr 32 mins|', '1998|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Fifty Shades Freed",
+        "airing_time": "2:10 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 46 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "XXX",
+        "airing_time": "3:56 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '2 hrs 5 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Paycheck",
+        "airing_time": "6:01 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 59 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Vacation",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 40 mins|', '2015|', 'UHD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Observe and Report",
+        "airing_time": "9:40 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 27 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Yes Man",
+        "airing_time": "11:07 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 45 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Body of Lies",
+        "airing_time": "12:52 AM EDT",
+        "details_spans": "['action|', '2 hrs 9 mins|', '2008|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Ghost",
+        "airing_time": "10:26 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 7 mins|', '1990|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Victor Frankenstein",
+        "airing_time": "12:33 AM EDT",
+        "details_spans": "['horror|', '1 hr 50 mins|', '2015|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Witch",
+        "airing_time": "2:23 AM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 33 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "A Most Violent Year",
+        "airing_time": "3:56 AM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 6 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Gift",
+        "airing_time": "6:02 AM EDT",
+        "details_spans": "['drama|', 'TV-14|', '15 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Walk the Line",
+        "airing_time": "6:17 AM EDT",
+        "details_spans": "['romantic dramas|', 'PG-13|', '2 hrs 17 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Captive",
+        "airing_time": "8:34 AM EDT",
+        "details_spans": "['drama|', '16+|', '1 hr 53 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Gemini",
+        "airing_time": "10:27 AM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2018|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Mississippi Grind",
+        "airing_time": "12:01 PM EDT",
+        "details_spans": "['comedy|', '1 hr 50 mins|', '2015|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Forbidden Kingdom",
+        "airing_time": "1:51 PM EDT",
+        "details_spans": "['action|', '1 hr 45 mins|', '2008|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Visit",
+        "airing_time": "3:36 PM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 34 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Appaloosa",
+        "airing_time": "5:10 PM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 56 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Dark Places",
+        "airing_time": "7:06 PM EDT",
+        "details_spans": "['drama|', '1 hr 54 mins|', '2015|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Taken 3",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['crime|', 'PG-13|', '1 hr 49 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Mojave",
+        "airing_time": "10:49 PM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2016|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Green Room",
+        "airing_time": "12:23 AM EDT",
+        "details_spans": "['horror|', '1 hr 36 mins|', '2016|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Let Me In",
+        "airing_time": "11:41 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 56 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "My Bodyguard",
+        "airing_time": "1:37 AM EDT",
+        "details_spans": "['comedy|', '1 hr 37 mins|', '1980|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Slice",
+        "airing_time": "3:14 AM EDT",
+        "details_spans": "['comedy|', '1 hr 23 mins|', '2018|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Children of the Corn 666: Isaac's Return",
+        "airing_time": "4:37 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 23 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Carrie",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 39 mins|', '1976|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Poltergeist (2015)",
+        "airing_time": "7:39 AM EDT",
+        "details_spans": "['fantasy-sci-fi|', '1 hr 34 mins|', '2015|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Unbreakable",
+        "airing_time": "9:13 AM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 47 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Edge",
+        "airing_time": "11:00 AM EDT",
+        "details_spans": "['suspense|', '1 hr 58 mins|', '1997|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Leatherheads",
+        "airing_time": "12:58 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "John Dies at the End",
+        "airing_time": "2:52 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Talk Black",
+        "airing_time": "4:32 PM EDT",
+        "details_spans": "['comedy|', 'TV-14|', '14 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Rescue Dawn",
+        "airing_time": "4:46 PM EDT",
+        "details_spans": "['action|', '2 hrs 6 mins|', '2007|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Taxi",
+        "airing_time": "6:52 PM EDT",
+        "details_spans": "['action|', '1 hr 38 mins|', '2004|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Office Space",
+        "airing_time": "8:30 PM EDT",
+        "details_spans": "['cult classic|', 'R|', '1 hr 30 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Rover",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['action|', 'R|', '1 hr 43 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "John Dies at the End",
+        "airing_time": "11:43 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Strange Days",
+        "airing_time": "1:23 AM EDT",
+        "details_spans": "['fantasy & sci-fi|', 'R|', '2 hrs 26 mins|', '1995|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Altitude",
+        "airing_time": "11:41 PM EDT",
+        "details_spans": "['action|', '1 hr 28 mins|', '2017|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Enemy",
+        "airing_time": "1:09 AM EDT",
+        "details_spans": "['drama|', '1 hr 31 mins|', '2014|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Ronin",
+        "airing_time": "2:40 AM EDT",
+        "details_spans": "['action|', '2 hrs 2 mins|', '1998|']"
+    },
+    {
+        "date": "March 22",
+        "name": "A View to a Kill",
+        "airing_time": "4:42 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 12 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Source Code",
+        "airing_time": "6:54 AM EDT",
+        "details_spans": "['suspense|', '1 hr 33 mins|', '2011|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Pink Panther",
+        "airing_time": "8:27 AM EDT",
+        "details_spans": "['offbeat|', 'TV-PG|', '1 hr 56 mins|', '1964|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "A Shot in the Dark",
+        "airing_time": "10:23 AM EDT",
+        "details_spans": "['big screen crime|', 'PG|', '1 hr 43 mins|', '1964|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Locke",
+        "airing_time": "12:06 PM EDT",
+        "details_spans": "['drama|', '1 hr 25 mins|', '2014|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Pride and Glory",
+        "airing_time": "1:31 PM EDT",
+        "details_spans": "['drama|', '2 hrs 11 mins|', '2008|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Revenge of the Pink Panther",
+        "airing_time": "3:42 PM EDT",
+        "details_spans": "['comedy|', 'PG|', '1 hr 39 mins|', '1978|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Friday the 13th Part VII: The New Blood",
+        "airing_time": "5:21 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 29 mins|', '1988|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Friday the 13th Part VIII: Jason Takes Manhattan",
+        "airing_time": "6:50 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 41 mins|', '1989|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Scary Movie",
+        "airing_time": "8:31 PM EDT",
+        "details_spans": "['offbeat|', 'R|', '1 hr 29 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Scary Movie 2",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 23 mins|', '2001|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Scary Movie 3",
+        "airing_time": "11:23 PM EDT",
+        "details_spans": "['slashers|', 'PG-13|', '1 hr 25 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Ex Machina",
+        "airing_time": "12:48 AM EDT",
+        "details_spans": "['artificial intelligence & robots|', 'R|', '1 hr 49 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Taxi",
+        "airing_time": "11:05 PM EDT",
+        "details_spans": "['action|', '1 hr 38 mins|', '2004|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Pet Sematary Two",
+        "airing_time": "12:43 AM EDT",
+        "details_spans": "['creatures|', 'R|', '1 hr 41 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Slums of Beverly Hills",
+        "airing_time": "2:24 AM EDT",
+        "details_spans": "['comedy|', '1 hr 32 mins|', '1998|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Verdict",
+        "airing_time": "3:56 AM EDT",
+        "details_spans": "['romantic dramas|', 'R|', '2 hrs 9 mins|', '1982|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Sentinel",
+        "airing_time": "6:05 AM EDT",
+        "details_spans": "['action|', '1 hr 48 mins|', '2006|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Elizabethtown",
+        "airing_time": "7:53 AM EDT",
+        "details_spans": "['comedy|', '2 hrs 4 mins|', '2005|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Leatherheads",
+        "airing_time": "9:57 AM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Predators",
+        "airing_time": "11:51 AM EDT",
+        "details_spans": "['space & beyond|', 'R|', '1 hr 48 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Rescue Dawn",
+        "airing_time": "1:39 PM EDT",
+        "details_spans": "['action|', '2 hrs 6 mins|', '2007|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Family Meeting",
+        "airing_time": "3:45 PM EDT",
+        "details_spans": "['family relationships|', 'TV-14|', '16 mins|', '2023|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Pet Sematary",
+        "airing_time": "4:01 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 43 mins|', '1989|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Pick-Up Artist",
+        "airing_time": "5:44 PM EDT",
+        "details_spans": "['comedy|', '1 hr 22 mins|', '1987|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Welcome Home Roscoe Jenkins",
+        "airing_time": "7:06 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Barbershop",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 43 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Life After Beth",
+        "airing_time": "10:43 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 29 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Dead Don't Die",
+        "airing_time": "12:12 AM EDT",
+        "details_spans": "['comedy|', '1 hr 45 mins|', '2019|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Tusk",
+        "airing_time": "11:19 PM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2014|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Last Movie Star",
+        "airing_time": "1:01 AM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2018|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Death Wish 4: The Crackdown",
+        "airing_time": "2:44 AM EDT",
+        "details_spans": "['action|', 'R|', '1 hr 40 mins|', '1987|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Evan Almighty",
+        "airing_time": "4:24 AM EDT",
+        "details_spans": "['kids & family|', 'PG|', '1 hr 36 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "For Your Eyes Only",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 8 mins|', '1981|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "A Most Violent Year",
+        "airing_time": "8:08 AM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 5 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Return of the Pink Panther",
+        "airing_time": "10:13 AM EDT",
+        "details_spans": "['big screen crime|', 'G|', '1 hr 52 mins|', '1975|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Curse of the Pink Panther",
+        "airing_time": "12:05 PM EDT",
+        "details_spans": "['offbeat|', 'PG|', '1 hr 51 mins|', '1983|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Goldfinger",
+        "airing_time": "1:56 PM EDT",
+        "details_spans": "['action|', 'PG|', '1 hr 51 mins|', '1964|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "On Her Majesty's Secret Service",
+        "airing_time": "3:47 PM EDT",
+        "details_spans": "['adventure|', 'PG|', '2 hrs 23 mins|', '1969|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Dumb and Dumber To",
+        "airing_time": "6:10 PM EDT",
+        "details_spans": "['dark comedy|', 'PG-13|', '1 hr 50 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Hot Summer Nights",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['comedy|', '1 hr 48 mins|', '2018|']"
+    },
+    {
+        "date": "March 22",
+        "name": "For Your Eyes Only",
+        "airing_time": "9:48 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 8 mins|', '1981|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Bourne Ultimatum",
+        "airing_time": "11:56 PM EDT",
+        "details_spans": "['action|', 'PG-13|', '1 hr 56 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Attack the Block",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['action|', '1 hr 29 mins|', '2011|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Cyrus",
+        "airing_time": "1:29 AM EDT",
+        "details_spans": "['romance|', '1 hr 31 mins|', '2010|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Observe and Report",
+        "airing_time": "3:00 AM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 27 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Poltergeist III",
+        "airing_time": "4:27 AM EDT",
+        "details_spans": "['horror|', '1 hr 38 mins|', '1988|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Johnny Dangerously",
+        "airing_time": "6:05 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 31 mins|', '1984|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Mud",
+        "airing_time": "7:36 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 11 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "House at the End of the Street",
+        "airing_time": "9:47 AM EDT",
+        "details_spans": "['horror|', '1 hr 42 mins|', '2012|']"
+    },
+    {
+        "date": "March 22",
+        "name": "How to Talk to Girls at Parties",
+        "airing_time": "11:29 AM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 43 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "McQueen",
+        "airing_time": "1:12 PM EDT",
+        "details_spans": "['documentary|', '1 hr 52 mins|', '2018|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Internal Affairs",
+        "airing_time": "3:04 PM EDT",
+        "details_spans": "['drama|', '1 hr 55 mins|', '1990|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Paparazzi",
+        "airing_time": "4:59 PM EDT",
+        "details_spans": "['drama|', '1 hr 26 mins|', '2004|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Pet Sematary Two",
+        "airing_time": "6:25 PM EDT",
+        "details_spans": "['creatures|', 'R|', '1 hr 41 mins|', '1992|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Kingsman: The Secret Service",
+        "airing_time": "8:06 PM EDT",
+        "details_spans": "['high octane thrillers|', 'R|', '2 hrs 9 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "She's Out of My League",
+        "airing_time": "10:15 PM EDT",
+        "details_spans": "['offbeat|', 'R|', '1 hr 45 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Adderall Diaries",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 27 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Children of the Corn V: Fields of Terror",
+        "airing_time": "1:27 AM EDT",
+        "details_spans": "['horror|', 'TV-MA|', '1 hr 24 mins|', '1998|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Unbreakable",
+        "airing_time": "11:01 PM EDT",
+        "details_spans": "['thrillers|', 'PG-13|', '1 hr 47 mins|', '2000|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Fast Color",
+        "airing_time": "12:48 AM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2019|']"
+    },
+    {
+        "date": "March 22",
+        "name": "A Prayer Before Dawn",
+        "airing_time": "2:31 AM EDT",
+        "details_spans": "['action|', '1 hr 58 mins|', '2018|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Ginger & Rosa",
+        "airing_time": "4:29 AM EDT",
+        "details_spans": "['drama|', '1 hr 31 mins|', '2013|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Line of Duty",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['action|', '1 hr 41 mins|', '2013|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Philomena",
+        "airing_time": "7:41 AM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 38 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Teen Wolf",
+        "airing_time": "9:19 AM EDT",
+        "details_spans": "['comedy|', 'PG|', '1 hr 33 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Beauty Shop",
+        "airing_time": "10:52 AM EDT",
+        "details_spans": "['family relationships|', 'PG-13|', '1 hr 46 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Slums of Beverly Hills",
+        "airing_time": "12:38 PM EDT",
+        "details_spans": "['comedy|', '1 hr 32 mins|', '1998|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Fifty Shades Freed",
+        "airing_time": "2:10 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 46 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "XXX",
+        "airing_time": "3:56 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '2 hrs 5 mins|', '2002|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Paycheck",
+        "airing_time": "6:01 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 59 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Vacation",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 40 mins|', '2015|', 'UHD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Observe and Report",
+        "airing_time": "9:40 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 27 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "Yes Man",
+        "airing_time": "11:07 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 45 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 22",
+        "name": "The Verdict",
+        "airing_time": "12:52 AM EDT",
+        "details_spans": "['romantic dramas|', 'R|', '2 hrs 9 mins|', '1982|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Yes Man",
+        "airing_time": "11:07 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 45 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Body of Lies",
+        "airing_time": "12:52 AM EDT",
+        "details_spans": "['action|', '2 hrs 9 mins|', '2008|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Vanishing of Sidney Hall",
+        "airing_time": "3:01 AM EDT",
+        "details_spans": "['drama|', '2 hrs 1 min|', '2018|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Killing Me Softly",
+        "airing_time": "5:02 AM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 41 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Company You Keep",
+        "airing_time": "6:43 AM EDT",
+        "details_spans": "['suspense|', '2 hrs 2 mins|', '2013|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Don't Let Go",
+        "airing_time": "8:45 AM EDT",
+        "details_spans": "['horror|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Dead Don't Die",
+        "airing_time": "10:29 AM EDT",
+        "details_spans": "['comedy|', '1 hr 45 mins|', '2019|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Strange Days",
+        "airing_time": "12:14 PM EDT",
+        "details_spans": "['fantasy & sci-fi|', 'R|', '2 hrs 26 mins|', '1995|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "She's Out of My League",
+        "airing_time": "2:40 PM EDT",
+        "details_spans": "['offbeat|', 'R|', '1 hr 45 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Let Me In",
+        "airing_time": "4:25 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 56 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Baby Mama",
+        "airing_time": "6:21 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 39 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Office Space",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['cult classic|', 'R|', '1 hr 30 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "How to Talk to Girls at Parties",
+        "airing_time": "9:30 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 43 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "I Love You, Beth Cooper",
+        "airing_time": "11:13 PM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2009|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Elizabethtown",
+        "airing_time": "12:55 AM EDT",
+        "details_spans": "['comedy|', '2 hrs 4 mins|', '2005|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Mojave",
+        "airing_time": "10:49 PM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2016|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Green Room",
+        "airing_time": "12:23 AM EDT",
+        "details_spans": "['horror|', '1 hr 36 mins|', '2016|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Friday the 13th Part V: A New Beginning",
+        "airing_time": "1:59 AM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 33 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Angel of Mine",
+        "airing_time": "3:32 AM EDT",
+        "details_spans": "['drama|', '1 hr 39 mins|', '2019|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Across the Universe",
+        "airing_time": "5:11 AM EDT",
+        "details_spans": "['musicals|', 'PG-13|', '2 hrs 14 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The New World",
+        "airing_time": "7:25 AM EDT",
+        "details_spans": "['drama|', '2 hrs 16 mins|', '2005|']"
+    },
+    {
+        "date": "March 23",
+        "name": "F/x",
+        "airing_time": "9:41 AM EDT",
+        "details_spans": "['action|', 'R|', '1 hr 49 mins|', '1986|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "A View to a Kill",
+        "airing_time": "11:30 AM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 12 mins|', '1985|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Frozen Ground",
+        "airing_time": "1:42 PM EDT",
+        "details_spans": "['drama|', '1 hr 46 mins|', '2013|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Bourne Ultimatum",
+        "airing_time": "3:28 PM EDT",
+        "details_spans": "['action|', 'PG-13|', '1 hr 56 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Antitrust",
+        "airing_time": "5:24 PM EDT",
+        "details_spans": "['adventure|', 'PG-13|', '1 hr 49 mins|', '2001|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Chain Reaction",
+        "airing_time": "7:13 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 47 mins|', '1996|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Source Code",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['suspense|', '1 hr 33 mins|', '2011|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Whiteout",
+        "airing_time": "10:33 PM EDT",
+        "details_spans": "['action|', '1 hr 41 mins|', '2009|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Tusk",
+        "airing_time": "12:14 AM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2014|']"
+    },
+    {
+        "date": "March 23",
+        "name": "John Dies at the End",
+        "airing_time": "11:43 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 40 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Strange Days",
+        "airing_time": "1:23 AM EDT",
+        "details_spans": "['fantasy & sci-fi|', 'R|', '2 hrs 26 mins|', '1995|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Extortion",
+        "airing_time": "3:49 AM EDT",
+        "details_spans": "['action|', '1 hr 50 mins|', '2017|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Mass Ave",
+        "airing_time": "5:39 AM EDT",
+        "details_spans": "['drama|', 'TV-14|', '21 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Rage: Carrie 2",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['occult|', 'R|', '1 hr 45 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Poltergeist III",
+        "airing_time": "7:45 AM EDT",
+        "details_spans": "['horror|', '1 hr 38 mins|', '1988|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Missing in Action",
+        "airing_time": "9:23 AM EDT",
+        "details_spans": "['action|', '1 hr 42 mins|', '1984|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Braddock: Missing in Action III",
+        "airing_time": "11:05 AM EDT",
+        "details_spans": "['action|', '1 hr 44 mins|', '1988|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Leatherheads",
+        "airing_time": "12:49 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 54 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Major League",
+        "airing_time": "2:43 PM EDT",
+        "details_spans": "['classic comedy|', 'R|', '1 hr 47 mins|', '1989|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Brokedown Palace",
+        "airing_time": "4:30 PM EDT",
+        "details_spans": "['drama|', '1 hr 41 mins|', '1999|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Extortion",
+        "airing_time": "6:11 PM EDT",
+        "details_spans": "['action|', '1 hr 50 mins|', '2017|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Paycheck",
+        "airing_time": "8:01 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 59 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Paranoia",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 47 mins|', '2013|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "American Heist",
+        "airing_time": "11:47 PM EDT",
+        "details_spans": "['action|', '1 hr 36 mins|', '2015|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Missing in Action",
+        "airing_time": "1:23 AM EDT",
+        "details_spans": "['action|', '1 hr 42 mins|', '1984|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Scary Movie 3",
+        "airing_time": "11:23 PM EDT",
+        "details_spans": "['slashers|', 'PG-13|', '1 hr 25 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Ex Machina",
+        "airing_time": "12:48 AM EDT",
+        "details_spans": "['artificial intelligence & robots|', 'R|', '1 hr 49 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Trumbo",
+        "airing_time": "2:37 AM EDT",
+        "details_spans": "['biographical dramas|', 'R|', '2 hrs 5 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Into the Forest",
+        "airing_time": "4:42 AM EDT",
+        "details_spans": "['drama|', '1 hr 42 mins|', '2016|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Little Woods",
+        "airing_time": "6:24 AM EDT",
+        "details_spans": "['suspense|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Leap of Faith",
+        "airing_time": "8:08 AM EDT",
+        "details_spans": "['comedy|', '1 hr 48 mins|', '1992|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Ghost",
+        "airing_time": "9:56 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '2 hrs 7 mins|', '1990|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Strangers: Prey at Night",
+        "airing_time": "12:03 PM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 25 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Altitude",
+        "airing_time": "1:28 PM EDT",
+        "details_spans": "['action|', '1 hr 28 mins|', '2017|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Conviction",
+        "airing_time": "2:56 PM EDT",
+        "details_spans": "['drama|', '1 hr 48 mins|', '2010|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Blown Away",
+        "airing_time": "4:44 PM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 1 min|', '1994|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Friday the 13th",
+        "airing_time": "6:45 PM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 38 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Climax",
+        "airing_time": "8:23 PM EDT",
+        "details_spans": "['horror|', '1 hr 37 mins|', '2019|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Jennifer's Body",
+        "airing_time": "10:00 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 43 mins|', '2009|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Internal Affairs",
+        "airing_time": "11:43 PM EDT",
+        "details_spans": "['drama|', '1 hr 55 mins|', '1990|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Life After Beth",
+        "airing_time": "10:43 PM EDT",
+        "details_spans": "['comedy|', 'R|', '1 hr 29 mins|', '2014|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Dead Don't Die",
+        "airing_time": "12:12 AM EDT",
+        "details_spans": "['comedy|', '1 hr 45 mins|', '2019|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Missing in Action 2 - The Beginning",
+        "airing_time": "1:57 AM EDT",
+        "details_spans": "['action|', '1 hr 36 mins|', '1985|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Braddock: Missing in Action III",
+        "airing_time": "3:33 AM EDT",
+        "details_spans": "['action|', '1 hr 44 mins|', '1988|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Laggies",
+        "airing_time": "5:17 AM EDT",
+        "details_spans": "['comedy|', '1 hr 40 mins|', '2014|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Dim Sum Funeral",
+        "airing_time": "6:57 AM EDT",
+        "details_spans": "['drama|', '1 hr 37 mins|', '2009|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Equals",
+        "airing_time": "8:34 AM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2016|']"
+    },
+    {
+        "date": "March 23",
+        "name": "I Am Wrath",
+        "airing_time": "10:17 AM EDT",
+        "details_spans": "['action|', '1 hr 31 mins|', '2016|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Barbershop 2: Back in Business",
+        "airing_time": "11:48 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 46 mins|', '2004|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Room",
+        "airing_time": "1:34 PM EDT",
+        "details_spans": "['family relationships|', 'R|', '1 hr 58 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Luce",
+        "airing_time": "3:32 PM EDT",
+        "details_spans": "['drama|', '1 hr 50 mins|', '2019|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Pure",
+        "airing_time": "5:22 PM EDT",
+        "details_spans": "['romantic dramas|', 'TV-14|', '13 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Down to Earth",
+        "airing_time": "5:35 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 28 mins|', '2001|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Hustle & Flow",
+        "airing_time": "7:03 PM EDT",
+        "details_spans": "['crime|', 'R|', '1 hr 57 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Straight Outta Compton",
+        "airing_time": "9:00 PM EDT",
+        "details_spans": "['biographical dramas|', 'R|', '2 hrs 27 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Poltergeist II: The Other Side",
+        "airing_time": "11:27 PM EDT",
+        "details_spans": "['horror|', '1 hr 31 mins|', '1986|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Beauty Shop",
+        "airing_time": "12:58 AM EDT",
+        "details_spans": "['family relationships|', 'PG-13|', '1 hr 47 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Bourne Ultimatum",
+        "airing_time": "11:56 PM EDT",
+        "details_spans": "['action|', 'PG-13|', '1 hr 56 mins|', '2007|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Bandits",
+        "airing_time": "1:52 AM EDT",
+        "details_spans": "['crime|', '2 hrs 3 mins|', '2001|']"
+    },
+    {
+        "date": "March 23",
+        "name": "A Most Violent Year",
+        "airing_time": "3:55 AM EDT",
+        "details_spans": "['drama|', 'R|', '2 hrs 5 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Mermaids",
+        "airing_time": "6:00 AM EDT",
+        "details_spans": "['drama|', 'PG-13|', '1 hr 50 mins|', '1990|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Friday the 13th",
+        "airing_time": "7:50 AM EDT",
+        "details_spans": "['horror|', 'R|', '1 hr 36 mins|', '1980|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Friday the 13th-The Final Chapter",
+        "airing_time": "9:26 AM EDT",
+        "details_spans": "['slashers|', 'R|', '1 hr 31 mins|', '1984|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "A Night at the Roxbury",
+        "airing_time": "10:57 AM EDT",
+        "details_spans": "['offbeat|', 'PG-13|', '1 hr 22 mins|', '1998|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Spy Who Loved Me",
+        "airing_time": "12:19 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 6 mins|', '1977|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Never Say Never Again",
+        "airing_time": "2:25 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG|', '2 hrs 14 mins|', '1983|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Into the Blue",
+        "airing_time": "4:39 PM EDT",
+        "details_spans": "['action|', '1 hr 51 mins|', '2005|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Goods: Live Hard, Sell Hard",
+        "airing_time": "6:30 PM EDT",
+        "details_spans": "['comedy|', '1 hr 30 mins|', '2009|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Paper Towns",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 50 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Lean on Pete",
+        "airing_time": "9:50 PM EDT",
+        "details_spans": "['drama|', '12|', '2 hrs 2 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "De-Lovely",
+        "airing_time": "11:52 PM EDT",
+        "details_spans": "['musicals|', 'PG-13|', '2 hrs 6 mins|', '2004|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Adderall Diaries",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 27 mins|', '2016|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Children of the Corn V: Fields of Terror",
+        "airing_time": "1:27 AM EDT",
+        "details_spans": "['horror|', 'TV-MA|', '1 hr 24 mins|', '1998|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Obvious Child",
+        "airing_time": "2:51 AM EDT",
+        "details_spans": "['comedy|', '1 hr 25 mins|', '2014|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Cracked",
+        "airing_time": "4:16 AM EDT",
+        "details_spans": "['romantic dramas|', 'TV-MA|', '16 mins|', '2022|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Music Within",
+        "airing_time": "4:32 AM EDT",
+        "details_spans": "['drama|', '1 hr 34 mins|', '2007|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Master of the Drunken Fist: Beggar So",
+        "airing_time": "6:06 AM EDT",
+        "details_spans": "['action|', 'TV-14|', '1 hr 38 mins|', '2017|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The War of the Roses",
+        "airing_time": "7:44 AM EDT",
+        "details_spans": "['comedy|', '1 hr 57 mins|', '1989|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Promise",
+        "airing_time": "9:41 AM EDT",
+        "details_spans": "['action|', 'PG-13|', '2 hrs 13 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Wes Craven Presents: They",
+        "airing_time": "11:54 AM EDT",
+        "details_spans": "['horror|', '1 hr 29 mins|', '2002|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Predators",
+        "airing_time": "1:23 PM EDT",
+        "details_spans": "['space & beyond|', 'R|', '1 hr 47 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "XXX: State of the Union",
+        "airing_time": "3:10 PM EDT",
+        "details_spans": "['high octane thrillers|', 'PG-13|', '1 hr 41 mins|', '2005|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Fifty Shades Darker",
+        "airing_time": "4:51 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 58 mins|', '2017|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Fifty Shades Freed",
+        "airing_time": "6:49 PM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 45 mins|', '2018|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Slice",
+        "airing_time": "8:34 PM EDT",
+        "details_spans": "['comedy|', '1 hr 23 mins|', '2018|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Black Mass",
+        "airing_time": "9:57 PM EDT",
+        "details_spans": "['organized crime|', 'R|', '2 hrs 3 mins|', '2015|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Amy",
+        "airing_time": "12:00 AM EDT",
+        "details_spans": "['pop culture & celebrities|', 'R|', '2 hrs 8 mins|', '2015|', 'UHD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Yes Man",
+        "airing_time": "11:07 PM EDT",
+        "details_spans": "['comedy|', 'PG-13|', '1 hr 45 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Verdict",
+        "airing_time": "12:52 AM EDT",
+        "details_spans": "['romantic dramas|', 'R|', '2 hrs 9 mins|', '1982|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Vanishing of Sidney Hall",
+        "airing_time": "3:01 AM EDT",
+        "details_spans": "['drama|', '2 hrs 1 min|', '2018|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Killing Me Softly",
+        "airing_time": "5:02 AM EDT",
+        "details_spans": "['drama|', 'R|', '1 hr 41 mins|', '2003|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Company You Keep",
+        "airing_time": "6:43 AM EDT",
+        "details_spans": "['suspense|', '2 hrs 2 mins|', '2013|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Don't Let Go",
+        "airing_time": "8:45 AM EDT",
+        "details_spans": "['horror|', '1 hr 44 mins|', '2019|']"
+    },
+    {
+        "date": "March 23",
+        "name": "The Dead Don't Die",
+        "airing_time": "10:29 AM EDT",
+        "details_spans": "['comedy|', '1 hr 45 mins|', '2019|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Strange Days",
+        "airing_time": "12:14 PM EDT",
+        "details_spans": "['fantasy & sci-fi|', 'R|', '2 hrs 26 mins|', '1995|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "She's Out of My League",
+        "airing_time": "2:40 PM EDT",
+        "details_spans": "['offbeat|', 'R|', '1 hr 45 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Let Me In",
+        "airing_time": "4:25 PM EDT",
+        "details_spans": "['mystery & suspense|', 'R|', '1 hr 56 mins|', '2010|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Baby Mama",
+        "airing_time": "6:21 PM EDT",
+        "details_spans": "['romantic comedy|', 'PG-13|', '1 hr 39 mins|', '2008|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Office Space",
+        "airing_time": "8:00 PM EDT",
+        "details_spans": "['cult classic|', 'R|', '1 hr 30 mins|', '1999|', 'HD|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Woman Walks Ahead",
+        "airing_time": "9:30 PM EDT",
+        "details_spans": "['drama|', '1 hr 43 mins|', '2018|']"
+    },
+    {
+        "date": "March 23",
+        "name": "I Love You, Beth Cooper",
+        "airing_time": "11:13 PM EDT",
+        "details_spans": "['comedy|', '1 hr 42 mins|', '2009|']"
+    },
+    {
+        "date": "March 23",
+        "name": "Elizabethtown",
+        "airing_time": "12:55 AM EDT",
+        "details_spans": "['comedy|', '2 hrs 4 mins|', '2005|']"
+    }
+]
