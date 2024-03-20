@@ -42,7 +42,7 @@ def get_tool_call_response(tool_calls_result, unresolved_tol_calls, resolved_res
                 "index": 0,
                 "message": {
                     "role": "assistant",
-                    "content": None,
+                    "content": "", # None,
                     "tool_calls": unresolved_tol_calls,
                 },
                 "logprobs": None,

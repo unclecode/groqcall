@@ -34,6 +34,15 @@ async def get_openai_v1(
     return JSONResponse(content={"message": f"GET request to {provider} v1"})
 
 
+@router.post("/groqchain/{provider}/v1/chat/completions")
+async def post_groq_chat_completions(
+    request: Request,
+    provider: str = Path(..., title="Provider")
+) -> JSONResponse:
+    # Call the original post_chat_completions method with provider set to "groq"
+    return await post_chat_completions(request, provider="groq")
+
+
 @router.post("/{provider}/v1/chat/completions")
 async def post_chat_completions(
     request: Request,

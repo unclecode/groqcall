@@ -302,7 +302,7 @@ class ToolExtractionHandler(Handler):
                 for func in tool_calls:
                     tool_calls_count[func["name"]] += 1
 
-            pickup_threshold = max(evaluation_cycles_count, int(evaluation_cycles_count * 0.7))
+            pickup_threshold = math.floor(evaluation_cycles_count * 0.7)
             final_tool_calls = []
             for tool_calls in tool_calls_list:
                 for func in tool_calls:

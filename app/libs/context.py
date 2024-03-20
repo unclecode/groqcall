@@ -58,7 +58,7 @@ class Context:
         return bool(
             self.last_message["role"] == "user"
             and self.tools
-            and self.params.get("tool_choice", "none") != "none"
+            and self.params.get("tool_choice", None) != "none"
         )
 
     @property

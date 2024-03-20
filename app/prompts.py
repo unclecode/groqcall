@@ -452,11 +452,213 @@ The user is asking for more information that non of tools or chat history can pr
 }   
 </selected_tools>""",
     },
+    {
+        "input": """# Conversation History:
+<user>
+What was the closing price of Apple Inc. (AAPL) stock yesterday?
+</user>
+
+# Available Tools:
+[
+    {
+        "name": "get_stock_price",
+        "description": "Use this function to retrieve the latest price information for a given stock symbol.\n\n:param symbol: The stock symbol to retrieve the price for (e.g., 'AAPL' for Apple Inc.).\n:return: A string containing the latest price information for the specified stock.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "symbol": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    {
+        "name": "get_stock_history",
+        "description": "Use this function to retrieve the historical price data for a given stock symbol over a specified period.\n\n:param symbol: The stock symbol to retrieve the historical data for.\n:param period: The time period for the historical data (e.g., '1d', '5d', '1mo', '1y').\n:return: A string containing the historical price data for the specified stock and period.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "symbol": {
+                    "type": "string"
+                },
+                "period": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+]""",
+        "output": """<justification>
+The user is asking for the closing price of Apple Inc. (AAPL) stock from the previous day. We can use the "get_stock_price" tool to retrieve the latest price information for the AAPL stock symbol. The "get_stock_history" tool is not needed in this case, as the user is only asking for the closing price from yesterday.
+</justification>
+
+<selected_tools>
+{
+    "tool_calls": [
+        {
+            "name": "get_stock_price",
+            "arguments": {
+                "symbol": "AAPL"
+            }
+        }
+    ]
+}
+</selected_tools>""",
+    },
+    {
+        "input": """# Conversation History:
+<user>
+I'm considering investing in Tesla (TSLA) stock. Can you provide me with some information to help me make a decision?
+</user>
+<assistant>
+To help you make an informed decision about investing in Tesla (TSLA) stock, I can provide you with the following information:
+
+1. Latest price: The current price of TSLA stock can give you an idea of its market value.
+
+2. Historical performance: Analyzing the stock's price history over different periods (e.g., 1 month, 6 months, 1 year) can help you understand its volatility and potential for growth.
+
+3. Company fundamentals: Researching Tesla's financial statements, revenue growth, profitability, and future projects can provide insights into the company's overall health and potential.
+
+4. Market sentiment: Monitoring news, analyst ratings, and investor sentiment can help gauge the market's perception of Tesla stock.
+
+Let me know which specific information you'd like me to provide first, and I'll be happy to assist you further.
+</assistant>
+<user>
+Thanks for the overview. Let's start with the latest price and the historical performance over the past 6 months. That should give me a good starting point.
+</user>
+
+# Available Tools:
+[
+    {
+        "name": "get_stock_price",
+        "description": "Use this function to retrieve the latest price information for a given stock symbol.\n\n:param symbol: The stock symbol to retrieve the price for (e.g., 'AAPL' for Apple Inc.).\n:return: A string containing the latest price information for the specified stock.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "symbol": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    {
+        "name": "get_stock_history",
+        "description": "Use this function to retrieve the historical price data for a given stock symbol over a specified period.\n\n:param symbol: The stock symbol to retrieve the historical data for.\n:param period: The time period for the historical data (e.g., '1d', '5d', '1mo', '1y').\n:return: A string containing the historical price data for the specified stock and period.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "symbol": {
+                    "type": "string"
+                },
+                "period": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+]""",
+        "output": """<justification>
+The user has requested two specific pieces of information to help them make a decision about investing in Tesla (TSLA) stock: the latest price and the historical performance over the past 6 months. To provide this information, we need to use both the "get_stock_price" and "get_stock_history" tools.
+
+1. "get_stock_price" will be used to retrieve the current price of TSLA stock.
+2. "get_stock_history" will be used to retrieve the price history of TSLA stock over the past 6 months (period: '6mo').
+
+By combining the results from these two tools, we can give the user the requested information to support their investment decision.
+</justification>
+
+<selected_tools>
+{
+    "tool_calls": [
+        {
+            "name": "get_stock_price",
+            "arguments": {
+                "symbol": "TSLA"
+            }
+        },
+        {
+            "name": "get_stock_history",
+            "arguments": {
+                "symbol": "TSLA",
+                "period": "6mo"
+            }
+        }
+    ]
+}
+</selected_tools>""",
+    },
+    {
+        "input": """# Conversation History:
+<user>
+What do you think about the recent performance of the stock market?
+</user>
+<assistant>
+The stock market's recent performance has been mixed, with some sectors showing strong growth while others have experienced volatility. Here are a few key points:
+
+1. Tech stocks: Many technology companies have seen significant gains, driven by strong earnings and optimism about the sector's long-term prospects.
+
+2. Energy sector: Oil and gas stocks have been under pressure due to fluctuating crude oil prices and concerns about the global economic recovery.
+
+3. Health care: The health care sector has been a mixed bag, with some companies benefiting from the focus on COVID-19 treatments and vaccines, while others have faced challenges.
+
+4. Overall market: The broader stock market indices, such as the S&P 500 and Dow Jones Industrial Average, have reached record highs recently, supported by positive economic data and optimism about the post-pandemic recovery.
+
+It's important to remember that the stock market's performance is influenced by various factors, including economic indicators, geopolitical events, and investor sentiment. As an AI language model, I cannot provide personalized investment advice, but I suggest researching specific sectors and companies, and consulting with a financial advisor before making investment decisions.
+</assistant>
+<user>
+Thanks for the insights. It's helpful to get a general overview of the market's performance across different sectors. I'll definitely do more research and consult with a financial advisor before making any investment decisions.
+</user>
+
+# Available Tools:
+[
+    {
+        "name": "get_stock_price",
+        "description": "Use this function to retrieve the latest price information for a given stock symbol.\n\n:param symbol: The stock symbol to retrieve the price for (e.g., 'AAPL' for Apple Inc.).\n:return: A string containing the latest price information for the specified stock.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "symbol": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    {
+        "name": "get_stock_history",
+        "description": "Use this function to retrieve the historical price data for a given stock symbol over a specified period.\n\n:param symbol: The stock symbol to retrieve the historical data for.\n:param period: The time period for the historical data (e.g., '1d', '5d', '1mo', '1y').\n:return: A string containing the historical price data for the specified stock and period.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "symbol": {
+                    "type": "string"
+                },
+                "period": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+]""",
+        "output": """<justification>
+The user's question about the recent performance of the stock market is broad and does not require the use of the available tools. The conversation history shows that the assistant has provided a general overview of the market's performance across different sectors, which sufficiently addresses the user's question. The user also acknowledges that the insights are helpful and expresses their intention to conduct further research and consult with a financial advisor. As a result, no specific tools are needed to answer this query.
+</justification>
+
+<selected_tools>
+{
+    "tool_calls": []
+}
+</selected_tools>""",
+    },
 ]
 
-
+import random
 def get_suffix():
+    random.shuffle(FEW_SHOTS)
     # Turn each element of FEW_SHOTS into a string like '-- EXAMPLE i ---\nINPUT:\n{input}\n\nOUTPUT:\n{output}\n\n', then join them by \n\n
-    few_shots = "\n\n".join([f'-- EXAMPLE {i} ---\nINPUT:\n{example["input"]}\n\nOUTPUT:\n{example["output"]}\n\n' for i, example in enumerate(FEW_SHOTS, 1)])
+    few_shots = "\n\n".join(
+        [
+            f'-- EXAMPLE {i} ---\nINPUT:\n{example["input"]}\n\nOUTPUT:\n{example["output"]}\n\n'
+            for i, example in enumerate(FEW_SHOTS, 1)
+        ]
+    )
     # Replace FEW_SHOTS with the actual examples
     return SUFFIX.replace("FEW_SHOTS", few_shots)
